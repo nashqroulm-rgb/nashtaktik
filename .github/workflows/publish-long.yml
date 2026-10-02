@@ -1,0 +1,56 @@
+name: Publish or Schedule Long-Form Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: 'Direct download URL for the compressed long-form MP4'
+        required: true
+      title:
+        description: 'Episode Title'
+        required: true
+      description:
+        description: 'Episode Description'
+        required: true
+      schedule_time:
+        description: 'Scheduled Release Time (UTC ISO-8601, e.g. 2026-10-08T12:00:00Z) - leave blank for immediate'
+        required: false
+        default: ''
+
+jobs:
+  publish-long:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download Video Binary
+        run: |
+          mkdir -p temp_render
+          curl -L -o temp_render/long_video.mp4 "${{ github.event.inputs.video_url }}"
+          ls -lh temp_render/long_video.mp4
+
+      - name: Publish or Schedule to YouTube
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          ARGS="--video temp_render/long_video.mp4 --title \"${{ github.event.inputs.title }}\" --desc \"${{ github.event.inputs.description }}\""
+          if [ -n "${{ github.event.inputs.schedule_time }}" ]; then
+            ARGS="$ARGS --schedule ${{ github.event.inputs.schedule_time }}"
+          fi
+          python scripts/publish_long.py $ARGS

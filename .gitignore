@@ -1,0 +1,11 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+temp_render/
+*.mp4
+!curriculum/**/*.mp4
+*.tmp
+.DS_Store
+Thumbs.db

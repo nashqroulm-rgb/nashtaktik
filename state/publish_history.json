@@ -1,0 +1,27 @@
+[
+  {
+    "type": "long_form",
+    "week": 1,
+    "episode": 1,
+    "title": "Trik Gila 10.000 Pasukan Athena Hancurkan Invasi Raksasa Persia di Marathon (490 SM)",
+    "published_at": "2026-10-01 22:50:00",
+    "platforms": {
+      "youtube": "https://youtu.be/e3I2-YyVtvY",
+      "tiktok": "https://www.tiktok.com/@nashtaktik/video/7691806814937025793",
+      "instagram": "https://www.instagram.com/reel/Dd90v0RjOad/"
+    }
+  },
+  {
+    "type": "short",
+    "week": 1,
+    "short_number": 1,
+    "day": "Senin",
+    "title": "Kesalahan Fatal Kavaleri Persia di Teluk Marathon",
+    "published_at": "2026-10-01 23:15:00",
+    "platforms": {
+      "youtube": "https://youtube.com/shorts/QwPh9f9Ibk0",
+      "tiktok": "https://www.tiktok.com/@nashtaktik/video/7691726408019643655",
+      "instagram": "https://www.instagram.com/reel/Dd9RDF1CgHl/"
+    }
+  }
+]

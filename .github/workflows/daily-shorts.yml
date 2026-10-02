@@ -1,0 +1,76 @@
+name: Daily Shorts Autonomous Pipeline
+
+on:
+  schedule:
+    # Monday to Saturday at 00:00 UTC (07:00 WIB / 08:00 WITA)
+    - cron: '0 0 * * 1-6'
+  workflow_dispatch:
+    inputs:
+      day:
+        description: 'Target Day (senin, selasa, rabu, kamis, jumat, sabtu)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry Run (render only, do not publish)'
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  produce-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install System FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Daily Shorts Pipeline
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          TIKTOK_ACCOUNT_ID: ${{ secrets.TIKTOK_ACCOUNT_ID || '6abbb2e6694b468f723ea3a4' }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID || '6abbb38ad9cc457b83f314fc' }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          PYTHONPATH: scripts
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.day }}" ]; then
+            ARGS="--day ${{ github.event.inputs.day }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/daily_runner.py $ARGS
+
+      - name: Commit State & Publish History
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/campaign_state.json state/publish_history.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(auto-short): update campaign state and publish history [skip ci]"
+            git push origin main
+          fi

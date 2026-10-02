@@ -1,0 +1,76 @@
+{
+  "channel": "@nashtaktik",
+  "total_weeks": 26,
+  "cadence": {
+    "long_form": "Minggu (Sunday) - 19:00 WIB",
+    "shorts": "Senin s/d Sabtu (Monday-Saturday) - 07:00 WIB"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "battle": "Pertempuran Marathon (490 SM)",
+      "era": "Yunani Kuno vs Kekaisaran Akhemeniyah Persia",
+      "long_form_title": "Trik Gila 10.000 Pasukan Athena Hancurkan Invasi Raksasa Persia di Marathon (490 SM)",
+      "long_form_status": "PUBLISHED",
+      "shorts": [
+        {"day": "Senin", "id": "short_01_senin", "title": "Kesalahan Fatal Kavaleri Persia di Teluk Marathon", "status": "PUBLISHED"},
+        {"day": "Selasa", "id": "short_02_selasa", "title": "Trik Sayap Tebal Miltiades: Asal Usul Pincer Movement", "status": "READY"},
+        {"day": "Rabu", "id": "short_03_rabu", "title": "Pembantaian di Rawa-Rawa: Saat Prajurit Persia Terjebak Lumpur", "status": "READY"},
+        {"day": "Kamis", "id": "short_04_kamis", "title": "Aspis vs Sparabara: Perisai Kayu Yunani Menghancurkan Anyaman Persia", "status": "READY"},
+        {"day": "Jumat", "id": "short_05_jumat", "title": "Serbuan Lari 1,5 Kilometer: Trik Mengacaukan Mental Pemanah Lawan", "status": "READY"},
+        {"day": "Sabtu", "id": "short_06_sabtu", "title": "Filosofi Miltiades: Menyerang Sebelum Musuh Siap Menata Barisan", "status": "READY"}
+      ]
+    },
+    {
+      "week": 2,
+      "battle": "Pertempuran Leuctra (371 SM)",
+      "era": "Thebes vs Sparta",
+      "long_form_title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra",
+      "long_form_status": "IN_PREPARATION",
+      "shorts": [
+        {"day": "Senin", "id": "short_01_senin", "title": "Mitos Sparta Runtuh: Saat Pasukan Terkuat Dunia Dihabisi", "status": "PLANNED"},
+        {"day": "Selasa", "id": "short_02_selasa", "title": "Inovasi Oblique Order: Trik Menyerang Hanya di Satu Titik", "status": "PLANNED"},
+        {"day": "Rabu", "id": "short_03_rabu", "title": "Sacred Band of Thebes: 300 Pejuang Sumpah Mati", "status": "PLANNED"},
+        {"day": "Kamis", "id": "short_04_kamis", "title": "Kematian Raja Cleombrotus: Detik Runtuhnya Hegemoni Sparta", "status": "PLANNED"},
+        {"day": "Jumat", "id": "short_05_jumat", "title": "Psikologi Keberanian: Mengapa Pasukan Elit Sparta Membeku", "status": "PLANNED"},
+        {"day": "Sabtu", "id": "short_06_sabtu", "title": "Pelajaran Leuctra: Jangan Mengandalkan Reputasi di Medan Tempur", "status": "PLANNED"}
+      ]
+    },
+    {
+      "week": 3,
+      "battle": "Pertempuran Cannae (216 SM)",
+      "era": "Kartago vs Republik Romawi",
+      "long_form_title": "Masterclass Kepungan Sempurna Hannibal: Pembantaian 70.000 Legiun Romawi di Cannae",
+      "long_form_status": "PLANNED",
+      "shorts": [
+        {"day": "Senin", "id": "short_01_senin", "title": "Jebakan Sabit Mundur Hannibal yang Melegenda", "status": "PLANNED"},
+        {"day": "Selasa", "id": "short_02_selasa", "title": "Kavaleri Numidia: Kunci Mengunci Pintu Belakang Romawi", "status": "PLANNED"},
+        {"day": "Rabu", "id": "short_03_rabu", "title": "Kepanikan Kanibalisme Gerak: Saat 70.000 Prajurit Terjepit", "status": "PLANNED"},
+        {"day": "Kamis", "id": "short_04_kamis", "title": "Cincin Emas Para Senator: Bukti Bencana Terbesar Roma", "status": "PLANNED"},
+        {"day": "Jumat", "id": "short_05_jumat", "title": "Kesalahan Varro: Nafsu Menyerang yang Membawa Petaka", "status": "PLANNED"},
+        {"day": "Sabtu", "id": "short_06_sabtu", "title": "Doktrin Hannibal: Memanfaatkan Kekuatan Lawan untuk Menghancurkannya", "status": "PLANNED"}
+      ]
+    },
+    {
+      "week": 4,
+      "battle": "Pertempuran Gaugamela (331 SM)",
+      "era": "Makedonia vs Kekaisaran Akhemeniyah Persia",
+      "long_form_title": "Tusukan Baji Alexander Agung: Bagaimana Satu Manuver Kavaleri Menumbangkan Darius III",
+      "long_form_status": "PLANNED"
+    },
+    {
+      "week": 5,
+      "battle": "Pertempuran Yarmuk (636 M)",
+      "era": "Kekhalifahan Rasyidin vs Kekaisaran Bizantium",
+      "long_form_title": "Pedang Allah di Lembah Yarmuk: Kejeniusan Khalid bin Walid Melawan Raksasa Romawi",
+      "long_form_status": "PLANNED"
+    },
+    {
+      "week": 6,
+      "battle": "Pertempuran Alesia (52 SM)",
+      "era": "Julius Caesar vs Konfederasi Galia",
+      "long_form_title": "Tembok Ganda Benteng Julius Caesar: Pengepungan Paling Gila dalam Sejarah Militer",
+      "long_form_status": "PLANNED"
+    }
+  ]
+}
