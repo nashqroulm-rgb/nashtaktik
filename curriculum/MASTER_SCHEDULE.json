@@ -13,27 +13,87 @@
       "long_form_title": "Trik Gila 10.000 Pasukan Athena Hancurkan Invasi Raksasa Persia di Marathon (490 SM)",
       "long_form_status": "PUBLISHED",
       "shorts": [
-        {"day": "Senin", "id": "short_01_senin", "title": "Kesalahan Fatal Kavaleri Persia di Teluk Marathon", "status": "PUBLISHED"},
-        {"day": "Selasa", "id": "short_02_selasa", "title": "Trik Sayap Tebal Miltiades: Asal Usul Pincer Movement", "status": "READY"},
-        {"day": "Rabu", "id": "short_03_rabu", "title": "Pembantaian di Rawa-Rawa: Saat Prajurit Persia Terjebak Lumpur", "status": "READY"},
-        {"day": "Kamis", "id": "short_04_kamis", "title": "Aspis vs Sparabara: Perisai Kayu Yunani Menghancurkan Anyaman Persia", "status": "READY"},
-        {"day": "Jumat", "id": "short_05_jumat", "title": "Serbuan Lari 1,5 Kilometer: Trik Mengacaukan Mental Pemanah Lawan", "status": "READY"},
-        {"day": "Sabtu", "id": "short_06_sabtu", "title": "Filosofi Miltiades: Menyerang Sebelum Musuh Siap Menata Barisan", "status": "READY"}
+        {
+          "day": "Senin",
+          "id": "short_01_senin",
+          "title": "Kesalahan Fatal Kavaleri Persia di Teluk Marathon",
+          "status": "PUBLISHED"
+        },
+        {
+          "day": "Selasa",
+          "id": "short_02_selasa",
+          "title": "Trik Sayap Tebal Miltiades: Asal Usul Pincer Movement",
+          "status": "READY"
+        },
+        {
+          "day": "Rabu",
+          "id": "short_03_rabu",
+          "title": "Pembantaian di Rawa-Rawa: Saat Prajurit Persia Terjebak Lumpur",
+          "status": "READY"
+        },
+        {
+          "day": "Kamis",
+          "id": "short_04_kamis",
+          "title": "Aspis vs Sparabara: Perisai Kayu Yunani Menghancurkan Anyaman Persia",
+          "status": "READY"
+        },
+        {
+          "day": "Jumat",
+          "id": "short_05_jumat",
+          "title": "Serbuan Lari 1,5 Kilometer: Trik Mengacaukan Mental Pemanah Lawan",
+          "status": "READY"
+        },
+        {
+          "day": "Sabtu",
+          "id": "short_06_sabtu",
+          "title": "Filosofi Miltiades: Menyerang Sebelum Musuh Siap Menata Barisan",
+          "status": "READY"
+        }
       ]
     },
     {
       "week": 2,
       "battle": "Pertempuran Leuctra (371 SM)",
       "era": "Thebes vs Sparta",
-      "long_form_title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra",
-      "long_form_status": "IN_PREPARATION",
+      "long_form_title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra (371 SM)",
+      "long_form_status": "READY",
       "shorts": [
-        {"day": "Senin", "id": "short_01_senin", "title": "Mitos Sparta Runtuh: Saat Pasukan Terkuat Dunia Dihabisi", "status": "PLANNED"},
-        {"day": "Selasa", "id": "short_02_selasa", "title": "Inovasi Oblique Order: Trik Menyerang Hanya di Satu Titik", "status": "PLANNED"},
-        {"day": "Rabu", "id": "short_03_rabu", "title": "Sacred Band of Thebes: 300 Pejuang Sumpah Mati", "status": "PLANNED"},
-        {"day": "Kamis", "id": "short_04_kamis", "title": "Kematian Raja Cleombrotus: Detik Runtuhnya Hegemoni Sparta", "status": "PLANNED"},
-        {"day": "Jumat", "id": "short_05_jumat", "title": "Psikologi Keberanian: Mengapa Pasukan Elit Sparta Membeku", "status": "PLANNED"},
-        {"day": "Sabtu", "id": "short_06_sabtu", "title": "Pelajaran Leuctra: Jangan Mengandalkan Reputasi di Medan Tempur", "status": "PLANNED"}
+        {
+          "day": "Senin",
+          "id": "short_01_senin",
+          "title": "Arogansi Tradisi Sparta: Formasi 12 Baris yang Kaku",
+          "status": "READY"
+        },
+        {
+          "day": "Selasa",
+          "id": "short_02_selasa",
+          "title": "Oblique Order: Formasi Miring Pertama dalam Sejarah Militer",
+          "status": "READY"
+        },
+        {
+          "day": "Rabu",
+          "id": "short_03_rabu",
+          "title": "Gugurnya Raja Cleombrotus: Akhir Hegemoni Sparta Selamanya",
+          "status": "READY"
+        },
+        {
+          "day": "Kamis",
+          "id": "short_04_kamis",
+          "title": "Dory vs Dory: Ketika Dorongan Massa Menghancurkan Perisai Perunggu",
+          "status": "READY"
+        },
+        {
+          "day": "Jumat",
+          "id": "short_05_jumat",
+          "title": "The Sacred Band of Thebes: 300 Prajurit Sumpah Maut",
+          "status": "READY"
+        },
+        {
+          "day": "Sabtu",
+          "id": "short_06_sabtu",
+          "title": "Pelajaran Epaminondas: Konsentrasikan Kekuatan Maksimal di Titik Terlemah Musuh",
+          "status": "READY"
+        }
       ]
     },
     {
@@ -43,12 +103,42 @@
       "long_form_title": "Masterclass Kepungan Sempurna Hannibal: Pembantaian 70.000 Legiun Romawi di Cannae",
       "long_form_status": "PLANNED",
       "shorts": [
-        {"day": "Senin", "id": "short_01_senin", "title": "Jebakan Sabit Mundur Hannibal yang Melegenda", "status": "PLANNED"},
-        {"day": "Selasa", "id": "short_02_selasa", "title": "Kavaleri Numidia: Kunci Mengunci Pintu Belakang Romawi", "status": "PLANNED"},
-        {"day": "Rabu", "id": "short_03_rabu", "title": "Kepanikan Kanibalisme Gerak: Saat 70.000 Prajurit Terjepit", "status": "PLANNED"},
-        {"day": "Kamis", "id": "short_04_kamis", "title": "Cincin Emas Para Senator: Bukti Bencana Terbesar Roma", "status": "PLANNED"},
-        {"day": "Jumat", "id": "short_05_jumat", "title": "Kesalahan Varro: Nafsu Menyerang yang Membawa Petaka", "status": "PLANNED"},
-        {"day": "Sabtu", "id": "short_06_sabtu", "title": "Doktrin Hannibal: Memanfaatkan Kekuatan Lawan untuk Menghancurkannya", "status": "PLANNED"}
+        {
+          "day": "Senin",
+          "id": "short_01_senin",
+          "title": "Jebakan Sabit Mundur Hannibal yang Melegenda",
+          "status": "PLANNED"
+        },
+        {
+          "day": "Selasa",
+          "id": "short_02_selasa",
+          "title": "Kavaleri Numidia: Kunci Mengunci Pintu Belakang Romawi",
+          "status": "PLANNED"
+        },
+        {
+          "day": "Rabu",
+          "id": "short_03_rabu",
+          "title": "Kepanikan Kanibalisme Gerak: Saat 70.000 Prajurit Terjepit",
+          "status": "PLANNED"
+        },
+        {
+          "day": "Kamis",
+          "id": "short_04_kamis",
+          "title": "Cincin Emas Para Senator: Bukti Bencana Terbesar Roma",
+          "status": "PLANNED"
+        },
+        {
+          "day": "Jumat",
+          "id": "short_05_jumat",
+          "title": "Kesalahan Varro: Nafsu Menyerang yang Membawa Petaka",
+          "status": "PLANNED"
+        },
+        {
+          "day": "Sabtu",
+          "id": "short_06_sabtu",
+          "title": "Doktrin Hannibal: Memanfaatkan Kekuatan Lawan untuk Menghancurkannya",
+          "status": "PLANNED"
+        }
       ]
     },
     {

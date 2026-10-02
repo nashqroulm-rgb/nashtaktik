@@ -4,5 +4,33 @@
   "next_short_day": "selasa",
   "total_shorts_published": 1,
   "total_longs_published": 1,
-  "last_updated": "2026-10-01T23:30:00Z"
+  "last_updated": "2026-10-02T06:24:55Z",
+  "pipeline_status": {
+    "week_001": "ACTIVE_PUBLISHING",
+    "week_002": "PACKAGED_AND_READY"
+  },
+  "week_002_staging": {
+    "battle": "Pertempuran Leuctra (371 SM)",
+    "status": "READY",
+    "long_form": {
+      "title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra (371 SM)",
+      "duration_sec": 551.71,
+      "beats": 48,
+      "status": "READY_FOR_PUBLISHING"
+    },
+    "shorts": {
+      "count": 6,
+      "status": "ALL_PACKETS_READY",
+      "runner_verified": true
+    },
+    "distribution_metadata": {
+      "release_metadata_file": "curriculum/week_002/RELEASE_METADATA.md",
+      "platforms": [
+        "youtube",
+        "tiktok",
+        "instagram",
+        "x_twitter"
+      ]
+    }
+  }
 }
