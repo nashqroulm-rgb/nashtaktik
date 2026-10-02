@@ -2,7 +2,7 @@
 **Episode 02:** Pertempuran Leuctra (371 SM) — Runtuhnya Mitos Tak Terkalahkan Sparta  
 **Disusun oleh:** Social Media Fleet Operator (`social-operator`) & Tim Riset Pasar (`digitalseller`)  
 **Mandat:** Herman (Chief AI Orchestrator / Command Point) | NASH-02 Armada  
-**Target Publikasi:** YouTube Anchor Long-Form (16:9 | 1080p @24fps | Durasi Terverifikasi: 09:11 / 551.71s) + Multi-Platform Short Distribution
+**Target Publikasi:** YouTube Anchor Long-Form (16:9 | 1080p @24fps | Durasi Terverifikasi: 09:25 / 565.79s) + Multi-Platform Short Distribution
 
 ---
 
@@ -67,7 +67,7 @@ Koreografi naskah dan audio 15 detik pertama dirancang khusus untuk mematahkan d
     * `7.000 VS 11.000` (Putih `#FFFFFF`)
     * `BAJI 50 BARIS` (Emas `#FFE200`)
     * `SPARTA RUNTUH!` (Merah `#FF3B30`)
-* **Safe Zone:** Margin kanan bawah steril dari teks untuk menghindari penutupan oleh badge durasi video (`09:11`).
+* **Safe Zone:** Margin kanan bawah steril dari teks untuk menghindari penutupan oleh badge durasi video (`09:25`).
 
 ---
 
@@ -79,12 +79,14 @@ Namun di hadapan vonis mati tersebut, panglima tertinggi Thebes, Epaminondas—s
 
 Simak bedah taktik animasi peta dinamis lengkap bagaimana sebuah pasukan yang kalah jumlah mematahkan mitos superioritas bangsa Sparta, meremukkan formasi elit raja musuh, dan mengakhiri tirani hegemoni Sparta untuk selama-lamanya!
 
-⏱️ TIMESTAMPS / CHAPTERS (DURASI AKTUAL: 09:11):
+⏱️ TIMESTAMPS / CHAPTERS (DURASI AKTUAL: 09:25):
 00:00 - Babak 1: Bayang-Bayang Hegemoni Sparta & Krisis 371 SM
 01:47 - Babak 2: Pilihan Bunuh Diri di Dataran Leuctra
 03:36 - Babak 3: Kelahiran Oblique Order & Kolom Baji 50 Baris
 05:28 - Babak 4: Benturan Dahsyat & Gugurnya Raja Cleombrotus
-07:27 - Babak 5: Runtuhnya Hegemoni Abadi & Warisan Epaminondas
+07:01 - Babak 5: Runtuhnya Hegemoni Abadi & Warisan Epaminondas
+08:49 - Epilog: Pelajaran Strategi Menumbangkan Raksasa
+09:02 - Outro & Teaser Pertempuran Gaugamela (331 SM)
 
 🎵 BACKGROUND MUSIC & AUDIO PRODUCTION:
 Track: "The Weight of the Shield" by Nash Taktik Fleet (Suno AI Instrumental Orchestral War Epic)
