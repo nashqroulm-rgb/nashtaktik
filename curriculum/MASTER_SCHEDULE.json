@@ -98,46 +98,46 @@
     },
     {
       "week": 3,
-      "battle": "Pertempuran Cannae (216 SM)",
-      "era": "Kartago vs Republik Romawi",
-      "long_form_title": "Masterclass Kepungan Sempurna Hannibal: Pembantaian 70.000 Legiun Romawi di Cannae",
-      "long_form_status": "PLANNED",
+      "battle": "Pertempuran Gaugamela (331 SM)",
+      "era": "Makedonia vs Kekaisaran Akhemeniyah Persia",
+      "long_form_title": "Tusukan Baji Aleksander Agung: Detik-Detik Runtuhnya Kekaisaran Terbesar Dunia di Gaugamela (331 SM)",
+      "long_form_status": "READY",
       "shorts": [
         {
           "day": "Senin",
           "id": "short_01_senin",
-          "title": "Jebakan Sabit Mundur Hannibal yang Melegenda",
-          "status": "PLANNED"
+          "title": "Darius Meratakan Tanah untuk Kereta Sabit: Jebakan Ilusi Medan",
+          "status": "READY"
         },
         {
           "day": "Selasa",
           "id": "short_02_selasa",
-          "title": "Kavaleri Numidia: Kunci Mengunci Pintu Belakang Romawi",
-          "status": "PLANNED"
+          "title": "Membelah Lautan Pasukan: Tusukan Baji Kavaleri Companion",
+          "status": "READY"
         },
         {
           "day": "Rabu",
           "id": "short_03_rabu",
-          "title": "Kepanikan Kanibalisme Gerak: Saat 70.000 Prajurit Terjepit",
-          "status": "PLANNED"
+          "title": "Kaburnya Darius III dan Jatuhnya Mahkota Terbesar Dunia",
+          "status": "READY"
         },
         {
           "day": "Kamis",
           "id": "short_04_kamis",
-          "title": "Cincin Emas Para Senator: Bukti Bencana Terbesar Roma",
-          "status": "PLANNED"
+          "title": "Sarissa 6 Meter & Trik Perangkap Tikus Menjinakkan Kereta Sabit",
+          "status": "READY"
         },
         {
           "day": "Jumat",
           "id": "short_05_jumat",
-          "title": "Kesalahan Varro: Nafsu Menyerang yang Membawa Petaka",
-          "status": "PLANNED"
+          "title": "Trik Menatap Mata Darius: Teror Kecepatan Kavaleri Makedonia",
+          "status": "READY"
         },
         {
           "day": "Sabtu",
           "id": "short_06_sabtu",
-          "title": "Doktrin Hannibal: Memanfaatkan Kekuatan Lawan untuk Menghancurkannya",
-          "status": "PLANNED"
+          "title": "Prinsip Aleksander: Jangan Serang Pasukan, Buru Jantung Komandonya",
+          "status": "READY"
         }
       ]
     },

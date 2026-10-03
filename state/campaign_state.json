@@ -4,10 +4,11 @@
   "next_short_day": "selasa",
   "total_shorts_published": 1,
   "total_longs_published": 1,
-  "last_updated": "2026-10-02T06:24:55Z",
+  "last_updated": "2026-10-03T00:00:00Z",
   "pipeline_status": {
     "week_001": "ACTIVE_PUBLISHING",
-    "week_002": "PACKAGED_AND_READY"
+    "week_002": "PACKAGED_AND_READY",
+    "week_003": "PACKAGED_AND_READY"
   },
   "week_002_staging": {
     "battle": "Pertempuran Leuctra (371 SM)",
@@ -25,6 +26,30 @@
     },
     "distribution_metadata": {
       "release_metadata_file": "curriculum/week_002/RELEASE_METADATA.md",
+      "platforms": [
+        "youtube",
+        "tiktok",
+        "instagram",
+        "x_twitter"
+      ]
+    }
+  },
+  "week_003_staging": {
+    "battle": "Pertempuran Gaugamela (331 SM)",
+    "status": "READY",
+    "long_form": {
+      "title": "Tusukan Baji Aleksander Agung: Detik-Detik Runtuhnya Kekaisaran Terbesar Dunia di Gaugamela (331 SM)",
+      "duration_sec": 524.19,
+      "beats": 48,
+      "status": "READY_FOR_PUBLISHING"
+    },
+    "shorts": {
+      "count": 6,
+      "status": "ALL_PACKETS_READY",
+      "runner_verified": true
+    },
+    "distribution_metadata": {
+      "release_metadata_file": "curriculum/week_003/RELEASE_METADATA.md",
       "platforms": [
         "youtube",
         "tiktok",
