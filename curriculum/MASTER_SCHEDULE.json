@@ -143,10 +143,48 @@
     },
     {
       "week": 4,
-      "battle": "Pertempuran Gaugamela (331 SM)",
-      "era": "Makedonia vs Kekaisaran Akhemeniyah Persia",
-      "long_form_title": "Tusukan Baji Alexander Agung: Bagaimana Satu Manuver Kavaleri Menumbangkan Darius III",
-      "long_form_status": "PLANNED"
+      "battle": "Pengepungan Tyre (332 SM)",
+      "era": "Makedonia vs Bangsa Fenisia (Tyre)",
+      "long_form_title": "Ketika Laut Dibelah dengan Batu: Pengepungan Ekstrem Pulau Tyre oleh Aleksander Agung (332 SM)",
+      "long_form_status": "READY",
+      "shorts": [
+        {
+          "day": "Senin",
+          "id": "short_01_senin",
+          "title": "Kesombongan Dinding Laut 45 Meter Pulau Tyre",
+          "status": "READY"
+        },
+        {
+          "day": "Selasa",
+          "id": "short_02_selasa",
+          "title": "Membangun Daratan di Tengah Laut: Proyek Gila Insinyur Makedonia",
+          "status": "READY"
+        },
+        {
+          "day": "Rabu",
+          "id": "short_03_rabu",
+          "title": "Ketika Tembok Runtuh: Kemarahan Aleksander Pasca 7 Bulan Terkepung",
+          "status": "READY"
+        },
+        {
+          "day": "Kamis",
+          "id": "short_04_kamis",
+          "title": "Kapal Api Fenisia: Taktik Kamikaze Pembakar Menara Raksasa",
+          "status": "READY"
+        },
+        {
+          "day": "Jumat",
+          "id": "short_05_jumat",
+          "title": "Gantung Sandera di Tembok: Provokasi yang Berujung Bencana",
+          "status": "READY"
+        },
+        {
+          "day": "Sabtu",
+          "id": "short_06_sabtu",
+          "title": "Logika Strategi: Tak Ada Benteng Kebal Jika Kamu Mengubah Lanskapnya",
+          "status": "READY"
+        }
+      ]
     },
     {
       "week": 5,

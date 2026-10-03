@@ -8,7 +8,8 @@
   "pipeline_status": {
     "week_001": "ACTIVE_PUBLISHING",
     "week_002": "PACKAGED_AND_READY",
-    "week_003": "PACKAGED_AND_READY"
+    "week_003": "PACKAGED_AND_READY",
+    "week_004": "PACKAGED_AND_READY"
   },
   "week_002_staging": {
     "battle": "Pertempuran Leuctra (371 SM)",
@@ -50,6 +51,30 @@
     },
     "distribution_metadata": {
       "release_metadata_file": "curriculum/week_003/RELEASE_METADATA.md",
+      "platforms": [
+        "youtube",
+        "tiktok",
+        "instagram",
+        "x_twitter"
+      ]
+    }
+  },
+  "week_004_staging": {
+    "battle": "Pengepungan Tyre (332 SM)",
+    "status": "READY",
+    "long_form": {
+      "title": "Ketika Laut Dibelah dengan Batu: Pengepungan Ekstrem Pulau Tyre oleh Aleksander Agung (332 SM)",
+      "duration_sec": 502.54,
+      "beats": 48,
+      "status": "READY_FOR_PUBLISHING"
+    },
+    "shorts": {
+      "count": 6,
+      "status": "ALL_PACKETS_READY",
+      "runner_verified": true
+    },
+    "distribution_metadata": {
+      "release_metadata_file": "curriculum/week_004/RELEASE_METADATA.md",
       "platforms": [
         "youtube",
         "tiktok",
