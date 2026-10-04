@@ -1,13 +1,13 @@
 {
-  "active_week": 1,
-  "next_short_index": 2,
-  "next_short_day": "selasa",
+  "active_week": 2,
+  "next_short_index": 1,
+  "next_short_day": "senin",
   "total_shorts_published": 1,
-  "total_longs_published": 1,
-  "last_updated": "2026-10-03T00:00:00Z",
+  "total_longs_published": 2,
+  "last_updated": "2026-10-04T11:47:16Z",
   "pipeline_status": {
-    "week_001": "ACTIVE_PUBLISHING",
-    "week_002": "PACKAGED_AND_READY",
+    "week_001": "COMPLETED",
+    "week_002": "ACTIVE_PUBLISHING",
     "week_003": "PACKAGED_AND_READY",
     "week_004": "PACKAGED_AND_READY"
   },
