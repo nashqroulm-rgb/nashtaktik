@@ -75,10 +75,13 @@ def upload_youtube_long(
         status_dict["privacyStatus"] = "public"
         print("[YouTube] Publishing immediately as PUBLIC")
         
+    clean_title = title.replace("<", "").replace(">", "").strip()[:100]
+    clean_desc = description.replace("<", "").replace(">", "").strip()[:5000]
+    
     meta = {
         "snippet": {
-            "title": title[:100],
-            "description": description[:5000],
+            "title": clean_title,
+            "description": clean_desc,
             "tags": tags or ["Nash Taktik", "Sejarah Perang", "Taktik Militer"],
             "categoryId": "27"
         },
@@ -97,8 +100,13 @@ def upload_youtube_long(
         },
         method="POST"
     )
-    with urllib.request.urlopen(init_req) as init_resp:
-        upload_url = init_resp.headers.get("Location")
+    try:
+        with urllib.request.urlopen(init_req) as init_resp:
+            upload_url = init_resp.headers.get("Location")
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode()
+        print(f"[YouTube Error {e.code}]: {err_body}")
+        raise RuntimeError(f"YouTube Resumable Init Failed: {err_body}")
         
     chunk_size = 4 * 1024 * 1024
     offset = 0
