@@ -98,7 +98,7 @@ jobs:
           python scripts/publish_long.py $ARGS
 
       - name: Clean up Staging Release
-        if: success() && github.event.inputs.clean_release == 'true'
+        if: success() && (github.event.inputs.clean_release == 'true' || github.event_name == 'schedule')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
