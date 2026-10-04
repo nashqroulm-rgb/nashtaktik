@@ -49,14 +49,16 @@
           "title": "Filosofi Miltiades: Menyerang Sebelum Musuh Siap Menata Barisan",
           "status": "READY"
         }
-      ]
+      ],
+      "target_release_utc": "2026-10-02T05:01:50Z",
+      "release_tag": "v-week-001-long"
     },
     {
       "week": 2,
       "battle": "Pertempuran Leuctra (371 SM)",
       "era": "Thebes vs Sparta",
       "long_form_title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra (371 SM)",
-      "long_form_status": "READY",
+      "long_form_status": "STAGED_FOR_TODAY",
       "shorts": [
         {
           "day": "Senin",
@@ -94,14 +96,16 @@
           "title": "Pelajaran Epaminondas: Konsentrasikan Kekuatan Maksimal di Titik Terlemah Musuh",
           "status": "READY"
         }
-      ]
+      ],
+      "target_release_utc": "2026-10-04T12:00:00Z",
+      "release_tag": "v-week-002-long"
     },
     {
       "week": 3,
       "battle": "Pertempuran Gaugamela (331 SM)",
       "era": "Makedonia vs Kekaisaran Akhemeniyah Persia",
       "long_form_title": "Tusukan Baji Aleksander Agung: Detik-Detik Runtuhnya Kekaisaran Terbesar Dunia di Gaugamela (331 SM)",
-      "long_form_status": "READY",
+      "long_form_status": "STAGED_IN_RELEASE",
       "shorts": [
         {
           "day": "Senin",
@@ -139,14 +143,16 @@
           "title": "Prinsip Aleksander: Jangan Serang Pasukan, Buru Jantung Komandonya",
           "status": "READY"
         }
-      ]
+      ],
+      "target_release_utc": "2026-10-11T12:00:00Z",
+      "release_tag": "v-week-003-long"
     },
     {
       "week": 4,
       "battle": "Pengepungan Tyre (332 SM)",
       "era": "Makedonia vs Bangsa Fenisia (Tyre)",
       "long_form_title": "Ketika Laut Dibelah dengan Batu: Pengepungan Ekstrem Pulau Tyre oleh Aleksander Agung (332 SM)",
-      "long_form_status": "READY",
+      "long_form_status": "STAGED_IN_RELEASE",
       "shorts": [
         {
           "day": "Senin",
@@ -184,7 +190,9 @@
           "title": "Logika Strategi: Tak Ada Benteng Kebal Jika Kamu Mengubah Lanskapnya",
           "status": "READY"
         }
-      ]
+      ],
+      "target_release_utc": "2026-10-18T12:00:00Z",
+      "release_tag": "v-week-004-long"
     },
     {
       "week": 5,

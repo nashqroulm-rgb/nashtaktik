@@ -18,7 +18,9 @@
       "title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra (371 SM)",
       "duration_sec": 551.71,
       "beats": 48,
-      "status": "READY_FOR_PUBLISHING"
+      "status": "STAGED_IN_RELEASE",
+      "release_tag": "v-week-002-long",
+      "asset_name": "leuctra_documentary_1080p.mp4"
     },
     "shorts": {
       "count": 6,
@@ -42,7 +44,9 @@
       "title": "Tusukan Baji Aleksander Agung: Detik-Detik Runtuhnya Kekaisaran Terbesar Dunia di Gaugamela (331 SM)",
       "duration_sec": 524.19,
       "beats": 48,
-      "status": "READY_FOR_PUBLISHING"
+      "status": "STAGED_IN_RELEASE",
+      "release_tag": "v-week-003-long",
+      "asset_name": "NASH02_Week003_Gaugamela_Master.mp4"
     },
     "shorts": {
       "count": 6,
