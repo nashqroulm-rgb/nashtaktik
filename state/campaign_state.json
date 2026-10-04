@@ -66,7 +66,9 @@
       "title": "Ketika Laut Dibelah dengan Batu: Pengepungan Ekstrem Pulau Tyre oleh Aleksander Agung (332 SM)",
       "duration_sec": 502.54,
       "beats": 48,
-      "status": "READY_FOR_PUBLISHING"
+      "status": "STAGED_IN_RELEASE",
+      "release_tag": "v-week-004-long",
+      "asset_name": "NASH02_Week004_Tyre_Master.mp4"
     },
     "shorts": {
       "count": 6,

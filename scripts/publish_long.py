@@ -12,6 +12,9 @@ import urllib.request
 import urllib.error
 import argparse
 import time
+from pathlib import Path
+
+REPO_DIR = Path(__file__).resolve().parent.parent
 
 def get_env_var(name: str, default: str = "") -> str:
     val = os.environ.get(name)
@@ -52,7 +55,9 @@ def upload_youtube_long(
     title: str,
     description: str,
     schedule_time: str | None = None,
-    tags: list | None = None
+    tags: list | None = None,
+    thumb_path: str | None = None,
+    srt_path: str | None = None
 ) -> dict:
     token = get_yt_access_token()
     file_size = os.path.getsize(video_path)
@@ -132,17 +137,112 @@ def upload_youtube_long(
     dt = time.time() - t0
     yt_url = f"https://youtu.be/{video_id}"
     print(f"\n[YouTube Long-Form] SUCCESS in {dt:.1f}s -> {yt_url}")
+    
+    # Optional thumbnail
+    if thumb_path and os.path.exists(thumb_path) and video_id:
+        upload_thumbnail(token, video_id, thumb_path)
+        
     return {"ok": True, "videoId": video_id, "url": yt_url, "scheduled": schedule_time}
+
+def upload_thumbnail(token: str, video_id: str, thumb_path: str):
+    if not os.path.exists(thumb_path):
+        return
+    print(f"\n[Thumbnail] Uploading custom thumbnail ({os.path.basename(thumb_path)})...")
+    with open(thumb_path, "rb") as tf:
+        thumb_data = tf.read()
+    thumb_url = f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}"
+    req = urllib.request.Request(
+        thumb_url,
+        data=thumb_data,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "image/jpeg",
+            "Content-Length": str(len(thumb_data))
+        },
+        method="POST"
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            print("[Thumbnail] Custom thumbnail applied successfully!")
+    except Exception as e:
+        print(f"[Thumbnail] Warning: Failed to set thumbnail: {e}")
+
+def publish_week_long_form(week_str: str, schedule_time: str | None = None, video_override: str | None = None):
+    week_dir = REPO_DIR / "curriculum" / week_str
+    json_path = week_dir / "long_form.json"
+    
+    if not json_path.exists():
+        raise FileNotFoundError(f"Missing {json_path}")
+        
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    title = data.get("title_id", "")
+    desc = data.get("description", "")
+    tags = data.get("tags", [])
+    
+    # Determine video file
+    video_path = None
+    if video_override and os.path.exists(video_override):
+        video_path = video_override
+    else:
+        temp_dir = REPO_DIR / "temp_render"
+        candidates = list(temp_dir.glob("*.mp4")) if temp_dir.exists() else []
+        if candidates:
+            video_path = str(candidates[0])
+            
+    if not video_path or not os.path.exists(video_path):
+        raise FileNotFoundError(f"No video file found for publishing {week_str}")
+        
+    # Find thumbnail
+    thumb_path = None
+    img_dir = week_dir / "images"
+    if img_dir.exists():
+        thumbs = list(img_dir.glob("thumbnail_*.jpg")) or list(img_dir.glob("*thumb*.jpg"))
+        if thumbs:
+            thumb_path = str(thumbs[0])
+            
+    res = upload_youtube_long(
+        video_path=video_path,
+        title=title,
+        description=desc,
+        schedule_time=schedule_time,
+        tags=tags,
+        thumb_path=thumb_path
+    )
+    
+    data["published_youtube_url"] = res["url"]
+    data["youtube_video_id"] = res["videoId"]
+    data["status"] = "PUBLISHED" if not schedule_time else "SCHEDULED"
+    data["published_at"] = time.strftime("%Y-%m-%d %H:%M:%S")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+        
+    print(f"\n[Success] Updated {json_path.name} with publication details.")
+    return res
 
 def main():
     parser = argparse.ArgumentParser(description="Publish or schedule long-form video")
-    parser.add_argument("--video", required=True, help="Path to video file")
-    parser.add_argument("--title", required=True, help="Video title")
-    parser.add_argument("--desc", required=True, help="Video description")
-    parser.add_argument("--schedule", required=False, help="ISO-8601 UTC schedule time, e.g. 2026-10-08T12:00:00Z")
+    parser.add_argument("--week", default="", help="Week identifier, e.g. week_004")
+    parser.add_argument("--video", default="", help="Path to video file")
+    parser.add_argument("--title", default="", help="Video title")
+    parser.add_argument("--desc", default="", help="Video description")
+    parser.add_argument("--schedule", default="", help="ISO-8601 UTC schedule time, e.g. 2026-10-08T12:00:00Z")
+    parser.add_argument("--thumb", default="", help="Custom thumbnail path")
     args = parser.parse_args()
     
-    upload_youtube_long(args.video, args.title, args.desc, args.schedule)
+    if args.week:
+        publish_week_long_form(args.week, args.schedule or None, args.video or None)
+    elif args.video:
+        upload_youtube_long(
+            video_path=args.video,
+            title=args.title,
+            description=args.desc,
+            schedule_time=args.schedule or None,
+            thumb_path=args.thumb or None
+        )
+    else:
+        parser.print_help()
 
 if __name__ == "__main__":
     main()

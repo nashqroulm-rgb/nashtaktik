@@ -3,24 +3,26 @@ name: Publish or Schedule Long-Form Video
 on:
   workflow_dispatch:
     inputs:
-      video_url:
-        description: 'Direct download URL for the compressed long-form MP4'
+      week:
+        description: 'Week Identifier (e.g. week_004)'
         required: true
-      title:
-        description: 'Episode Title'
-        required: true
-      description:
-        description: 'Episode Description'
-        required: true
+        default: 'week_004'
       schedule_time:
-        description: 'Scheduled Release Time (UTC ISO-8601, e.g. 2026-10-08T12:00:00Z) - leave blank for immediate'
+        description: 'Scheduled Release Time (UTC ISO-8601, e.g. 2026-10-11T12:30:00Z) - leave blank for immediate PUBLIC'
         required: false
         default: ''
+      clean_release:
+        description: 'Clean up video asset from GitHub Releases after successful publishing'
+        type: boolean
+        required: false
+        default: true
 
 jobs:
   publish-long:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -32,16 +34,42 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install Python Dependencies
+      - name: Install System Tools & Dependencies
         run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Download Video Binary
+      - name: Locate Staging Metadata & Download from GitHub Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          WEEK="${{ github.event.inputs.week }}"
+          JSON_PATH="curriculum/${WEEK}/long_form.json"
+          
+          if [ ! -f "$JSON_PATH" ]; then
+            echo "Error: Missing $JSON_PATH"
+            exit 1
+          fi
+          
+          RELEASE_TAG=$(python3 -c "import json; data=json.load(open('$JSON_PATH')); print(data.get('staging', {}).get('release_tag', ''))")
+          ASSET_NAME=$(python3 -c "import json; data=json.load(open('$JSON_PATH')); print(data.get('staging', {}).get('asset_name', ''))")
+          
+          echo "WEEK=$WEEK" >> $GITHUB_ENV
+          echo "RELEASE_TAG=$RELEASE_TAG" >> $GITHUB_ENV
+          echo "ASSET_NAME=$ASSET_NAME" >> $GITHUB_ENV
+          
+          if [ -z "$RELEASE_TAG" ]; then
+            echo "Error: No release_tag found in $JSON_PATH staging metadata"
+            exit 1
+          fi
+          
+          echo "Downloading $ASSET_NAME from GitHub Release ($RELEASE_TAG)..."
           mkdir -p temp_render
-          curl -L -o temp_render/long_video.mp4 "${{ github.event.inputs.video_url }}"
-          ls -lh temp_render/long_video.mp4
+          gh release download "$RELEASE_TAG" --pattern "*.mp4" --dir temp_render/
+          
+          ls -lh temp_render/
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 temp_render/*.mp4
 
       - name: Publish or Schedule to YouTube
         env:
@@ -49,8 +77,25 @@ jobs:
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          ARGS="--video temp_render/long_video.mp4 --title \"${{ github.event.inputs.title }}\" --desc \"${{ github.event.inputs.description }}\""
+          ARGS="--week $WEEK"
           if [ -n "${{ github.event.inputs.schedule_time }}" ]; then
             ARGS="$ARGS --schedule ${{ github.event.inputs.schedule_time }}"
           fi
           python scripts/publish_long.py $ARGS
+
+      - name: Clean up Staging Release
+        if: success() && github.event.inputs.clean_release == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Publishing confirmed! Cleaning up staging release: $RELEASE_TAG..."
+          gh release delete "$RELEASE_TAG" -y --cleanup-tag || true
+          echo "Staging storage cleaned up successfully."
+
+      - name: Commit Updated Publication Status
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add curriculum/$WEEK/long_form.json state/campaign_state.json || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(release): record publication receipt for $WEEK" && git push origin main)
