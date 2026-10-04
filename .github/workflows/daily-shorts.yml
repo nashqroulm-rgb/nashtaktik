@@ -2,8 +2,8 @@ name: Daily Shorts Autonomous Pipeline
 
 on:
   schedule:
-    # Monday to Saturday at 00:00 UTC (07:00 WIB / 08:00 WITA)
-    - cron: '0 0 * * 1-6'
+    # Monday to Saturday at 06:50 WIB (23:50 UTC) - early morning, low GitHub traffic
+    - cron: '50 23 * * 0-5'
   workflow_dispatch:
     inputs:
       day:
@@ -19,7 +19,7 @@ on:
 jobs:
   produce-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     permissions:
       contents: write
 

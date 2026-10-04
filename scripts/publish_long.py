@@ -167,6 +167,77 @@ def upload_thumbnail(token: str, video_id: str, thumb_path: str):
     except Exception as e:
         print(f"[Thumbnail] Warning: Failed to set thumbnail: {e}")
 
+def upload_zernio(video_path: str, caption: str) -> dict:
+    z_key = get_env_var("ZERNIO_API_KEY")
+    if not z_key:
+        print("[Zernio] Skipped (ZERNIO_API_KEY not set)")
+        return {"ok": False, "error": "ZERNIO_API_KEY missing"}
+        
+    print(f"\n[Zernio] Publishing Long-Form to TikTok & Instagram...")
+    file_size = os.path.getsize(video_path)
+    
+    # 1. Get presigned R2 upload URL
+    presign_req = urllib.request.Request(
+        "https://api.zernio.com/v1/media/presign",
+        data=json.dumps({
+            "filename": os.path.basename(video_path),
+            "contentType": "video/mp4",
+            "size": file_size
+        }).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {z_key}",
+            "Content-Type": "application/json"
+        },
+        method="POST"
+    )
+    with urllib.request.urlopen(presign_req) as resp:
+        presign_data = json.loads(resp.read().decode())
+        upload_url = presign_data["uploadUrl"]
+        public_url = presign_data["publicUrl"]
+        
+    # 2. Upload video file to Cloudflare storage
+    print(f"[Zernio] Uploading video binary ({file_size / (1024*1024):.2f} MB)...")
+    with open(video_path, "rb") as vf:
+        video_bytes = vf.read()
+        
+    put_req = urllib.request.Request(
+        upload_url,
+        data=video_bytes,
+        headers={
+            "Content-Type": "video/mp4",
+            "Content-Length": str(file_size)
+        },
+        method="PUT"
+    )
+    with urllib.request.urlopen(put_req) as put_resp:
+        if put_resp.status != 200:
+            raise RuntimeError(f"Storage upload failed: {put_resp.status}")
+            
+    # 3. Create post for TikTok + Instagram
+    post_body = {
+        "content": caption,
+        "mediaItems": [{"type": "video", "url": public_url}],
+        "platforms": [
+            {"platform": "tiktok", "accountId": get_env_var("TIKTOK_ACCOUNT_ID", "6abbb2e6694b468f723ea3a4")},
+            {"platform": "instagram", "accountId": get_env_var("INSTAGRAM_ACCOUNT_ID", "6abbb38ad9cc457b83f314fc")}
+        ],
+        "publishNow": True
+    }
+    
+    post_req = urllib.request.Request(
+        "https://api.zernio.com/v1/posts",
+        data=json.dumps(post_body).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {z_key}",
+            "Content-Type": "application/json"
+        },
+        method="POST"
+    )
+    with urllib.request.urlopen(post_req) as post_resp:
+        post_data = json.loads(post_resp.read().decode())
+        print(f"[Zernio] Post dispatched successfully to TikTok & Instagram!")
+        return {"ok": True, "data": post_data}
+
 def publish_week_long_form(week_str: str, schedule_time: str | None = None, video_override: str | None = None):
     week_dir = REPO_DIR / "curriculum" / week_str
     json_path = week_dir / "long_form.json"
@@ -211,10 +282,19 @@ def publish_week_long_form(week_str: str, schedule_time: str | None = None, vide
         thumb_path=thumb_path
     )
     
+    # 2. Upload to Zernio (TikTok + Instagram)
+    z_caption = f"{title}\n\n{desc[:300]}\n\n#sejarahperang #taktikmiliter #nashtaktik"
+    z_res = upload_zernio(video_path, z_caption)
+    
+    # Update long_form.json with published URLs
     data["published_youtube_url"] = res["url"]
     data["youtube_video_id"] = res["videoId"]
     data["status"] = "PUBLISHED" if not schedule_time else "SCHEDULED"
     data["published_at"] = time.strftime("%Y-%m-%d %H:%M:%S")
+    if z_res.get("ok"):
+        data["published_tiktok_status"] = "DISPATCHED"
+        data["published_instagram_status"] = "DISPATCHED"
+        
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
         

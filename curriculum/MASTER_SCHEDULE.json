@@ -2,8 +2,8 @@
   "channel": "@nashtaktik",
   "total_weeks": 26,
   "cadence": {
-    "long_form": "Minggu (Sunday) - 19:00 WIB",
-    "shorts": "Senin s/d Sabtu (Monday-Saturday) - 07:00 WIB"
+    "long_form": "Minggu (Sunday) - 04:30 WIB (21:30 UTC Sabtu)",
+    "shorts": "Senin s/d Sabtu (Monday-Saturday) - 06:50 WIB (23:50 UTC)"
   },
   "weeks": [
     {
@@ -144,7 +144,7 @@
           "status": "READY"
         }
       ],
-      "target_release_utc": "2026-10-11T12:00:00Z",
+      "target_release_utc": "2026-10-10T21:30:00Z",
       "release_tag": "v-week-003-long"
     },
     {
@@ -191,7 +191,7 @@
           "status": "READY"
         }
       ],
-      "target_release_utc": "2026-10-18T12:00:00Z",
+      "target_release_utc": "2026-10-17T21:30:00Z",
       "release_tag": "v-week-004-long"
     },
     {

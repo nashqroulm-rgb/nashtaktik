@@ -32,12 +32,10 @@ def render_short_video(
     ass_escaped = ass_subtitle_path.replace("\\", "/").replace(":", "\\:")
     clean_banner = banner_title.replace("'", "").replace(":", " - ").replace(",", " ").upper()
     
-    # Dual-stack filter complex
+    # Dual-stack filter complex optimized for cloud runners (pre-crop 1080:920 for fast encoding)
     filter_complex = (
-        f"[0:v]scale=1920:1080,zoompan=z='min(zoom+0.0003,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s=1920x1080:fps={fps},"
-        f"crop=1080:920:(1920-1080)/2:(1080-920)/2[top];"
-        f"[1:v]scale=1920:1080,zoompan=z='max(1.06-0.0003*on,1.0)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s=1920x1080:fps={fps},"
-        f"crop=1080:920:(1920-1080)/2:(1080-920)/2[bot];"
+        f"[0:v]scale=1080:920:force_original_aspect_ratio=increase,crop=1080:920[top];"
+        f"[1:v]scale=1080:920:force_original_aspect_ratio=increase,crop=1080:920[bot];"
         f"color=c=#10141C:s=1080x80:d={duration}[sep_bg];"
         f"[sep_bg]drawbox=x=0:y=0:w=1080:h=4:color=#D4AF37:t=fill,"
         f"drawbox=x=0:y=76:w=1080:h=4:color=#D4AF37:t=fill,"
@@ -53,8 +51,8 @@ def render_short_video(
     
     cmd = [
         "ffmpeg", "-y",
-        "-loop", "1", "-i", top_image_path,
-        "-loop", "1", "-i", bot_image_path,
+        "-loop", "1", "-t", str(duration), "-i", top_image_path,
+        "-loop", "1", "-t", str(duration), "-i", bot_image_path,
         "-i", voice_audio_path,
         "-i", bgm_audio_path,
         "-filter_complex", filter_complex,
@@ -67,7 +65,7 @@ def render_short_video(
         "-b:a", "128k",
         "-ar", "44100",
         "-ac", "2",
-        "-shortest",
+        "-t", str(duration),
         "-movflags", "+faststart",
         output_video_path
     ]

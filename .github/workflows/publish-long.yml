@@ -1,14 +1,17 @@
 name: Publish or Schedule Long-Form Video
 
 on:
+  schedule:
+    # Every Sunday morning at 04:30 WIB (Saturday 21:30 UTC) - early morning, low GitHub traffic
+    - cron: '30 21 * * 6'
   workflow_dispatch:
     inputs:
       week:
-        description: 'Week Identifier (e.g. week_004)'
-        required: true
-        default: 'week_004'
+        description: 'Week Identifier (e.g. week_002, leave blank for auto-detect from staging)'
+        required: false
+        default: ''
       schedule_time:
-        description: 'Scheduled Release Time (UTC ISO-8601, e.g. 2026-10-11T12:30:00Z) - leave blank for immediate PUBLIC'
+        description: 'Scheduled Release Time (UTC ISO-8601, e.g. 2026-10-04T12:00:00Z) - leave blank for immediate PUBLIC'
         required: false
         default: ''
       clean_release:
@@ -44,7 +47,15 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          WEEK="${{ github.event.inputs.week }}"
+          INPUT_WEEK="${{ github.event.inputs.week }}"
+          
+          if [ -n "$INPUT_WEEK" ]; then
+            WEEK="$INPUT_WEEK"
+          else
+            WEEK=$(python3 -c "import json; state=json.load(open('state/campaign_state.json')); staged=[k.replace('_staging', '') for k, v in sorted(state.items()) if k.endswith('_staging') and v.get('long_form', {}).get('status') == 'STAGED_IN_RELEASE']; print(staged[0] if staged else 'week_002')")
+            echo "Auto-detected staged week: $WEEK"
+          fi
+          
           JSON_PATH="curriculum/${WEEK}/long_form.json"
           
           if [ ! -f "$JSON_PATH" ]; then
@@ -71,11 +82,14 @@ jobs:
           ls -lh temp_render/
           ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 temp_render/*.mp4
 
-      - name: Publish or Schedule to YouTube
+      - name: Publish or Schedule Across All Platforms (YouTube + TikTok + IG)
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          TIKTOK_ACCOUNT_ID: ${{ secrets.TIKTOK_ACCOUNT_ID }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
         run: |
           ARGS="--week $WEEK"
           if [ -n "${{ github.event.inputs.schedule_time }}" ]; then
