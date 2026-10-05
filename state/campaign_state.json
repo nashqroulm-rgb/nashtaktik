@@ -1,10 +1,10 @@
 {
   "active_week": 2,
-  "next_short_index": 1,
-  "next_short_day": "senin",
-  "total_shorts_published": 1,
+  "next_short_index": 2,
+  "next_short_day": "selasa",
+  "total_shorts_published": 2,
   "total_longs_published": 2,
-  "last_updated": "2026-10-04T11:47:16Z",
+  "last_updated": "2026-10-05T02:27:13Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "ACTIVE_PUBLISHING",

@@ -23,5 +23,69 @@
       "tiktok": "https://www.tiktok.com/@nashtaktik/video/7691726408019643655",
       "instagram": "https://www.instagram.com/reel/Dd9RDF1CgHl/"
     }
+  },
+  {
+    "type": "short",
+    "week": 2,
+    "short_number": 1,
+    "day": "Senin",
+    "title": "Arogansi Tradisi Sparta: Formasi 12 Baris yang Kaku",
+    "published_at": "2026-10-05 02:27:13",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "6YvnReKqE2Q",
+        "url": "https://youtube.com/shorts/6YvnReKqE2Q"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ac30af96d4ed07fe407f2ce",
+        "platforms": [
+          {
+            "_id": "6ac30af96d4ed07fe407f2cc",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=8cf9e394&x-expires=1791262800&x-signature=Sa9KLDNbzkaZW%2FduBYRxjLJ%2FI2Y%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-05T02:27:04.965Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7693004155224344594"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-05T02:27:12.908Z",
+            "platformPostId": "v_pub_url~v2.7693004155224344594",
+            "publishAttempts": 1,
+            "contentHash": "9dea24931279c008bb4aba8e69477b80"
+          },
+          {
+            "_id": "6ac30af96d4ed07fe407f2cd",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=c-kWAPFEqIgQ7kNvwGj6X7y&_nc_oc=AdrJmTlDtt4io91ATUnwtNddpvqI4R7JOXgcNsbXgXvF8E8BzjMNKfa7Cfw4VpNEaqo&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Eld8L0-a_MEr_NU5-IizGA&_nc_tpa=Q5bMBQKrEjkG0tI77PYq9Xle-qWrCVnJ-htK93FWVhhnAtmGJupx0Erk8AXqOxu95YOUV4Qm-uVs4hQmDg&oh=00_AQPPB2eXT_TnbG2q7M77_dS_hRlDA5MBA2py9HMcqFlayA&oe=6AC7C9D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-05T02:27:04.965Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "5b33773aca84b7479852748da7b6b3d7"
+          }
+        ]
+      }
+    }
   }
 ]
