@@ -151,5 +151,69 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 2,
+    "short_number": 3,
+    "day": "Rabu",
+    "title": "Gugurnya Raja Cleombrotus: Akhir Hegemoni Sparta Selamanya",
+    "published_at": "2026-10-07 02:44:17",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "Cn-CpIpRPv8",
+        "url": "https://youtube.com/shorts/Cn-CpIpRPv8"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ac5b1f42333482c6422b249",
+        "platforms": [
+          {
+            "_id": "6ac5b1f42333482c6422b247",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=3b54d5fb&x-expires=1791439200&x-signature=yMHxumUomFFHj2VMQBq7B7jjxKI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-07T02:44:03.907Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7693751012615571476"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-07T02:44:16.474Z",
+            "platformPostId": "v_pub_url~v2.7693751012615571476",
+            "publishAttempts": 1,
+            "contentHash": "35e359a78f293d7a05ef3b9b0dc7fb90"
+          },
+          {
+            "_id": "6ac5b1f42333482c6422b248",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=AvMCFZTu0sEQ7kNvwHq52Yq&_nc_oc=Ado_6rN1iULmwKEdZ6R2qjE9UyYvh92mJLtIiabrYCzqZE6idwyMETfE9JB44kdX0ZA&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=-wq82QbXoZ90xhwwfah6-Q&_nc_tpa=Q5bMBQL5XAylexASsOBoNDdfeqy99BEuq9qBxzQy8IrqfDMLL3BXsEXd6Bqs1sx-8lVpTPb0Uf-M28wswA&oh=00_AQMWZ1xW8yUW35ZoBq2EDQqdtuE0B_gkkpVbNmF9F9uvmg&oe=6ACA6CD1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-07T02:44:03.907Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "02e9a9c1bb884845d16b8b3965cb4719"
+          }
+        ]
+      }
+    }
   }
 ]
