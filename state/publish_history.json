@@ -215,5 +215,69 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 2,
+    "short_number": 4,
+    "day": "Kamis",
+    "title": "Dory vs Dory: Ketika Dorongan Massa Menghancurkan Perisai Perunggu",
+    "published_at": "2026-10-08 03:01:31",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "3RG_nYfqMYc",
+        "url": "https://youtube.com/shorts/3RG_nYfqMYc"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ac70783e3710f08115a1442",
+        "platforms": [
+          {
+            "_id": "6ac70783e3710f08115a1440",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=3b0f31af&x-expires=1791525600&x-signature=HNcF4YcmcPeAnOAKKiCWXD5ezsU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-08T03:01:22.912Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7694126647263397908"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-08T03:01:30.898Z",
+            "platformPostId": "v_pub_url~v2.7694126647263397908",
+            "publishAttempts": 1,
+            "contentHash": "e82c89a37161247c68ac1899a078e88a"
+          },
+          {
+            "_id": "6ac70783e3710f08115a1441",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=AvMCFZTu0sEQ7kNvwHJYICh&_nc_oc=AdrZsPmMwIzjUznAEOA2hudVHsC-TsbA-Fg7OWQG_7gBfOUgg7xPsvpq8XBZ6LNRTLQ&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=-EAFnX4nvemuLa1QlF6hWg&_nc_tpa=Q5bMBQLjCb4V-hDO91wDUOkPVMOBsraUYDMfdgjTjTe7OM4MrI5lfWPEbXp87Q5qpqaiHYTHBH0gwNUDYw&oh=00_AQPm7dBOXg-5QXZMzvtXQzkvgVjup1CcOf0y54hKEx8vCw&oe=6ACBBE51",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-08T03:01:22.912Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "aa44943e318f6b4fc6303aab340441e9"
+          }
+        ]
+      }
+    }
   }
 ]
