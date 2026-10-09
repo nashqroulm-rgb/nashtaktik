@@ -279,5 +279,69 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 2,
+    "short_number": 5,
+    "day": "Jumat",
+    "title": "The Sacred Band of Thebes: 300 Prajurit Sumpah Maut",
+    "published_at": "2026-10-09 03:08:36",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "5cBYrk1KlA4",
+        "url": "https://youtube.com/shorts/5cBYrk1KlA4"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ac85aac7bb0b68cc3d4a3a2",
+        "platforms": [
+          {
+            "_id": "6ac85aac7bb0b68cc3d4a3a0",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=04010d60&x-expires=1791615600&x-signature=h90wmayfrGC7kss%2Bn16rNpwlgyc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my3",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-09T03:08:28.131Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7694499320900503560"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-09T03:08:35.431Z",
+            "platformPostId": "v_pub_url~v2.7694499320900503560",
+            "publishAttempts": 1,
+            "contentHash": "6e6a361e8c2ab7ff7a55204b2e2718fc"
+          },
+          {
+            "_id": "6ac85aac7bb0b68cc3d4a3a1",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=AvMCFZTu0sEQ7kNvwHQy6Sr&_nc_oc=Ado06OAONV8KuvWlFwlgfFaFI7LGHtJd8MD9_3f6eq_5-JkSnjkZvoZGKC7JoHCjlhY&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=6iMS79uOkwucvP8x3vTuhA&_nc_tpa=Q5bMBQJGD2r-OhvAqT-Ab_J5rG5m62T5wDzu3kVaKjGoUwQmKk1Vvw00kGOnbmJkNPmEdV4wY2h0nZtSXA&oh=00_AQMvGCj1rEdbq2lTt4QWPZEXKQ7AUdnsJzpqS3gzc6mJBA&oe=6ACD0FD1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-09T03:08:28.131Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "884f76ddd0f4da5d4397ff4f8e3f55cf"
+          }
+        ]
+      }
+    }
   }
 ]

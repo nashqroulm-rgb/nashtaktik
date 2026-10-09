@@ -1,10 +1,10 @@
 {
   "active_week": 2,
-  "next_short_index": 5,
-  "next_short_day": "jumat",
-  "total_shorts_published": 5,
+  "next_short_index": 6,
+  "next_short_day": "sabtu",
+  "total_shorts_published": 6,
   "total_longs_published": 2,
-  "last_updated": "2026-10-08T03:01:31Z",
+  "last_updated": "2026-10-09T03:08:36Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "ACTIVE_PUBLISHING",
