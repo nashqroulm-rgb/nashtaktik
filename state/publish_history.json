@@ -343,5 +343,69 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 2,
+    "short_number": 6,
+    "day": "Sabtu",
+    "title": "Pelajaran Epaminondas: Konsentrasikan Kekuatan Maksimal di Titik Terlemah Musuh",
+    "published_at": "2026-10-10 02:49:16",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "2TF0S6CKXXA",
+        "url": "https://youtube.com/shorts/2TF0S6CKXXA"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ac9a79fdae56115a0321e5f",
+        "platforms": [
+          {
+            "_id": "6ac9a79fdae56115a0321e5d",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=edb5c8b7&x-expires=1791702000&x-signature=qjoIyBSEuNf0%2FnWGZffluYERqOA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-10T02:49:02.766Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7694864746411083828"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-10T02:49:15.984Z",
+            "platformPostId": "v_pub_url~v2.7694864746411083828",
+            "publishAttempts": 1,
+            "contentHash": "b1d2e9bca5d6a14f8dd86b0f076fe696"
+          },
+          {
+            "_id": "6ac9a79fdae56115a0321e5e",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=oVBYZ_6ZQOgQ7kNvwGlED0i&_nc_oc=Adr_QaSVpxUtdzwurBvSRWY8A_qhSPNgIzTTq5nkerMOxa8gMFdrqtDBaqiTEBuvfbg&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=U-Woh6m2XhWKeqDvcrJqug&_nc_tpa=Q5bMBQKKOyH7gMmRaJ3aKLw0gmIIxE-xA7xGdtueL4gJ7f5CKdAClj7dbU36q2BGypsDwCptw_8yPlHgBw&oh=00_AQM6q8kyp0ZQklJHkraNrDnUX8auh0ASudq4cwpKG1u18Q&oe=6ACE6151",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-10T02:49:02.766Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "dc9571b6bae103c4e9f93ce34f545a54"
+          }
+        ]
+      }
+    }
   }
 ]
