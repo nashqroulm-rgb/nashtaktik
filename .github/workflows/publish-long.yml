@@ -52,7 +52,7 @@ jobs:
           if [ -n "$INPUT_WEEK" ]; then
             WEEK="$INPUT_WEEK"
           else
-            WEEK=$(python3 -c "import json; state=json.load(open('state/campaign_state.json')); staged=[k.replace('_staging', '') for k, v in sorted(state.items()) if k.endswith('_staging') and v.get('long_form', {}).get('status') == 'STAGED_IN_RELEASE']; print(staged[0] if staged else 'week_002')")
+            WEEK=$(python3 -c "import json, subprocess; state = json.load(open('state/campaign_state.json')); active_w = state.get('active_week', 2); candidates = [k.replace('_staging', '') for k, v in sorted(state.items()) if k.endswith('_staging') and v.get('long_form', {}).get('status') == 'STAGED_IN_RELEASE']; valid = next((c for c in candidates if subprocess.run(['gh', 'release', 'view', state.get(f'{c}_staging', {}).get('long_form', {}).get('release_tag', '')], capture_output=True).returncode == 0), f'week_{active_w+1:03d}'); print(valid)")
             echo "Auto-detected staged week: $WEEK"
           fi
           

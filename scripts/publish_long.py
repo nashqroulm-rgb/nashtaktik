@@ -307,6 +307,56 @@ def publish_week_long_form(week_str: str, schedule_time: str | None = None, vide
         json.dump(data, f, indent=2)
         
     print(f"\n[Success] Updated {json_path.name} with publication details.")
+
+    # Update state/campaign_state.json automatically
+    state_path = REPO_DIR / "state" / "campaign_state.json"
+    if state_path.exists():
+        try:
+            with open(state_path, "r", encoding="utf-8") as sf:
+                state_data = json.load(sf)
+                
+            week_num = int(week_str.replace("week_", ""))
+            state_data["active_week"] = week_num
+            state_data["total_longs_published"] = state_data.get("total_longs_published", 0) + 1
+            state_data["last_updated"] = time.strftime("%Y-%m-%dT%H:%M:%SZ")
+            
+            # Update pipeline status
+            if "pipeline_status" in state_data:
+                state_data["pipeline_status"][week_str] = "ACTIVE_PUBLISHING"
+                prev_week_key = f"week_{week_num - 1:03d}"
+                if prev_week_key in state_data["pipeline_status"]:
+                    state_data["pipeline_status"][prev_week_key] = "COMPLETED"
+                    
+            # Update current week staging
+            staging_key = f"{week_str}_staging"
+            if staging_key in state_data:
+                state_data[staging_key]["status"] = "ACTIVE_PUBLISHING"
+                if "long_form" in state_data[staging_key]:
+                    state_data[staging_key]["long_form"]["status"] = "PUBLISHED"
+                    
+            # Update previous week staging
+            prev_staging_key = f"week_{week_num - 1:03d}_staging"
+            if prev_staging_key in state_data:
+                state_data[prev_staging_key]["status"] = "COMPLETED"
+                if "long_form" in state_data[prev_staging_key]:
+                    state_data[prev_staging_key]["long_form"]["status"] = "PUBLISHED"
+
+            # Check if this is the start of a week cycle (Sunday or Monday)
+            current_day = time.strftime("%A").lower()
+            if current_day in ("sunday", "saturday"):
+                state_data["next_short_index"] = 1
+                state_data["next_short_day"] = "senin"
+            elif current_day == "monday":
+                # If published on Monday, prime for Tuesday Short 2
+                state_data["next_short_index"] = 2
+                state_data["next_short_day"] = "selasa"
+
+            with open(state_path, "w", encoding="utf-8") as sf:
+                json.dump(state_data, sf, indent=2)
+            print(f"[Success] Updated {state_path.name} with publication and active week state.")
+        except Exception as e:
+            print(f"[Warning] Failed to update campaign_state.json: {e}")
+
     return res
 
 def main():

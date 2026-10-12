@@ -1,24 +1,24 @@
 {
-  "active_week": 2,
-  "next_short_index": 8,
+  "active_week": 3,
+  "next_short_index": 2,
   "next_short_day": "selasa",
   "total_shorts_published": 8,
   "total_longs_published": 2,
   "last_updated": "2026-10-12T02:41:21Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
-    "week_002": "ACTIVE_PUBLISHING",
-    "week_003": "PACKAGED_AND_READY",
+    "week_002": "COMPLETED",
+    "week_003": "ACTIVE_PUBLISHING",
     "week_004": "PACKAGED_AND_READY"
   },
   "week_002_staging": {
     "battle": "Pertempuran Leuctra (371 SM)",
-    "status": "READY",
+    "status": "COMPLETED",
     "long_form": {
       "title": "Formasi Baji 50 Baris Epaminondas: Menghancurkan Mitos Tak Terkalahkan Sparta di Leuctra (371 SM)",
       "duration_sec": 551.71,
       "beats": 48,
-      "status": "STAGED_IN_RELEASE",
+      "status": "PUBLISHED",
       "release_tag": "v-week-002-long",
       "asset_name": "leuctra_documentary_1080p.mp4"
     },
