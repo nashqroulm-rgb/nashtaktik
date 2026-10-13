@@ -196,16 +196,56 @@
     },
     {
       "week": 5,
-      "battle": "Pertempuran Yarmuk (636 M)",
-      "era": "Kekhalifahan Rasyidin vs Kekaisaran Bizantium",
-      "long_form_title": "Pedang Allah di Lembah Yarmuk: Kejeniusan Khalid bin Walid Melawan Raksasa Romawi",
-      "long_form_status": "PLANNED"
+      "battle": "Pertempuran Danau Trasimene (217 SM)",
+      "era": "Kartago vs Republik Romawi",
+      "long_form_title": "Jebakan Kabut Maut Hannibal: Detik-Detik 30.000 Pasukan Romawi Lenyap di Danau Trasimene (217 SM)",
+      "long_form_status": "READY",
+      "target_release_utc": "2026-10-24T21:30:00Z",
+      "release_tag": "v-week-005-long",
+      "shorts": [
+        {
+          "day": "Senin",
+          "id": "short_01_senin",
+          "title": "Arogansi Flaminius Mengabaikan Pengintaian Masuk Defile Maut",
+          "status": "READY"
+        },
+        {
+          "day": "Selasa",
+          "id": "short_02_selasa",
+          "title": "Jebakan Kabut Tebal: Serangan Serentak Empat Sayap Hannibal",
+          "status": "READY"
+        },
+        {
+          "day": "Rabu",
+          "id": "short_03_rabu",
+          "title": "Pembantaian di Tepi Danau: Detik-Detik 15.000 Prajurit Romawi Tenggelam",
+          "status": "READY"
+        },
+        {
+          "day": "Kamis",
+          "id": "short_04_kamis",
+          "title": "Falcata Iberia & Umban Balearik: Senjata Asimetris Penembus Zirah Scutum",
+          "status": "READY"
+        },
+        {
+          "day": "Jumat",
+          "id": "short_05_jumat",
+          "title": "Taktik Bumi Hangus: Memancing Amarah dan Gengsi Pribadi Konsul Romawi",
+          "status": "READY"
+        },
+        {
+          "day": "Sabtu",
+          "id": "short_06_sabtu",
+          "title": "Filosofi Hannibal: Taklukkan Pikiran Musuh Sebelum Mengayunkan Pedang",
+          "status": "READY"
+        }
+      ]
     },
     {
       "week": 6,
-      "battle": "Pertempuran Alesia (52 SM)",
-      "era": "Julius Caesar vs Konfederasi Galia",
-      "long_form_title": "Tembok Ganda Benteng Julius Caesar: Pengepungan Paling Gila dalam Sejarah Militer",
+      "battle": "Pertempuran Cannae (216 SM)",
+      "era": "Kartago vs Republik Romawi",
+      "long_form_title": "Mahakarya Double Envelopment: Jebakan Sabit Hannibal Membantai 86.000 Romawi di Cannae (216 SM)",
       "long_form_status": "PLANNED"
     }
   ]
