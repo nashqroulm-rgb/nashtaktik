@@ -8,6 +8,13 @@ import sys
 import os
 import asyncio
 import edge_tts
+import edge_tts.constants
+
+# Fix Microsoft Edge TTS 403 on cloud runners (synthesize via api.msedgeservices.com)
+edge_tts.constants.WSS_URL = (
+    "wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
+    f"?Ocp-Apim-Subscription-Key={edge_tts.constants.TRUSTED_CLIENT_TOKEN}"
+)
 
 VOICE = "id-ID-ArdiNeural"
 RATE = "+5%"
