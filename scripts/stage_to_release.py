@@ -31,7 +31,7 @@ def get_gh_env():
             stderr=subprocess.DEVNULL,
             text=True
         )
-        out, _ = p.communicate("protocol=https\nhost=github.com\n\n")
+        out, _ = p.communicate("protocol=https\nhost=github.com\nusername=nashqroulm-rgb\n\n", timeout=10)
         for line in out.splitlines():
             if line.startswith("password="):
                 token = line.split("=", 1)[1].strip()
