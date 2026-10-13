@@ -245,7 +245,54 @@
       "week": 6,
       "battle": "Pertempuran Cannae (216 SM)",
       "era": "Kartago vs Republik Romawi",
-      "long_form_title": "Mahakarya Double Envelopment: Jebakan Sabit Hannibal Membantai 86.000 Romawi di Cannae (216 SM)",
+      "long_form_title": "Jebakan Sabit Hannibal: Detik-Detik 86.000 Pasukan Romawi Lenyap di Cannae (216 SM)",
+      "long_form_status": "READY",
+      "target_release_utc": "2026-10-31T21:30:00Z",
+      "release_tag": "v-week-006-long",
+      "shorts": [
+        {
+          "day": "Senin",
+          "id": "short_01_senin",
+          "title": "Arogansi Dorongan Massa: Formasi Terlalu Dalam Konsul Terentius Varro",
+          "status": "READY"
+        },
+        {
+          "day": "Selasa",
+          "id": "short_02_selasa",
+          "title": "Inversi Sabit Cembung ke Cekung: Trik Mundur Terkontrol Hannibal",
+          "status": "READY"
+        },
+        {
+          "day": "Rabu",
+          "id": "short_03_rabu",
+          "title": "Pembantaian 70.000 Prajurit dalam 6 Jam: Detik-Detik Gugurnya Konsul Paullus",
+          "status": "READY"
+        },
+        {
+          "day": "Kamis",
+          "id": "short_04_kamis",
+          "title": "Kavaleri Hasdrubal vs Paullus: Kunci Pembuka Kepungan Ganda di Tepi Sungai",
+          "status": "READY"
+        },
+        {
+          "day": "Jumat",
+          "id": "short_05_jumat",
+          "title": "Angin Debu Volturnus & Ilusi Kemenangan Semu yang Menghanyutkan Romawi",
+          "status": "READY"
+        },
+        {
+          "day": "Sabtu",
+          "id": "short_06_sabtu",
+          "title": "Prinsip Hannibal: Kemenangan Sejati Diraih dengan Mengendalikan Momentum Musuh",
+          "status": "READY"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "battle": "Pertempuran Zama (202 SM)",
+      "era": "Scipio Africanus vs Hannibal Barca",
+      "long_form_title": "Pertempuran Zama (202 SM): Detik-Detik Runtuhnya Kartago di Tangan Scipio Africanus",
       "long_form_status": "PLANNED"
     }
   ]
