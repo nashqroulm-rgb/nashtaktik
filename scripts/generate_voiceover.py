@@ -22,13 +22,44 @@ edge_tts.communicate.WSS_URL = _NEW_WSS
 VOICE = "id-ID-ArdiNeural"
 RATE = "+5%"
 
-async def synthesize(text: str, output_path: str):
-    communicate = edge_tts.Communicate(text, voice=VOICE, rate=RATE)
-    await communicate.save(output_path)
-    print(f"[EdgeTTS] Generated voiceover: {output_path} ({os.path.getsize(output_path)} bytes)")
+ENDPOINTS = [
+    (
+        "wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
+        f"?Ocp-Apim-Subscription-Key={edge_tts.constants.TRUSTED_CLIENT_TOKEN}"
+    ),
+    (
+        "wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1"
+        f"?TrustedClientToken={edge_tts.constants.TRUSTED_CLIENT_TOKEN}"
+    ),
+]
 
-def generate_voiceover(text: str, output_path: str):
-    asyncio.run(synthesize(text, output_path))
+async def synthesize(text: str, output_path: str) -> list[dict]:
+    last_err = None
+    for endpoint in ENDPOINTS:
+        edge_tts.constants.WSS_URL = endpoint
+        setattr(edge_tts.communicate, "WSS_URL", endpoint)
+        for attempt in range(3):
+            try:
+                communicate = edge_tts.Communicate(text, voice=VOICE, rate=RATE)
+                cues = []
+                with open(output_path, "wb") as f:
+                    async for chunk in communicate.stream():
+                        ctype = chunk.get("type")
+                        if ctype == "audio" and "data" in chunk:
+                            f.write(chunk["data"])
+                        elif ctype == "SentenceBoundary" and "offset" in chunk and "duration" in chunk:
+                            st = chunk["offset"] / 10_000_000
+                            dur = chunk["duration"] / 10_000_000
+                            cues.append({"start": st, "end": st + dur, "text": chunk.get("text", "")})
+                print(f"[EdgeTTS] Generated voiceover: {output_path} ({os.path.getsize(output_path)} bytes, {len(cues)} sentences)")
+                return cues
+            except Exception as e:
+                last_err = e
+                await asyncio.sleep(1.0)
+    raise RuntimeError(f"All TTS endpoints failed. Last error: {last_err}")
+
+def generate_voiceover(text: str, output_path: str) -> list[dict]:
+    return asyncio.run(synthesize(text, output_path))
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:

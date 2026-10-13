@@ -14,7 +14,97 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
+KEYWORD_MAP = {
+    "kavaleri": ["cavalry", "horse"],
+    "kuda": ["horse", "cavalry"],
+    "baji": ["wedge"],
+    "segitiga": ["wedge"],
+    "darius": ["darius"],
+    "kaisar": ["darius", "emperor", "leader"],
+    "aleksander": ["alexander", "leader"],
+    "bucephalus": ["horse", "leader", "mounting"],
+    "celah": ["wedge", "clash", "gap"],
+    "sayap": ["wing", "flank"],
+    "menukik": ["attack", "attacking", "clash"],
+    "menusuk": ["attack", "attacking", "clash"],
+    "pasukan": ["infantry", "phalangites", "phalanx", "army"],
+    "tempur": ["clash", "battle", "fighting"],
+    "kepanikan": ["fleeing", "retreat", "flee"],
+    "meremukkan": ["fleeing", "clash", "attack"],
+    "kereta": ["chariot"],
+    "tanah": ["plain", "plains", "laborers"],
+    "panah": ["archers", "peltasts"],
+    "obor": ["campfires", "dawn"],
+    "pelajaran": ["leader", "commander", "tablet"],
+    "epaminondas": ["epaminondas", "general"],
+    "sparta": ["sparta", "phalanx", "hoplite"],
+}
+
+def select_images_for_scenes(
+    images_dir: Path,
+    sentence_cues: list,
+    day_name: str,
+    packet: dict,
+    previously_used: set | None = None
+) -> list[Path]:
+    available = sorted([f for f in images_dir.glob("*.jpg") if "thumb" not in f.name.lower()])
+    if not available:
+        raise FileNotFoundError(f"No valid images found in {images_dir}")
+        
+    num_scenes = max(len(sentence_cues), 1)
+    selected = []
+    used = set(previously_used) if previously_used else set()
+    
+    # If used set leaves fewer images than needed, prune oldest
+    remaining = [f for f in available if f.name not in used]
+    if len(remaining) < num_scenes:
+        used = set() # Reset if images exhausted in week
+    
+    for i, cue in enumerate(sentence_cues):
+        stext = cue["text"].lower()
+        best_img = None
+        best_score = -1
+        
+        for img in available:
+            if img.name in used:
+                continue
+            score = 0
+            img_lower = img.name.lower()
+            for id_kw, en_kws in KEYWORD_MAP.items():
+                if id_kw in stext:
+                    for en in en_kws:
+                        if en in img_lower:
+                            score += 3
+            if score > best_score:
+                best_score = score
+                best_img = img
+                
+        if not best_img or best_score <= 0:
+            days = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu"]
+            day_offset = days.index(day_name) if day_name in days else 0
+            start_idx = (day_offset * 6 + i) % len(available)
+            for offset in range(len(available)):
+                candidate = available[(start_idx + offset) % len(available)]
+                if candidate.name not in used:
+                    best_img = candidate
+                    break
+                    
+        if best_img:
+            used.add(best_img.name)
+            selected.append(best_img)
+            
+    while len(selected) < num_scenes:
+        for img in available:
+            if img not in selected:
+                selected.append(img)
+                break
+        else:
+            selected.append(available[0])
+            
+    return selected
+
 def run_daily_pipeline(target_day: str | None = None, target_week: int | None = None, dry_run: bool = False):
+    import datetime
     print("=" * 60)
     print("  NASH-02 AUTONOMOUS DAILY SHORTS PIPELINE")
     print("=" * 60)
@@ -24,8 +114,26 @@ def run_daily_pipeline(target_day: str | None = None, target_week: int | None = 
         state = json.load(f)
         
     week_num = target_week or state.get("active_week", 1)
-    short_idx = state.get("next_short_index", 2)
-    day_name = target_day or state.get("next_short_day", "selasa").lower()
+    
+    # Dynamic Calendar Mapping (Rule 33 in Thematic Content Factory)
+    days_order = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu"]
+    days_map = {0: "senin", 1: "selasa", 2: "rabu", 3: "kamis", 4: "jumat", 5: "sabtu"}
+    
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+    now_wib = now_utc + datetime.timedelta(hours=7)
+    cur_weekday = now_wib.weekday()
+    
+    if target_day:
+        day_name = target_day.lower()
+        short_idx = (days_order.index(day_name) + 1) if day_name in days_order else 1
+    else:
+        if cur_weekday in days_map:
+            day_name = days_map[cur_weekday]
+            short_idx = cur_weekday + 1
+        else:
+            # Sunday or off-schedule fallback
+            day_name = state.get("next_short_day", "senin").lower()
+            short_idx = state.get("next_short_index", 1)
     
     week_dir = ROOT_DIR / "curriculum" / f"week_{week_num:03d}"
     short_packet_file = week_dir / f"short_{short_idx:02d}_{day_name}.json"
@@ -64,51 +172,82 @@ def run_daily_pipeline(target_day: str | None = None, target_week: int | None = 
     # 1. Generate Voiceover
     print(f"\n[1/4] Generating Voiceover (EdgeTTS ArdiNeural)...")
     from generate_voiceover import generate_voiceover
-    generate_voiceover(spoken_text, str(voice_path))
+    sentence_cues = generate_voiceover(spoken_text, str(voice_path))
     
     # Probe duration
     res = subprocess.run([
         "ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(voice_path)
     ], capture_output=True, text=True, check=True)
     duration = float(res.stdout.strip())
-    print(f"Voiceover duration: {duration:.2f}s")
+    print(f"Voiceover duration: {duration:.2f}s ({len(sentence_cues)} sentences)")
     
     # 2. Generate Subtitles
     print(f"\n[2/4] Generating Kinetic ASS Subtitles...")
     from generate_subtitles import create_ass_subtitles
-    create_ass_subtitles(spoken_text, duration, str(ass_path))
+    create_ass_subtitles(spoken_text, duration, str(ass_path), sentence_cues=sentence_cues)
     
-    # 3. Select Images
+    # 3. Select Images for Multi-Scene Short (Anti-Dejavu Tracking)
     images_dir = week_dir / "images"
-    # Choose top map and bottom cinematic
-    available_imgs = list(images_dir.glob("*.jpg"))
-    if not available_imgs:
-        raise FileNotFoundError(f"No images found in {images_dir}")
+    state_key = f"used_images_week_{week_num:03d}"
+    used_images_this_week = set(state.get(state_key, []))
+    
+    # Also cross-check publish_history.json to ensure no past images from this week are reused
+    history_file = ROOT_DIR / "state" / "publish_history.json"
+    if history_file.exists():
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                hist_data = json.load(f)
+            for entry in hist_data:
+                if entry.get("type") == "short" and entry.get("week") == week_num:
+                    for im in entry.get("images_used", []):
+                        used_images_this_week.add(im)
+        except Exception:
+            pass
+            
+    selected_imgs = select_images_for_scenes(
+        images_dir, sentence_cues, day_name, packet, previously_used=used_images_this_week
+    )
+    
+    # Record newly selected images to state
+    for img in selected_imgs:
+        used_images_this_week.add(img.name)
+    state[state_key] = sorted(list(used_images_this_week))
+    
+    scenes = []
+    for i, cue in enumerate(sentence_cues):
+        img_p = selected_imgs[i]
+        dur = max(cue["end"] - cue["start"], 1.0)
+        # Add small tail cushion to last scene
+        if i == len(sentence_cues) - 1:
+            dur += 1.0
+        scenes.append({
+            "image": str(img_p),
+            "duration": dur,
+            "zoom": "in" if i % 2 == 0 else "out"
+        })
+        print(f"  Scene {i+1}: {img_p.name} ({dur:.2f}s) -> {cue['text'][:35]}...")
         
-    # Map top image preference
-    map_imgs = [img for img in available_imgs if "map" in img.name.lower()]
-    top_img = map_imgs[0] if map_imgs else available_imgs[0]
-    
-    # Bottom image preference (different from top)
-    bot_imgs = [img for img in available_imgs if img != top_img]
-    bot_img = bot_imgs[0] if bot_imgs else top_img
-    
-    print(f"Top Panel Image    : {top_img.name}")
-    print(f"Bottom Panel Image : {bot_img.name}")
-    
-    # 4. Render Dual-Stack Short Video
-    print(f"\n[3/4] Rendering Dual-Stack 1080x1920 Video...")
-    from render_short import render_short_video
-    render_short_video(
-        top_image_path=str(top_img),
-        bot_image_path=str(bot_img),
+    # 4. Render Modern Multi-Scene Short Video
+    print(f"\n[3/4] Rendering Modern Multi-Scene 1080x1920 Video...")
+    from render_short import render_multiscene_short
+    render_multiscene_short(
+        scenes=scenes,
         voice_audio_path=str(voice_path),
         bgm_audio_path=str(bgm_path),
         ass_subtitle_path=str(ass_path),
-        banner_title=title,
-        output_video_path=str(output_video),
-        duration=duration
+        output_video_path=str(output_video)
     )
+    
+    # Verify rendered video integrity with ffprobe (Rule 53)
+    if not output_video.exists() or output_video.stat().st_size < 100_000:
+        raise RuntimeError(f"Rendered video missing or empty: {output_video}")
+    check_res = subprocess.run([
+        "ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(output_video)
+    ], capture_output=True, text=True)
+    if check_res.returncode != 0 or not check_res.stdout.strip():
+        raise RuntimeError(f"Rendered video corrupted (moov atom missing or unreadable): {output_video}")
+    rendered_dur = float(check_res.stdout.strip())
+    print(f"[Verification] Master video verified: {rendered_dur:.2f}s, {output_video.stat().st_size / (1024*1024):.2f} MB")
     
     # 5. Publish
     if dry_run:
@@ -150,6 +289,7 @@ def run_daily_pipeline(target_day: str | None = None, target_week: int | None = 
         "short_number": short_idx,
         "day": day_name.capitalize(),
         "title": title,
+        "images_used": [img.name for img in selected_imgs],
         "published_at": time.strftime("%Y-%m-%d %H:%M:%S"),
         "platforms": pub_res
     })

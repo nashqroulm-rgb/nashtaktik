@@ -55,13 +55,14 @@ def upload_youtube_short(video_path: str, title: str, description: str, tags: li
     token = get_yt_access_token()
     file_size = os.path.getsize(video_path)
     
-    # Ensure #Shorts is present in title
-    yt_title = title if "#Shorts" in title else f"{title} #Shorts"
+    clean_title = title.replace("<", "").replace(">", "").strip()
+    yt_title = clean_title if "#Shorts" in clean_title else f"{clean_title} #Shorts"
+    clean_desc = description.replace("<", "").replace(">", "").strip()
     
     meta = {
         "snippet": {
             "title": yt_title[:100],
-            "description": description[:5000],
+            "description": clean_desc[:5000],
             "tags": tags or ["Shorts", "Nash Taktik", "Sejarah Perang", "Taktik Militer"],
             "categoryId": "27"
         },
