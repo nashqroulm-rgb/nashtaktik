@@ -535,5 +535,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 3,
+    "short_number": 3,
+    "day": "Rabu",
+    "title": "Kaburnya Darius III dan Jatuhnya Mahkota Terbesar Dunia",
+    "images_used": [
+      "Cavalry_forming_wedge_formation_\u2026_20261003074120.jpg",
+      "Darius_fleeing_battle_on_horseback_20261003074433.jpg",
+      "Cavalry_attacking_Persian_center_20261003074125.jpg",
+      "Men_conferring_over_tactical_maps_20261003074120.jpg",
+      "Leader_mounting_horse_before_army_20261003074120.jpg"
+    ],
+    "published_at": "2026-10-14 02:12:46",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "DxXo-7x1wSw",
+        "url": "https://youtube.com/shorts/DxXo-7x1wSw"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6acee510ba293952dd354490",
+        "platforms": [
+          {
+            "_id": "6acee510ba293952dd35448e",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=5feb70f5&x-expires=1792047600&x-signature=r5FPiJ0FnCHh%2FX7VsfJhDbg3wZg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-14T02:12:32.317Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7696340419412363265"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-14T02:12:44.901Z",
+            "platformPostId": "v_pub_url~v2.7696340419412363265",
+            "publishAttempts": 1,
+            "contentHash": "fc02d79e0f91d9fb7b88187e2bd9e468"
+          },
+          {
+            "_id": "6acee510ba293952dd35448f",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=I9ibzKIylpkQ7kNvwEkLl1o&_nc_oc=Adq1z-UvY0LKhAn3p-VmUYZN92n7qWf-2c0cgvxKqKnofD1I84mkwldQNDs-FgwkOUE&_nc_zt=24&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=CGItXe3Is2PmVQGC1Xao2Q&_nc_tpa=Q5bMBQJNH6vA64VrXK8HH7_6mtIDygMqLFTdk9AYFVKhZO39ssdB7qYp38X78xca1oxjrKObnRv5muDFPw&oh=00_AQOPQGS9HpIPjkvBHNs6Zk8SelG78enZObHNLwiX5zMQdg&oe=6AD3A751",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-14T02:12:32.317Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "73095cb8abe3277d2a4b1fef12c2c918"
+          }
+        ]
+      }
+    }
   }
 ]

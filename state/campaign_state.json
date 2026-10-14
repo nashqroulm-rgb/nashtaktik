@@ -1,10 +1,10 @@
 {
   "active_week": 3,
-  "next_short_index": 3,
-  "next_short_day": "rabu",
-  "total_shorts_published": 9,
+  "next_short_index": 4,
+  "next_short_day": "kamis",
+  "total_shorts_published": 10,
   "total_longs_published": 3,
-  "last_updated": "2026-10-13T04:24:51Z",
+  "last_updated": "2026-10-14T02:12:46Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -142,5 +142,12 @@
         "x_twitter"
       ]
     }
-  }
+  },
+  "used_images_week_003": [
+    "Cavalry_attacking_Persian_center_20261003074125.jpg",
+    "Cavalry_forming_wedge_formation_\u2026_20261003074120.jpg",
+    "Darius_fleeing_battle_on_horseback_20261003074433.jpg",
+    "Leader_mounting_horse_before_army_20261003074120.jpg",
+    "Men_conferring_over_tactical_maps_20261003074120.jpg"
+  ]
 }
