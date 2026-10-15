@@ -606,5 +606,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 3,
+    "short_number": 4,
+    "day": "Kamis",
+    "title": "Sarissa 6 Meter & Trik Perangkap Tikus Menjinakkan Kereta Sabit",
+    "images_used": [
+      "Persian_chariots_charging_Macedo\u2026_20261003074125.jpg",
+      "Persian_infantry_fleeing_battlef\u2026_20261003074120.jpg",
+      "Cavalry_clash_at_Gaugamela_20261003074428.jpg",
+      "Persian_warriors_at_dawn_20261003074120.jpg",
+      "beat_01.jpg"
+    ],
+    "published_at": "2026-10-15 01:54:39",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "3Ef-r2n8zZA",
+        "url": "https://youtube.com/shorts/3Ef-r2n8zZA"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad032577237c928009bb8ea",
+        "platforms": [
+          {
+            "_id": "6ad032577237c928009bb8e8",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=d5618da1&x-expires=1792134000&x-signature=TDImVnsdKcQoBDqFCx9Kxe0%2BG24%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my3",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-15T01:54:30.669Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7696706821968971796"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-15T01:54:38.266Z",
+            "platformPostId": "v_pub_url~v2.7696706821968971796",
+            "publishAttempts": 1,
+            "contentHash": "e342e692beb834d49c0f9710ec02a1b8"
+          },
+          {
+            "_id": "6ad032577237c928009bb8e9",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mrs2-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=I9ibzKIylpkQ7kNvwEReNVh&_nc_oc=Ado2BxcT92nMlnX18-hjnrqn6YIYGUBhJKZEr9cP-1LvvPXnOyC1QKZS-6G0_JwFX6w&_nc_zt=24&_nc_ht=scontent-mrs2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=kz_CJkmzFLmpqenHtpjYyA&_nc_tpa=Q5bMBQL9Tv83YC9mim7eF6cwPMrjbvQp5aWlXiPrrQN6U2PVb9Nc7GdklEPvI6Zn2YG_jUU1l_7RPHnIFg&oh=00_AQPb1kSMJ7gyaF4zG4829J-1UUbMaySl9uhUQkuFi46qnw&oe=6AD4F8D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-15T01:54:30.669Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "13a1a60877b7bc7dd18a2a43bf75f2ac"
+          }
+        ]
+      }
+    }
   }
 ]
