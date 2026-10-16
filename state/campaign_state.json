@@ -1,10 +1,10 @@
 {
   "active_week": 3,
-  "next_short_index": 5,
-  "next_short_day": "jumat",
-  "total_shorts_published": 11,
+  "next_short_index": 6,
+  "next_short_day": "sabtu",
+  "total_shorts_published": 12,
   "total_longs_published": 3,
-  "last_updated": "2026-10-15T01:54:39Z",
+  "last_updated": "2026-10-16T01:44:08Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -149,10 +149,16 @@
     "Cavalry_forming_wedge_formation_\u2026_20261003074120.jpg",
     "Darius_fleeing_battle_on_horseback_20261003074433.jpg",
     "Leader_mounting_horse_before_army_20261003074120.jpg",
+    "Leader_observing_battlefield_fro\u2026_20261003074125.jpg",
+    "Macedonian_phalangites_attacking\u2026_20261003074725.jpg",
     "Men_conferring_over_tactical_maps_20261003074120.jpg",
+    "Messenger_encountering_Alexander\u2026_20261003074425.jpg",
     "Persian_chariots_charging_Macedo\u2026_20261003074125.jpg",
     "Persian_infantry_fleeing_battlef\u2026_20261003074120.jpg",
     "Persian_warriors_at_dawn_20261003074120.jpg",
-    "beat_01.jpg"
+    "beat_01.jpg",
+    "beat_08.jpg",
+    "beat_10.jpg",
+    "beat_14.jpg"
   ]
 }

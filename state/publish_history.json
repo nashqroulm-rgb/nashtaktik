@@ -677,5 +677,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 3,
+    "short_number": 5,
+    "day": "Jumat",
+    "title": "Trik Menatap Mata Darius: Teror Kecepatan Kavaleri Makedonia",
+    "images_used": [
+      "beat_08.jpg",
+      "Leader_observing_battlefield_fro\u2026_20261003074125.jpg",
+      "beat_10.jpg",
+      "Messenger_encountering_Alexander\u2026_20261003074425.jpg",
+      "beat_14.jpg",
+      "Macedonian_phalangites_attacking\u2026_20261003074725.jpg"
+    ],
+    "published_at": "2026-10-16 01:44:08",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "uF2wsk1mjTU",
+        "url": "https://youtube.com/shorts/uF2wsk1mjTU"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad1815ba1cf47db4499e413",
+        "platforms": [
+          {
+            "_id": "6ad1815ba1cf47db4499e411",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=7480db30&x-expires=1792224000&x-signature=MR58zt4JZ00IPA5wtT%2FVEAVzpcs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my3",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-16T01:43:54.411Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7697074818508179508"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-16T01:44:07.519Z",
+            "platformPostId": "v_pub_url~v2.7697074818508179508",
+            "publishAttempts": 1,
+            "contentHash": "e64cd7b8ac363959c3b6971d30956c3e"
+          },
+          {
+            "_id": "6ad1815ba1cf47db4499e412",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=JXD9D4JZE7AQ7kNvwFipPWE&_nc_oc=AdoZHZ28B-OjgTCHQQ2chuzajUUkR-xLY5LRQw0w_jJqvmp13-UeKXwFTFxHNEat7N4&_nc_zt=24&_nc_ht=scontent-mad1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=R0_q42Qub3cLi_m57Z3ycw&_nc_tpa=Q5bMBQIaaxE5vSwDLgSFtXXeFJZGHppJBA1g9DJviOyAVsu_0wdLC8g1Xw9YBJ5Kmz_6iowmeNYdce1N0g&oh=00_AQPCkZxI9k5GYQMqh94PdfdXAODmROE6159462bRk8JwWA&oe=6AD64A51",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-16T01:43:54.411Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "42694398150254788916cbbfa93c90f7"
+          }
+        ]
+      }
+    }
   }
 ]
