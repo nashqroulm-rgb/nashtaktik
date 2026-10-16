@@ -218,10 +218,13 @@ def publish_short(video_path: str, title: str, description: str, linked_long_url
     results = {}
     
     # 1. YouTube Shorts
+    friction_yt = "\n\n💬 Menurut Anda, apakah kemenangan ini murni kejeniusan taktik atau kebetulan musuh blunder? Tulis analisis Anda di kolom komentar! 👇"
     try:
-        yt_desc = description
+        yt_desc = f"{description}{friction_yt}"
         if linked_long_url:
-            yt_desc = f"{description}\n\n👉 Tonton analisis taktik lengkapnya: {linked_long_url}\n\n#Shorts #SejarahPerang"
+            yt_desc = f"{description}{friction_yt}\n\n👉 Tonton analisis taktik lengkapnya: {linked_long_url}\n\n#Shorts #SejarahPerang #TaktikMiliter #PerangKuno"
+        else:
+            yt_desc = f"{yt_desc}\n\n#Shorts #SejarahPerang #TaktikMiliter #PerangKuno"
         yt_res = upload_youtube_short(video_path, title, yt_desc)
         results["youtube"] = yt_res
     except Exception as e:
@@ -229,8 +232,9 @@ def publish_short(video_path: str, title: str, description: str, linked_long_url
         results["youtube"] = {"ok": False, "error": str(e)}
         
     # 2. Zernio (TikTok + IG)
+    friction_tt = "\n\n💬 Siapa jenderal perang paling jenius menurut Anda? Tulis di komentar! 👇"
     try:
-        z_caption = f"{title}\n\n{description[:300]}\n\n#sejarahperang #taktikmiliter #nashtaktik"
+        z_caption = f"{title}\n\n{description[:280]}{friction_tt}\n\n#sejarahperang #taktikmiliter #strategimiliter #nashtaktik"
         z_res = upload_zernio(video_path, z_caption)
         results["zernio"] = z_res
     except Exception as e:
