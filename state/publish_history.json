@@ -749,5 +749,75 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 3,
+    "short_number": 6,
+    "day": "Sabtu",
+    "title": "Prinsip Aleksander: Jangan Serang Pasukan, Buru Jantung Komandonya",
+    "images_used": [
+      "Commander_pausing_at_battlefield\u2026_20261003074436.jpg",
+      "beat_22.jpg",
+      "beat_24.jpg",
+      "beat_26.jpg"
+    ],
+    "published_at": "2026-10-17 01:37:12",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "m5O1uMKqTvQ",
+        "url": "https://youtube.com/shorts/m5O1uMKqTvQ"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad2d140b0541c67653706b2",
+        "platforms": [
+          {
+            "_id": "6ad2d140b0541c67653706b0",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=fddaace5&x-expires=1792303200&x-signature=f0XOJHLQyGQl8xjcOAM9PV0xoLM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-17T01:37:03.659Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7697444315123828757"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-17T01:37:11.183Z",
+            "platformPostId": "v_pub_url~v2.7697444315123828757",
+            "publishAttempts": 1,
+            "contentHash": "f283bd605e7282757585d958b6821479"
+          },
+          {
+            "_id": "6ad2d140b0541c67653706b1",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-zrh1-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=JXD9D4JZE7AQ7kNvwEFrB1P&_nc_oc=Adoeur32v0QwxxKN6x1PcbvzlajzEmc2OECunSXFkka2yKJaUMpr0IGqThDnfit8q2A&_nc_zt=24&_nc_ht=scontent-zrh1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=RAScrBXOWuXYXmSh56kkCA&_nc_tpa=Q5bMBQI7t9tiWfP6_k0U29Bn21L-VKyRXRV3OGGfNAC4MkxpghcHW3J6C2TBGZ8pzPLm6vZymnL0R7Z7Ug&oh=00_AQNBAOmJFBShpns-mcH7oqXsT75S9LVKlkN5cizafLBfHg&oe=6AD79BD1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-17T01:37:03.659Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "aa2d9d89c2bba40bb1fc188c3583036b"
+          }
+        ]
+      }
+    }
   }
 ]

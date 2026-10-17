@@ -1,10 +1,10 @@
 {
   "active_week": 3,
-  "next_short_index": 6,
-  "next_short_day": "sabtu",
-  "total_shorts_published": 12,
+  "next_short_index": 7,
+  "next_short_day": "senin",
+  "total_shorts_published": 13,
   "total_longs_published": 3,
-  "last_updated": "2026-10-16T01:44:08Z",
+  "last_updated": "2026-10-17T01:37:12Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -147,6 +147,7 @@
     "Cavalry_attacking_Persian_center_20261003074125.jpg",
     "Cavalry_clash_at_Gaugamela_20261003074428.jpg",
     "Cavalry_forming_wedge_formation_\u2026_20261003074120.jpg",
+    "Commander_pausing_at_battlefield\u2026_20261003074436.jpg",
     "Darius_fleeing_battle_on_horseback_20261003074433.jpg",
     "Leader_mounting_horse_before_army_20261003074120.jpg",
     "Leader_observing_battlefield_fro\u2026_20261003074125.jpg",
@@ -159,6 +160,9 @@
     "beat_01.jpg",
     "beat_08.jpg",
     "beat_10.jpg",
-    "beat_14.jpg"
+    "beat_14.jpg",
+    "beat_22.jpg",
+    "beat_24.jpg",
+    "beat_26.jpg"
   ]
 }
