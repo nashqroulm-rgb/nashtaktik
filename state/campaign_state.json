@@ -1,15 +1,15 @@
 {
-  "active_week": 3,
-  "next_short_index": 7,
+  "active_week": 4,
+  "next_short_index": 1,
   "next_short_day": "senin",
   "total_shorts_published": 13,
-  "total_longs_published": 3,
-  "last_updated": "2026-10-17T01:37:12Z",
+  "total_longs_published": 4,
+  "last_updated": "2026-10-17T23:14:52Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
-    "week_003": "ACTIVE_PUBLISHING",
-    "week_004": "PACKAGED_AND_READY",
+    "week_003": "COMPLETED",
+    "week_004": "ACTIVE_PUBLISHING",
     "week_005": "PACKAGED_AND_READY",
     "week_006": "READY"
   },
@@ -41,7 +41,7 @@
   },
   "week_003_staging": {
     "battle": "Pertempuran Gaugamela (331 SM)",
-    "status": "ACTIVE_PUBLISHING",
+    "status": "COMPLETED",
     "long_form": {
       "title": "Tusukan Baji Aleksander Agung: Detik-Detik Runtuhnya Kekaisaran Terbesar Dunia di Gaugamela (331 SM)",
       "duration_sec": 524.19,
@@ -67,12 +67,12 @@
   },
   "week_004_staging": {
     "battle": "Pengepungan Tyre (332 SM)",
-    "status": "READY",
+    "status": "ACTIVE_PUBLISHING",
     "long_form": {
       "title": "Ketika Laut Dibelah dengan Batu: Pengepungan Ekstrem Pulau Tyre oleh Aleksander Agung (332 SM)",
       "duration_sec": 502.54,
       "beats": 48,
-      "status": "STAGED_IN_RELEASE",
+      "status": "PUBLISHED",
       "release_tag": "v-week-004-long",
       "asset_name": "NASH02_Week004_Tyre_Master.mp4"
     },
