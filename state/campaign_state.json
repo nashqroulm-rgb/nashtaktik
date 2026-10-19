@@ -1,10 +1,10 @@
 {
   "active_week": 4,
-  "next_short_index": 1,
-  "next_short_day": "senin",
-  "total_shorts_published": 13,
+  "next_short_index": 2,
+  "next_short_day": "selasa",
+  "total_shorts_published": 14,
   "total_longs_published": 4,
-  "last_updated": "2026-10-17T23:14:52Z",
+  "last_updated": "2026-10-19T01:49:48Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -164,5 +164,13 @@
     "beat_22.jpg",
     "beat_24.jpg",
     "beat_26.jpg"
+  ],
+  "used_images_week_004": [
+    "Alexander_viewing_island_fortress_20261003143144.jpg",
+    "Artillery_crew_firing_stone_ball\u2026_20261003143144.jpg",
+    "Catapult_crew_operating_siege_tower_20261003173025.jpg",
+    "Divers_clearing_submerged_boulde\u2026_20261003143143.jpg",
+    "Heralds_approaching_Island_Tyre_\u2026_20261003143144.jpg",
+    "Macedonian_infantry_marching_alo\u2026_20261003143144.jpg"
   ]
 }

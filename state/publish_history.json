@@ -819,5 +819,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 4,
+    "short_number": 1,
+    "day": "Senin",
+    "title": "Kesombongan Dinding Laut 45 Meter Pulau Tyre",
+    "images_used": [
+      "Alexander_viewing_island_fortress_20261003143144.jpg",
+      "Artillery_crew_firing_stone_ball\u2026_20261003143144.jpg",
+      "Catapult_crew_operating_siege_tower_20261003173025.jpg",
+      "Macedonian_infantry_marching_alo\u2026_20261003143144.jpg",
+      "Divers_clearing_submerged_boulde\u2026_20261003143143.jpg",
+      "Heralds_approaching_Island_Tyre_\u2026_20261003143144.jpg"
+    ],
+    "published_at": "2026-10-19 01:49:48",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "BOiXALob_Ds",
+        "url": "https://youtube.com/shorts/BOiXALob_Ds"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad5773493ef180f928a8e75",
+        "platforms": [
+          {
+            "_id": "6ad5773493ef180f928a8e73",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=deb3718b&x-expires=1792476000&x-signature=9RNXRDzI3QLY285mkoDOzQLFVjU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-19T01:49:39.865Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7698189493762476084"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-19T01:49:47.334Z",
+            "platformPostId": "v_pub_url~v2.7698189493762476084",
+            "publishAttempts": 1,
+            "contentHash": "15e0ef3a6d08253fb73cd946fa13b51c"
+          },
+          {
+            "_id": "6ad5773493ef180f928a8e74",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-dfw5-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=KHKAm305KRkQ7kNvwEkB-l4&_nc_oc=AdoqcQu-cH5SFyqqH-kf44mlbqXMhx05BTsO_ekgU7UjEVu0-gcjI8dMVeP5_MphhnM&_nc_zt=24&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=irAVx7GgQ9fe_neG6XCGZQ&_nc_tpa=Q5bMBQJsiS8Sb4M05NAFFXttSdOBGZhj8752AVjZZBeLNF0L_dkuT_n21wb0PMYIulPaJdTMGO3Q194bDw&oh=00_AQMADLJyPkXH0IV7y01IkAjBYhcEhOJQ1JBvFQq0kEdNqA&oe=6ADA3ED1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-19T01:49:39.865Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "bb95a7f0399ab233957330178ac16446"
+          }
+        ]
+      }
+    }
   }
 ]
