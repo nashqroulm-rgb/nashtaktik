@@ -1,10 +1,10 @@
 {
   "active_week": 4,
-  "next_short_index": 2,
-  "next_short_day": "selasa",
-  "total_shorts_published": 14,
+  "next_short_index": 3,
+  "next_short_day": "rabu",
+  "total_shorts_published": 15,
   "total_longs_published": 4,
-  "last_updated": "2026-10-19T01:49:48Z",
+  "last_updated": "2026-10-20T02:10:24Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -171,6 +171,11 @@
     "Catapult_crew_operating_siege_tower_20261003173025.jpg",
     "Divers_clearing_submerged_boulde\u2026_20261003143143.jpg",
     "Heralds_approaching_Island_Tyre_\u2026_20261003143144.jpg",
-    "Macedonian_infantry_marching_alo\u2026_20261003143144.jpg"
+    "Macedonian_forces_conquering_Tyr\u2026_20261003143143.jpg",
+    "Macedonian_infantry_marching_alo\u2026_20261003143144.jpg",
+    "Macedonian_ship_breaching_Tyre_wall_20261003143143.jpg",
+    "Man_standing_at_water_edge_20261003143143.jpg",
+    "Marines_attacking_Tyre_sea_walls_20261003143144.jpg",
+    "Military_engineers_driving_cedar\u2026_20261003143145.jpg"
   ]
 }

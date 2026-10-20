@@ -891,5 +891,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 4,
+    "short_number": 2,
+    "day": "Selasa",
+    "title": "Membangun Daratan di Tengah Laut: Proyek Gila Insinyur Makedonia",
+    "images_used": [
+      "Macedonian_forces_conquering_Tyr\u2026_20261003143143.jpg",
+      "Macedonian_ship_breaching_Tyre_wall_20261003143143.jpg",
+      "Man_standing_at_water_edge_20261003143143.jpg",
+      "Marines_attacking_Tyre_sea_walls_20261003143144.jpg",
+      "Military_engineers_driving_cedar\u2026_20261003143145.jpg"
+    ],
+    "published_at": "2026-10-20 02:10:24",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "1wmrn9lhFAI",
+        "url": "https://youtube.com/shorts/1wmrn9lhFAI"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad6cd87bd0e8f81da6d7d6c",
+        "platforms": [
+          {
+            "_id": "6ad6cd87bd0e8f81da6d7d6a",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=a9c84f6d&x-expires=1792562400&x-signature=40DoFIKZcLoL63mI7D7OIj64pCw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-20T02:10:15.139Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7698566388478330901"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-20T02:10:23.120Z",
+            "platformPostId": "v_pub_url~v2.7698566388478330901",
+            "publishAttempts": 1,
+            "contentHash": "f36331739848396a9c565c53b3cbc19d"
+          },
+          {
+            "_id": "6ad6cd87bd0e8f81da6d7d6b",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mrs2-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=KHKAm305KRkQ7kNvwERDARQ&_nc_oc=AdoOcMQrh8AKF2o2KqGbD0YbrAY0A8KhZ3pi57jUAAgVjpq5AJcb2P8vIdeiOeHbkbo&_nc_zt=24&_nc_ht=scontent-mrs2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=tpcpjVPlFry0yEuU66TA5g&_nc_tpa=Q5bMBQLsa71nvz8f-sim73ItYoo7acyO4CL6zXTHieUfhjEKm6T5trTmwCVzxdkWSzbIwAEz_doqKzigCg&oh=00_AQNVorKBQ_hgpWaujy-LZO1jMLOJnD4wkJ-l9-ru7RMreA&oe=6ADB9051",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-20T02:10:15.139Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "48314bb4c0662755c97d1403b17f32ae"
+          }
+        ]
+      }
+    }
   }
 ]
