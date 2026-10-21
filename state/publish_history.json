@@ -962,5 +962,78 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 4,
+    "short_number": 3,
+    "day": "Rabu",
+    "title": "Ketika Tembok Runtuh: Kemarahan Aleksander Pasca 7 Bulan Terkepung",
+    "images_used": [
+      "Naval_armada_converging_on_Tyre_20261003143144.jpg",
+      "Naval_scouts_observing_Tyre_harbor_20261003143143.jpg",
+      "Phalanx_advancing_down_urban_street_20261003143144.jpg",
+      "Phoenician_fireship_cuts_dark_waves_20261003143143.jpg",
+      "Phoenician_fireship_rams_stone_mole_20261003143144.jpg",
+      "Phoenician_fireship_rams_stone_mole_20261003171436.jpg",
+      "Shipwrights_preparing_fireship_i\u2026_20261003143143.jpg"
+    ],
+    "published_at": "2026-10-21 02:05:43",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "5XF_NIx1bvY",
+        "url": "https://youtube.com/shorts/5XF_NIx1bvY"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad81dea241697c7f2b6fb3c",
+        "platforms": [
+          {
+            "_id": "6ad81dea241697c7f2b6fb3a",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=7ee66e97&x-expires=1792648800&x-signature=7s3LFo9TZ2sXcbVmQy5idlIPi%2BU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-21T02:05:29.884Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7698935976340768788"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-21T02:05:42.796Z",
+            "platformPostId": "v_pub_url~v2.7698935976340768788",
+            "publishAttempts": 1,
+            "contentHash": "28ea399ef95e6c0fa8d488ec09a55d12"
+          },
+          {
+            "_id": "6ad81dea241697c7f2b6fb3b",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=KHKAm305KRkQ7kNvwHFJK3f&_nc_oc=AdoP02EcC2mTraLuEIon_DkleRjeLWf4S2e7iGXWklxCl4ExSJ2dANsqSG3KTvLKk6g&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=cP5DVBPSvE9UQ1Ch-wdmPA&_nc_tpa=Q5bMBQJB3_kSx6GUyiAEx1PN_ZRzRk5QU4qzGr3sj5t5Db9zXw3oMVCBVZW_jNLm2aReEi-wileWZ5q0Cg&oh=00_AQOynNTurPVYL3w3bVg1etk2xVRz4-sbFqK0szVhJBQSwg&oe=6ADCE1D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-21T02:05:29.884Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "70c383467cdb79c7da1a610c4350d9ed"
+          }
+        ]
+      }
+    }
   }
 ]

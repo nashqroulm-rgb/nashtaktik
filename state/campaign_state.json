@@ -1,10 +1,10 @@
 {
   "active_week": 4,
-  "next_short_index": 3,
-  "next_short_day": "rabu",
-  "total_shorts_published": 15,
+  "next_short_index": 4,
+  "next_short_day": "kamis",
+  "total_shorts_published": 16,
   "total_longs_published": 4,
-  "last_updated": "2026-10-20T02:10:24Z",
+  "last_updated": "2026-10-21T02:05:43Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -176,6 +176,13 @@
     "Macedonian_ship_breaching_Tyre_wall_20261003143143.jpg",
     "Man_standing_at_water_edge_20261003143143.jpg",
     "Marines_attacking_Tyre_sea_walls_20261003143144.jpg",
-    "Military_engineers_driving_cedar\u2026_20261003143145.jpg"
+    "Military_engineers_driving_cedar\u2026_20261003143145.jpg",
+    "Naval_armada_converging_on_Tyre_20261003143144.jpg",
+    "Naval_scouts_observing_Tyre_harbor_20261003143143.jpg",
+    "Phalanx_advancing_down_urban_street_20261003143144.jpg",
+    "Phoenician_fireship_cuts_dark_waves_20261003143143.jpg",
+    "Phoenician_fireship_rams_stone_mole_20261003143144.jpg",
+    "Phoenician_fireship_rams_stone_mole_20261003171436.jpg",
+    "Shipwrights_preparing_fireship_i\u2026_20261003143143.jpg"
   ]
 }
