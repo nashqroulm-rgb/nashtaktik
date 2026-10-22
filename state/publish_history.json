@@ -1035,5 +1035,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 4,
+    "short_number": 4,
+    "day": "Kamis",
+    "title": "Kapal Api Fenisia: Taktik Kamikaze Pembakar Menara Raksasa",
+    "images_used": [
+      "Siege_towers_at_Tyre_causeway_20261003143144.jpg",
+      "Cavalry_galloping_along_sandy_co\u2026_20261003143144.jpg",
+      "Soldiers_and_laborers_demolishin\u2026_20261003143144.jpg",
+      "Soldiers_storming_breach_at_Tyre_20261003143143.jpg",
+      "Soldiers_viewing_destroyed_causeway_20261003143143.jpg"
+    ],
+    "published_at": "2026-10-22 01:58:21",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "XAtXN4Y7sgY",
+        "url": "https://youtube.com/shorts/XAtXN4Y7sgY"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ad96db60d8821b017305a63",
+        "platforms": [
+          {
+            "_id": "6ad96db60d8821b017305a61",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=e1b0f30d&x-expires=1792735200&x-signature=I%2BnSa4kSZz%2FvinTcGXxAGoh9vmI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-22T01:58:13.539Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7699305226650667016"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-22T01:58:20.860Z",
+            "platformPostId": "v_pub_url~v2.7699305226650667016",
+            "publishAttempts": 1,
+            "contentHash": "1a6121cc48f0ef00d4916cbf1caeb4d2"
+          },
+          {
+            "_id": "6ad96db60d8821b017305a62",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=qCdMO6pDtgoQ7kNvwE_GMTf&_nc_oc=Adr8P4ejvGy1Geq5U1swli7LxJBEBQOk-14-9P25tjdSsfGRaRsyQ-r1UvWyXJriirY&_nc_zt=24&_nc_ht=scontent-mad1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=CddBo4wU19TJihj3EqjZSA&_nc_tpa=Q5bMBQL6eTAIYxyDaZRB_Hdp4Wy1qshSu-BsdB2eJPfRIbunAtcVVIEAxZsxmrZw1TN8bgFMSw1EO7nAoA&oh=00_AQOXLffo8O-51omMd98AhohNTT7YGga7LFglypAgdH8tNA&oe=6ADE3351",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-22T01:58:13.539Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "9dc9b9a71398d03aac286a02724785ed"
+          }
+        ]
+      }
+    }
   }
 ]

@@ -1,10 +1,10 @@
 {
   "active_week": 4,
-  "next_short_index": 4,
-  "next_short_day": "kamis",
-  "total_shorts_published": 16,
+  "next_short_index": 5,
+  "next_short_day": "jumat",
+  "total_shorts_published": 17,
   "total_longs_published": 4,
-  "last_updated": "2026-10-21T02:05:43Z",
+  "last_updated": "2026-10-22T01:58:21Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -169,6 +169,7 @@
     "Alexander_viewing_island_fortress_20261003143144.jpg",
     "Artillery_crew_firing_stone_ball\u2026_20261003143144.jpg",
     "Catapult_crew_operating_siege_tower_20261003173025.jpg",
+    "Cavalry_galloping_along_sandy_co\u2026_20261003143144.jpg",
     "Divers_clearing_submerged_boulde\u2026_20261003143143.jpg",
     "Heralds_approaching_Island_Tyre_\u2026_20261003143144.jpg",
     "Macedonian_forces_conquering_Tyr\u2026_20261003143143.jpg",
@@ -183,6 +184,10 @@
     "Phoenician_fireship_cuts_dark_waves_20261003143143.jpg",
     "Phoenician_fireship_rams_stone_mole_20261003143144.jpg",
     "Phoenician_fireship_rams_stone_mole_20261003171436.jpg",
-    "Shipwrights_preparing_fireship_i\u2026_20261003143143.jpg"
+    "Shipwrights_preparing_fireship_i\u2026_20261003143143.jpg",
+    "Siege_towers_at_Tyre_causeway_20261003143144.jpg",
+    "Soldiers_and_laborers_demolishin\u2026_20261003143144.jpg",
+    "Soldiers_storming_breach_at_Tyre_20261003143143.jpg",
+    "Soldiers_viewing_destroyed_causeway_20261003143143.jpg"
   ]
 }
