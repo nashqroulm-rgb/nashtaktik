@@ -38,6 +38,28 @@ KEYWORD_MAP = {
     "pelajaran": ["leader", "commander", "tablet"],
     "epaminondas": ["epaminondas", "general"],
     "sparta": ["sparta", "phalanx", "hoplite"],
+    "kapal": ["fireship", "ship", "naval", "harbor"],
+    "perahu": ["ship", "naval"],
+    "api": ["fireship", "fire", "burning", "flame"],
+    "kamikaze": ["fireship", "rams", "ship"],
+    "fenisia": ["phoenician", "fireship"],
+    "tyre": ["tyre"],
+    "jembatan": ["causeway", "mole", "workers"],
+    "tanggul": ["causeway", "mole", "stone_mole"],
+    "menara": ["siege_tower", "tower", "catapult"],
+    "laut": ["waves", "naval", "ship", "water", "sea"],
+    "ombak": ["waves", "water"],
+    "belerang": ["fireship", "shipwrights"],
+    "minyak": ["fireship", "kuali"],
+    "kuali": ["fireship"],
+    "pelaut": ["phoenician", "naval", "marines", "divers"],
+    "roboh": ["destroyed", "demolishing", "breach"],
+    "hancur": ["destroyed", "breach", "demolishing"],
+    "batu": ["stone", "boulder", "causeway"],
+    "benteng": ["fortress", "wall", "sea_walls"],
+    "dinding": ["wall", "sea_walls", "breach"],
+    "katapel": ["catapult", "artillery"],
+    "meriam": ["artillery", "ballista"],
 }
 
 def select_images_for_scenes(
@@ -52,6 +74,32 @@ def select_images_for_scenes(
         raise FileNotFoundError(f"No valid images found in {images_dir}")
         
     num_scenes = max(len(sentence_cues), 1)
+
+    # Priority 1: Explicit scene images declared in short packet JSON
+    if "scene_images" in packet and isinstance(packet["scene_images"], list) and packet["scene_images"]:
+        explicit_imgs = []
+        for item in packet["scene_images"]:
+            p = images_dir / item
+            if p.exists():
+                explicit_imgs.append(p)
+                continue
+            item_clean = item.lower().replace("…", "").replace(".jpg", "").strip()
+            tokens = [t for t in item_clean.split("_") if t and not t.isdigit() and len(t) > 2]
+            best_match = None
+            best_score = 0
+            for f in available:
+                fn_lower = f.name.lower()
+                matched_tokens = sum(1 for t in tokens if t in fn_lower)
+                if matched_tokens > best_score:
+                    best_score = matched_tokens
+                    best_match = f
+            if best_match:
+                explicit_imgs.append(best_match)
+                
+        if explicit_imgs:
+            while len(explicit_imgs) < num_scenes:
+                explicit_imgs.append(explicit_imgs[-1])
+            return explicit_imgs[:num_scenes]
     selected = []
     used = set(previously_used) if previously_used else set()
     
