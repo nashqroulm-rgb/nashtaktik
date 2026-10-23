@@ -1,10 +1,10 @@
 {
   "active_week": 4,
-  "next_short_index": 5,
-  "next_short_day": "jumat",
-  "total_shorts_published": 17,
+  "next_short_index": 6,
+  "next_short_day": "sabtu",
+  "total_shorts_published": 18,
   "total_longs_published": 4,
-  "last_updated": "2026-10-22T01:58:21Z",
+  "last_updated": "2026-10-23T02:01:31Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -188,6 +188,7 @@
     "Siege_towers_at_Tyre_causeway_20261003143144.jpg",
     "Soldiers_and_laborers_demolishin\u2026_20261003143144.jpg",
     "Soldiers_storming_breach_at_Tyre_20261003143143.jpg",
-    "Soldiers_viewing_destroyed_causeway_20261003143143.jpg"
+    "Soldiers_viewing_destroyed_causeway_20261003143143.jpg",
+    "Workers_constructing_causeway_un\u2026_20261003172713.jpg"
   ]
 }

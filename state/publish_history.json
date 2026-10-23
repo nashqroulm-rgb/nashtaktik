@@ -543,7 +543,7 @@
     "day": "Rabu",
     "title": "Kaburnya Darius III dan Jatuhnya Mahkota Terbesar Dunia",
     "images_used": [
-      "Cavalry_forming_wedge_formation_…_20261003074120.jpg",
+      "Cavalry_forming_wedge_formation_\u2026_20261003074120.jpg",
       "Darius_fleeing_battle_on_horseback_20261003074433.jpg",
       "Cavalry_attacking_Persian_center_20261003074125.jpg",
       "Men_conferring_over_tactical_maps_20261003074120.jpg",
@@ -614,8 +614,8 @@
     "day": "Kamis",
     "title": "Sarissa 6 Meter & Trik Perangkap Tikus Menjinakkan Kereta Sabit",
     "images_used": [
-      "Persian_chariots_charging_Macedo…_20261003074125.jpg",
-      "Persian_infantry_fleeing_battlef…_20261003074120.jpg",
+      "Persian_chariots_charging_Macedo\u2026_20261003074125.jpg",
+      "Persian_infantry_fleeing_battlef\u2026_20261003074120.jpg",
       "Cavalry_clash_at_Gaugamela_20261003074428.jpg",
       "Persian_warriors_at_dawn_20261003074120.jpg",
       "beat_01.jpg"
@@ -686,11 +686,11 @@
     "title": "Trik Menatap Mata Darius: Teror Kecepatan Kavaleri Makedonia",
     "images_used": [
       "beat_08.jpg",
-      "Leader_observing_battlefield_fro…_20261003074125.jpg",
+      "Leader_observing_battlefield_fro\u2026_20261003074125.jpg",
       "beat_10.jpg",
-      "Messenger_encountering_Alexander…_20261003074425.jpg",
+      "Messenger_encountering_Alexander\u2026_20261003074425.jpg",
       "beat_14.jpg",
-      "Macedonian_phalangites_attacking…_20261003074725.jpg"
+      "Macedonian_phalangites_attacking\u2026_20261003074725.jpg"
     ],
     "published_at": "2026-10-16 01:44:08",
     "platforms": {
@@ -757,7 +757,7 @@
     "day": "Sabtu",
     "title": "Prinsip Aleksander: Jangan Serang Pasukan, Buru Jantung Komandonya",
     "images_used": [
-      "Commander_pausing_at_battlefield…_20261003074436.jpg",
+      "Commander_pausing_at_battlefield\u2026_20261003074436.jpg",
       "beat_22.jpg",
       "beat_24.jpg",
       "beat_26.jpg"
@@ -828,11 +828,11 @@
     "title": "Kesombongan Dinding Laut 45 Meter Pulau Tyre",
     "images_used": [
       "Alexander_viewing_island_fortress_20261003143144.jpg",
-      "Artillery_crew_firing_stone_ball…_20261003143144.jpg",
+      "Artillery_crew_firing_stone_ball\u2026_20261003143144.jpg",
       "Catapult_crew_operating_siege_tower_20261003173025.jpg",
-      "Macedonian_infantry_marching_alo…_20261003143144.jpg",
-      "Divers_clearing_submerged_boulde…_20261003143143.jpg",
-      "Heralds_approaching_Island_Tyre_…_20261003143144.jpg"
+      "Macedonian_infantry_marching_alo\u2026_20261003143144.jpg",
+      "Divers_clearing_submerged_boulde\u2026_20261003143143.jpg",
+      "Heralds_approaching_Island_Tyre_\u2026_20261003143144.jpg"
     ],
     "published_at": "2026-10-19 01:49:48",
     "platforms": {
@@ -899,11 +899,11 @@
     "day": "Selasa",
     "title": "Membangun Daratan di Tengah Laut: Proyek Gila Insinyur Makedonia",
     "images_used": [
-      "Macedonian_forces_conquering_Tyr…_20261003143143.jpg",
+      "Macedonian_forces_conquering_Tyr\u2026_20261003143143.jpg",
       "Macedonian_ship_breaching_Tyre_wall_20261003143143.jpg",
       "Man_standing_at_water_edge_20261003143143.jpg",
       "Marines_attacking_Tyre_sea_walls_20261003143144.jpg",
-      "Military_engineers_driving_cedar…_20261003143145.jpg"
+      "Military_engineers_driving_cedar\u2026_20261003143145.jpg"
     ],
     "published_at": "2026-10-20 02:10:24",
     "platforms": {
@@ -976,7 +976,7 @@
       "Phoenician_fireship_cuts_dark_waves_20261003143143.jpg",
       "Phoenician_fireship_rams_stone_mole_20261003143144.jpg",
       "Phoenician_fireship_rams_stone_mole_20261003171436.jpg",
-      "Shipwrights_preparing_fireship_i…_20261003143143.jpg"
+      "Shipwrights_preparing_fireship_i\u2026_20261003143143.jpg"
     ],
     "published_at": "2026-10-21 02:05:43",
     "platforms": {
@@ -1043,8 +1043,8 @@
     "day": "Kamis",
     "title": "Kapal Api Fenisia: Taktik Kamikaze Pembakar Menara Raksasa",
     "images_used": [
-      "Workers_constructing_causeway_un…_20261003172713.jpg",
-      "Shipwrights_preparing_fireship_i…_20261003143143.jpg",
+      "Workers_constructing_causeway_un\u2026_20261003172713.jpg",
+      "Shipwrights_preparing_fireship_i\u2026_20261003143143.jpg",
       "Phoenician_fireship_cuts_dark_waves_20261003143143.jpg",
       "Phoenician_fireship_rams_stone_mole_20261003143144.jpg",
       "Soldiers_viewing_destroyed_causeway_20261003143143.jpg"
@@ -1102,6 +1102,77 @@
             "status": "processing",
             "publishAttempts": 1,
             "contentHash": "9dc9b9a71398d03aac286a02724785ed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "short",
+    "week": 4,
+    "short_number": 5,
+    "day": "Jumat",
+    "title": "Gantung Sandera di Tembok: Provokasi yang Berujung Bencana",
+    "images_used": [
+      "Heralds_approaching_Island_Tyre_\u2026_20261003143144.jpg",
+      "Marines_attacking_Tyre_sea_walls_20261003143144.jpg",
+      "Alexander_viewing_island_fortress_20261003143144.jpg",
+      "Soldiers_storming_breach_at_Tyre_20261003143143.jpg",
+      "Macedonian_forces_conquering_Tyr\u2026_20261003143143.jpg"
+    ],
+    "published_at": "2026-10-23 02:01:31",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "V8X-GkRcsAs",
+        "url": "https://youtube.com/shorts/V8X-GkRcsAs"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6adabff2642f441a3cf8fc49",
+        "platforms": [
+          {
+            "_id": "6adabff2642f441a3cf8fc47",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=54780856&x-expires=1792821600&x-signature=rgJ5d7QnXapZjljcUmOW1iMWOYA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-23T02:01:21.573Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7699677404654012417"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-23T02:01:29.822Z",
+            "platformPostId": "v_pub_url~v2.7699677404654012417",
+            "publishAttempts": 1,
+            "contentHash": "15063b9c63d41d4818fdaa2d22e16760"
+          },
+          {
+            "_id": "6adabff2642f441a3cf8fc48",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=qCdMO6pDtgoQ7kNvwGG1Zqr&_nc_oc=AdrJzR4KDkPvHcBiSFwzM8HKC8tmXDRrAY95BGXr8rZsABo47D2SwRRMqwiXpdmdeoc&_nc_zt=24&_nc_ht=scontent-mad1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=lIUagRwf4Ft6zrgLXNSkAQ&_nc_tpa=Q5bMBQLm71BYsNJ6H_kZ00pDAlNO9blkv4pBOtNX7L7Bwu7gfKNWwPmGrviIKnshnZVAwmw2_TX9OmZrjQ&oh=00_AQPMZCLcf0MzGWkM_t-O7Zdt4kvXXQCyBCXBpRQ58Et6pg&oe=6ADF84D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-23T02:01:21.573Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "cb53507f0c24af52a4389beac0f18233"
           }
         ]
       }
