@@ -9,5 +9,12 @@
   "word_count": 97,
   "spoken_text": "Dalam waktu enam jam di padang Cannae, dunia menyaksikan pembantaian militer paling brutal dalam sejarah peradaban manusia. Terkurung dalam lingkaran maut tiga ratus enam puluh derajat, delapan puluh ribu prajurit Romawi terhimpit begitu rapat hingga mereka bahkan tak bisa mencabut pedang gladius dari sarungnya. Pedang falcata Kartago menebas mereka dari tepi luar tanpa henti. Konsul Paullus gugur bersimbah darah di atas debu setelah menolak kuda pelarian demi gugur bersama pasukannya. Tujuh puluh ribu nyawa lenyap dalam satu hari. Sebelum kamu melangkah masuk ke dalam arena persaingan, pastikan kamu selalu memiliki pintu keluar darurat!",
   "seamless_loop_target": "Dalam waktu enam jam di padang Cannae, dunia menyaksikan pembantaian militer...",
-  "visual_direction": "Atas: Animasi kompresi kantong kepungan lingkaran penuh menyempit ke pusat. Bawah: Visual sinematik Konsul Paullus terduduk bersandar di batu medan perang Cannae."
+  "visual_direction": "Atas: Animasi kompresi kantong kepungan lingkaran penuh menyempit ke pusat. Bawah: Visual sinematik Konsul Paullus terduduk bersandar di batu medan perang Cannae.",
+  "scene_images": [
+    "beat_14.jpg",
+    "beat_15.jpg",
+    "beat_17.jpg",
+    "beat_19.jpg",
+    "beat_21.jpg"
+  ]
 }

@@ -9,5 +9,12 @@
   "word_count": 96,
   "spoken_text": "Bukan pedang yang membunuh prajurit terbanyak di Marathon, melainkan lumpur hisap yang tak terlihat. Saat sayap pasukan Athena mengunci kepungan, kepanikan liar melanda ribuan prajurit Persia. Mereka tidak lari menuju laut dan kapal mereka, melainkan terdorong panik ke arah rawa-rawa besar Schinia. Di sanalah ribuan prajurit berzirah ringan terperosok dan tenggelam di bawah lumpur pekat tanpa sempat mengayunkan senjata. Mengabaikan topografi medan selalu berujung kuburan massal. Pelajaran brutal dari rawa Marathon menegaskan bahwa...",
   "seamless_loop_target": "Bukan pedang yang membunuh prajurit terbanyak di Marathon...",
-  "visual_direction": "Atas: Peta rute pelarian merah yang terputus di area berbayang biru gelap (Rawa Schinia). Bawah: Visual sinematik prajurit terseret ke dalam air rawa berkabut tebal."
+  "visual_direction": "Atas: Peta rute pelarian merah yang terputus di area berbayang biru gelap (Rawa Schinia). Bawah: Visual sinematik prajurit terseret ke dalam air rawa berkabut tebal.",
+  "scene_images": [
+    "map_blunder_kavaleri.jpg",
+    "beat_01.jpg",
+    "beat_11.jpg",
+    "beat_16.jpg",
+    "beat_24.jpg"
+  ]
 }
