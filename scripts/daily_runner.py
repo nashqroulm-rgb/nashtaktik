@@ -75,81 +75,40 @@ def select_images_for_scenes(
         
     num_scenes = max(len(sentence_cues), 1)
 
-    # Priority 1: Explicit scene images declared in short packet JSON
-    if "scene_images" in packet and isinstance(packet["scene_images"], list) and packet["scene_images"]:
-        explicit_imgs = []
-        for item in packet["scene_images"]:
-            p = images_dir / item
-            if p.exists():
-                explicit_imgs.append(p)
-                continue
-            item_clean = item.lower().replace("…", "").replace(".jpg", "").strip()
-            tokens = [t for t in item_clean.split("_") if t and not t.isdigit() and len(t) > 2]
-            best_match = None
-            best_score = 0
-            for f in available:
-                fn_lower = f.name.lower()
-                matched_tokens = sum(1 for t in tokens if t in fn_lower)
-                if matched_tokens > best_score:
-                    best_score = matched_tokens
-                    best_match = f
-            if best_match:
-                explicit_imgs.append(best_match)
-                
-        if explicit_imgs:
-            while len(explicit_imgs) < num_scenes:
-                explicit_imgs.append(explicit_imgs[-1])
-            return explicit_imgs[:num_scenes]
-    selected = []
-    used = set(previously_used) if previously_used else set()
-    
-    # If used set leaves fewer images than needed, prune oldest
-    remaining = [f for f in available if f.name not in used]
-    if len(remaining) < num_scenes:
-        used = set() # Reset if images exhausted in week
-    
-    for i, cue in enumerate(sentence_cues):
-        stext = cue["text"].lower()
-        best_img = None
-        best_score = -1
-        
-        for img in available:
-            if img.name in used:
-                continue
-            score = 0
-            img_lower = img.name.lower()
-            for id_kw, en_kws in KEYWORD_MAP.items():
-                if id_kw in stext:
-                    for en in en_kws:
-                        if en in img_lower:
-                            score += 3
-            if score > best_score:
-                best_score = score
-                best_img = img
-                
-        if not best_img or best_score <= 0:
-            days = ["senin", "selasa", "rabu", "kamis", "jumat", "sabtu"]
-            day_offset = days.index(day_name) if day_name in days else 0
-            start_idx = (day_offset * 6 + i) % len(available)
-            for offset in range(len(available)):
-                candidate = available[(start_idx + offset) % len(available)]
-                if candidate.name not in used:
-                    best_img = candidate
-                    break
-                    
-        if best_img:
-            used.add(best_img.name)
-            selected.append(best_img)
-            
-    while len(selected) < num_scenes:
-        for img in available:
-            if img not in selected:
-                selected.append(img)
-                break
+    # Strict Enforcement: Explicit scene_images is mandatory
+    scene_images = packet.get("scene_images")
+    if not scene_images or not isinstance(scene_images, list) or len(scene_images) == 0:
+        raise ValueError(
+            f"CRITICAL: Explicit 'scene_images' is required in packet '{packet.get('title')}'. "
+            "Automated heuristic guessing is strictly forbidden to prevent visual desync."
+        )
+
+    explicit_imgs = []
+    for item in scene_images:
+        p = images_dir / item
+        if p.exists():
+            explicit_imgs.append(p)
+            continue
+        item_clean = item.lower().replace("…", "").replace(".jpg", "").strip()
+        tokens = [t for t in item_clean.split("_") if t and not t.isdigit() and len(t) > 2]
+        best_match = None
+        best_score = 0
+        for f in available:
+            fn_lower = f.name.lower()
+            matched_tokens = sum(1 for t in tokens if t in fn_lower)
+            if matched_tokens > best_score:
+                best_score = matched_tokens
+                best_match = f
+        if best_match:
+            explicit_imgs.append(best_match)
         else:
-            selected.append(available[0])
+            raise FileNotFoundError(
+                f"Declared scene image '{item}' not found in {images_dir} for packet '{packet.get('title')}'"
+            )
             
-    return selected
+    while len(explicit_imgs) < num_scenes:
+        explicit_imgs.append(explicit_imgs[-1])
+    return explicit_imgs[:num_scenes]
 
 def run_daily_pipeline(target_day: str | None = None, target_week: int | None = None, dry_run: bool = False):
     import datetime
