@@ -20,13 +20,17 @@ def get_env_var(name: str, default: str = "") -> str:
     val = os.environ.get(name)
     if val:
         return val.strip()
-    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
-    if os.path.exists(env_path):
-        with open(env_path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith(f"{name}="):
-                    return line.split("=", 1)[1].strip()
+    candidate_paths = [
+        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env"),
+        os.path.join("C:/Users/K4G3/social-fleet-assets/nash/NASH-02_nash_taktik_sejarah", ".env")
+    ]
+    for env_path in candidate_paths:
+        if os.path.exists(env_path):
+            with open(env_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith(f"{name}="):
+                        return line.split("=", 1)[1].strip()
     return default
 
 def get_yt_access_token() -> str:
