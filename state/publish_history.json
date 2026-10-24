@@ -1177,5 +1177,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 4,
+    "short_number": 6,
+    "day": "Sabtu",
+    "title": "Logika Strategi: Tak Ada Benteng Kebal Jika Kamu Mengubah Lanskapnya",
+    "images_used": [
+      "Workers_constructing_causeway_un\u2026_20261003172713.jpg",
+      "Siege_towers_at_Tyre_causeway_20261003143144.jpg",
+      "Naval_armada_converging_on_Tyre_20261003143144.jpg",
+      "Soldiers_storming_breach_at_Tyre_20261003143143.jpg",
+      "Alexander_viewing_island_fortress_20261003143144.jpg"
+    ],
+    "published_at": "2026-10-24 02:02:04",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "jL16ErYXm8A",
+        "url": "https://youtube.com/shorts/jL16ErYXm8A"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6adc118ff449e327aa6dc2aa",
+        "platforms": [
+          {
+            "_id": "6adc118ff449e327aa6dc2a8",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=3b51b65a&x-expires=1792911600&x-signature=l%2FzW9vX4hAjW4gnSxm4YcYGZup8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-24T02:01:50.620Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7700048603692255253"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-24T02:02:03.084Z",
+            "platformPostId": "v_pub_url~v2.7700048603692255253",
+            "publishAttempts": 1,
+            "contentHash": "f648d622fc7c752267654a38fa82f648"
+          },
+          {
+            "_id": "6adc118ff449e327aa6dc2a9",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=qCdMO6pDtgoQ7kNvwFAWVmP&_nc_oc=AdqKHT-XjFEUe4z2CE_I_KAG2AgtLcbp86sCqtrmRt56egfxbbdVAqwAUBHwUaXOhUs&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=6YZY7P30Qz4VyPzAismDAw&_nc_tpa=Q5bMBQKsDJxKhQi4cuazrdZiolwNEgQ5BTdViKUIz2sPUKJxakXKMNkMZb7yKTfXUaO7wsCKar13ghCsfQ&oh=00_AQOV5ACCcdHi_H2TtIrUalQ9Fqf5BsUq5vAF1bykAgGRdA&oe=6AE0D651",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-24T02:01:50.620Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "922fd29a22aba57213d1fca2894bc1f0"
+          }
+        ]
+      }
+    }
   }
 ]
