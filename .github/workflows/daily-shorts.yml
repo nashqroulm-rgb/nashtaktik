@@ -2,8 +2,8 @@ name: Daily Shorts Autonomous Pipeline
 
 on:
   schedule:
-    # Monday to Saturday at 06:50 WIB (23:50 UTC) - early morning, low GitHub traffic
-    - cron: '50 23 * * 0-5'
+    # Monday to Saturday at 04:30 WIB (21:30 UTC) - Jam tayang subuh serentak
+    - cron: '30 21 * * 0-5'
   workflow_dispatch:
     inputs:
       day:
