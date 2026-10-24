@@ -1,16 +1,16 @@
 {
-  "active_week": 4,
-  "next_short_index": 7,
+  "active_week": 5,
+  "next_short_index": 1,
   "next_short_day": "senin",
   "total_shorts_published": 20,
-  "total_longs_published": 4,
-  "last_updated": "2026-10-24T16:01:48Z",
+  "total_longs_published": 5,
+  "last_updated": "2026-10-24T23:27:40Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
     "week_003": "COMPLETED",
-    "week_004": "ACTIVE_PUBLISHING",
-    "week_005": "PACKAGED_AND_READY",
+    "week_004": "COMPLETED",
+    "week_005": "ACTIVE_PUBLISHING",
     "week_006": "READY"
   },
   "week_002_staging": {
@@ -67,7 +67,7 @@
   },
   "week_004_staging": {
     "battle": "Pengepungan Tyre (332 SM)",
-    "status": "ACTIVE_PUBLISHING",
+    "status": "COMPLETED",
     "long_form": {
       "title": "Ketika Laut Dibelah dengan Batu: Pengepungan Ekstrem Pulau Tyre oleh Aleksander Agung (332 SM)",
       "duration_sec": 502.54,
@@ -93,12 +93,12 @@
   },
   "week_005_staging": {
     "battle": "Pertempuran Danau Trasimene (217 SM)",
-    "status": "READY",
+    "status": "ACTIVE_PUBLISHING",
     "long_form": {
       "title": "Jebakan Kabut Maut Hannibal: Detik-Detik 30.000 Pasukan Romawi Lenyap di Danau Trasimene (217 SM)",
       "duration_sec": 579.27,
       "beats": 48,
-      "status": "STAGED_IN_RELEASE",
+      "status": "PUBLISHED",
       "release_tag": "v-week-005-long",
       "asset_name": "NASH02_Week005_Trasimene_Master.mp4"
     },
