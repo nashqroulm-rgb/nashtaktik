@@ -1,10 +1,10 @@
 {
   "active_week": 5,
-  "next_short_index": 1,
-  "next_short_day": "senin",
-  "total_shorts_published": 20,
+  "next_short_index": 2,
+  "next_short_day": "selasa",
+  "total_shorts_published": 21,
   "total_longs_published": 5,
-  "last_updated": "2026-10-24T23:27:40Z",
+  "last_updated": "2026-10-25T23:28:28Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -190,5 +190,12 @@
     "Soldiers_storming_breach_at_Tyre_20261003143143.jpg",
     "Soldiers_viewing_destroyed_causeway_20261003143143.jpg",
     "Workers_constructing_causeway_un\u2026_20261003172713.jpg"
+  ],
+  "used_images_week_005": [
+    "Bronze_helmet_in_lake_mud_20261004210851.jpg",
+    "Roman_Consul_viewing_legionaries\u2026_20261004210851.jpg",
+    "Roman_legionaries_marching_in_mist_20261004210846.jpg",
+    "Roman_legionary_ranks_marching_road_20261004210851.jpg",
+    "Scout_viewing_Lake_Trasimene_defile_20261004210852.jpg"
   ]
 }

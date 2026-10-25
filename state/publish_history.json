@@ -1319,5 +1319,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 5,
+    "short_number": 1,
+    "day": "Senin",
+    "title": "Arogansi Flaminius Mengabaikan Pengintaian Masuk Defile Maut",
+    "images_used": [
+      "Roman_Consul_viewing_legionaries\u2026_20261004210851.jpg",
+      "Roman_legionary_ranks_marching_road_20261004210851.jpg",
+      "Scout_viewing_Lake_Trasimene_defile_20261004210852.jpg",
+      "Roman_legionaries_marching_in_mist_20261004210846.jpg",
+      "Bronze_helmet_in_lake_mud_20261004210851.jpg",
+      "Bronze_helmet_in_lake_mud_20261004210851.jpg"
+    ],
+    "published_at": "2026-10-25 23:28:28",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "2goD4_9uPDA",
+        "url": "https://youtube.com/shorts/2goD4_9uPDA"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ade9093e0ca85b1d0cbecd7",
+        "platforms": [
+          {
+            "_id": "6ade9093e0ca85b1d0cbecd5",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=4b1cb6b3&x-expires=1793080800&x-signature=jt%2BUXm%2FV8E7ilgd8qV5dp7%2BgSD4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-25T23:28:19.425Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7700750858896902164"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-25T23:28:26.793Z",
+            "platformPostId": "v_pub_url~v2.7700750858896902164",
+            "publishAttempts": 1,
+            "contentHash": "264418059cc00508f79bc552cfb87d50"
+          },
+          {
+            "_id": "6ade9093e0ca85b1d0cbecd6",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=9HPmwlURt4IQ7kNvwEspye0&_nc_oc=AdoWN3sXtDB3Uc91NELgbvSXnbd17pPdc_B-DJzh23A4sMPrlIJ01xDrAEVgbSJC_1w&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=vF2cN1kTrGSgFyW1b7ANog&_nc_tpa=Q5bMBQJISOYMhUUK-iR5-4VPN2HhNSTmbb25aeU5xLEtvtQbyAgM_TeZaQSBFZAZV-LJI2ttJhH6QEK2Qg&oh=00_AQN4xLOMh0xSWybdbNMXl341unxu3-oMcYfhsQ-vMd5wpA&oe=6AE37951",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-25T23:28:19.425Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "a0b2f906c8fa08248c187d80fa80856e"
+          }
+        ]
+      }
+    }
   }
 ]
