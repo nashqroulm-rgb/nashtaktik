@@ -1391,5 +1391,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 5,
+    "short_number": 2,
+    "day": "Selasa",
+    "title": "Jebakan Kabut Tebal: Serangan Serentak Empat Sayap Hannibal",
+    "images_used": [
+      "Sun_rising_over_Lake_Trasimene_20261004210845.jpg",
+      "Roman_legionaries_marching_in_mist_20261004210846.jpg",
+      "Slingers_preparing_ambush_on_mou\u2026_20261004210849.jpg",
+      "Warrior_blowing_bronze_war_trumpet_20261004210846.jpg",
+      "Warriors_charging_down_grassy_slope_20261004210842.jpg",
+      "Warriors_charging_down_grassy_slope_20261004210842.jpg"
+    ],
+    "published_at": "2026-10-27 00:42:06",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "PhK2dVBCiWE",
+        "url": "https://youtube.com/shorts/PhK2dVBCiWE"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6adff3533d9ba5c8a695c36f",
+        "platforms": [
+          {
+            "_id": "6adff3533d9ba5c8a695c36d",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=ebf1f286&x-expires=1793167200&x-signature=2iRFuSqLuKLsqU4TTDlWnlMf6Ws%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-27T00:41:55.139Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7701141069656147969"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-27T00:42:05.675Z",
+            "platformPostId": "v_pub_url~v2.7701141069656147969",
+            "publishAttempts": 1,
+            "contentHash": "672d6cffedcbcbd97bde63df2c87698b"
+          },
+          {
+            "_id": "6adff3533d9ba5c8a695c36e",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=9HPmwlURt4IQ7kNvwEfgBu4&_nc_oc=AdoSrYNvX_XVKCR4pBjXSyGh84geIBWUzqyPdYULmm7FS55E2P1HUfWJ2XsZvXL94gI&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=3BIon5ogP4yVGN_Yn_WtZw&_nc_tpa=Q5bMBQIRqIqQ9BmGiGuq9WHDO38M1M0nbUwbzFOPGU4JT8QEdRZxd9czrtopjK7MWe4L5aWAyuGfwSkz3A&oh=00_AQOcAIlbDMff47lJxjlxdStLM6lBwzqZySIcn1XVrG0wzg&oe=6AE4CAD1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-27T00:41:55.139Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "b218abe490e242761d31bd80820de167"
+          }
+        ]
+      }
+    }
   }
 ]
