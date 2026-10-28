@@ -1463,5 +1463,78 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 5,
+    "short_number": 3,
+    "day": "Rabu",
+    "title": "Pembantaian di Tepi Danau: Detik-Detik 15.000 Prajurit Romawi Tenggelam",
+    "images_used": [
+      "Roman_legionaries_retreating_at_\u2026_20261004210851.jpg",
+      "Scout_viewing_Lake_Trasimene_defile_20261004210852.jpg",
+      "Roman_legionaries_retreating_at_\u2026_20261004210851.jpg",
+      "Chieftain_galloping_toward_Roman\u2026_20261004210843.jpg",
+      "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg",
+      "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg",
+      "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg"
+    ],
+    "published_at": "2026-10-28 00:40:44",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "1WjmDDgSk78",
+        "url": "https://youtube.com/shorts/1WjmDDgSk78"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ae144840cc9d8eb3d6ec782",
+        "platforms": [
+          {
+            "_id": "6ae144840cc9d8eb3d6ec780",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=1f146b6e&x-expires=1793253600&x-signature=WlfiU8UoKQTXv1Axh2cTxHu%2BxLE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-28T00:40:35.961Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7701511679695357958"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-28T00:40:43.462Z",
+            "platformPostId": "v_pub_url~v2.7701511679695357958",
+            "publishAttempts": 1,
+            "contentHash": "fdcc15b875e92e32560b215602005418"
+          },
+          {
+            "_id": "6ae144840cc9d8eb3d6ec781",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=EQ_ElZo1vyYQ7kNvwElY_Cm&_nc_oc=AdrbAaaRekg0cPh13J0j8HLYWrpbf-NjATLv4SbUziHRT0a_H4qKvoozkBrmMX8ras0&_nc_zt=24&_nc_ht=scontent-mad1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=WZeXFK_y4lz1f6RrpgfCjw&_nc_tpa=Q5bMBQL2dpi6nox63dT99FGZZyXcqABFsTjX9HZsHbee5khT8Sh_EVspQvkWhU8SbXQ9IVA-5A475AYDMA&oh=00_AQOxVkTfsxs1otRu34AdHE1s8a6fYASjtFZPpwnfYtExfQ&oe=6AE61C51",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-28T00:40:35.961Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "a6ce698c49018f4e6b2ad885ba11cedd"
+          }
+        ]
+      }
+    }
   }
 ]
