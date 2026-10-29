@@ -1536,5 +1536,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 5,
+    "short_number": 4,
+    "day": "Kamis",
+    "title": "Falcata Iberia & Umban Balearik: Senjata Asimetris Penembus Zirah Scutum",
+    "images_used": [
+      "Veteran_striking_Roman_shield_20261004210842.jpg",
+      "Slingers_preparing_ambush_on_mou\u2026_20261004210849.jpg",
+      "Iberian_infantrymen_standing_in_\u2026_20261004210843.jpg",
+      "Veteran_striking_Roman_shield_20261004210842.jpg",
+      "Warriors_advancing_through_Tusca\u2026_20261004210851.jpg"
+    ],
+    "published_at": "2026-10-29 01:09:46",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "SUeVkcQi65c",
+        "url": "https://youtube.com/shorts/SUeVkcQi65c"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ae29cd16684055dcc42c3a8",
+        "platforms": [
+          {
+            "_id": "6ae29cd16684055dcc42c3a6",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=6d7e67b2&x-expires=1793340000&x-signature=%2B8TQU6sQt3vu025EzfNyVnSw77U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-29T01:09:36.721Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7701890046244276245"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-29T01:09:45.259Z",
+            "platformPostId": "v_pub_url~v2.7701890046244276245",
+            "publishAttempts": 1,
+            "contentHash": "13be738a73eda5596b747454f1d4f18c"
+          },
+          {
+            "_id": "6ae29cd16684055dcc42c3a7",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=EQ_ElZo1vyYQ7kNvwEnQOhf&_nc_oc=Adpn_O7_jKfpv6wxebP98ypOhHCStLvIurHXaavtEAxbDCnpPmVEq0Xa9crt5HSiVVw&_nc_zt=24&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=kcFDg-HWfP5jcjujfsybVQ&_nc_tpa=Q5bMBQLwmrKCSjpBMwN3E2exc1BKchP2jm98rvOlV677RwkR_oelSA1_qL-Fc8ldVW1Qjrm49ZFCJ1-ZPA&oh=00_AQTaDEfdZYZ7SxIzcHBs45GeZ9P8y18QFbUhy-r42CYmAg&oe=6AE76DD1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-29T01:09:36.721Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "f413cde22067f664bf9dc24b34b9f1ff"
+          }
+        ]
+      }
+    }
   }
 ]

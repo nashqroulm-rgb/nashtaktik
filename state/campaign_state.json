@@ -1,10 +1,10 @@
 {
   "active_week": 5,
-  "next_short_index": 4,
-  "next_short_day": "kamis",
-  "total_shorts_published": 23,
+  "next_short_index": 5,
+  "next_short_day": "jumat",
+  "total_shorts_published": 24,
   "total_longs_published": 5,
-  "last_updated": "2026-10-28T00:40:44Z",
+  "last_updated": "2026-10-29T01:09:46Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -194,6 +194,7 @@
   "used_images_week_005": [
     "Bronze_helmet_in_lake_mud_20261004210851.jpg",
     "Chieftain_galloping_toward_Roman\u2026_20261004210843.jpg",
+    "Iberian_infantrymen_standing_in_\u2026_20261004210843.jpg",
     "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg",
     "Roman_Consul_viewing_legionaries\u2026_20261004210851.jpg",
     "Roman_legionaries_marching_in_mist_20261004210846.jpg",
@@ -202,7 +203,9 @@
     "Scout_viewing_Lake_Trasimene_defile_20261004210852.jpg",
     "Slingers_preparing_ambush_on_mou\u2026_20261004210849.jpg",
     "Sun_rising_over_Lake_Trasimene_20261004210845.jpg",
+    "Veteran_striking_Roman_shield_20261004210842.jpg",
     "Warrior_blowing_bronze_war_trumpet_20261004210846.jpg",
+    "Warriors_advancing_through_Tusca\u2026_20261004210851.jpg",
     "Warriors_charging_down_grassy_slope_20261004210842.jpg"
   ]
 }
