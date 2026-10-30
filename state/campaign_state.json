@@ -1,10 +1,10 @@
 {
   "active_week": 5,
-  "next_short_index": 5,
-  "next_short_day": "jumat",
-  "total_shorts_published": 24,
+  "next_short_index": 6,
+  "next_short_day": "sabtu",
+  "total_shorts_published": 25,
   "total_longs_published": 5,
-  "last_updated": "2026-10-29T01:09:46Z",
+  "last_updated": "2026-10-30T01:16:33Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -194,8 +194,11 @@
   "used_images_week_005": [
     "Bronze_helmet_in_lake_mud_20261004210851.jpg",
     "Chieftain_galloping_toward_Roman\u2026_20261004210843.jpg",
+    "General_Hannibal_overlooking_Etr\u2026_20261004210851.jpg",
+    "Hannibal_convening_war_council_20261004210850.jpg",
     "Iberian_infantrymen_standing_in_\u2026_20261004210843.jpg",
     "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg",
+    "Raiders_burning_Etruscan_wheat_g\u2026_20261004210851.jpg",
     "Roman_Consul_viewing_legionaries\u2026_20261004210851.jpg",
     "Roman_legionaries_marching_in_mist_20261004210846.jpg",
     "Roman_legionaries_retreating_at_\u2026_20261004210851.jpg",

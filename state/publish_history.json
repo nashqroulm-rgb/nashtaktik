@@ -1607,5 +1607,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 5,
+    "short_number": 5,
+    "day": "Jumat",
+    "title": "Taktik Bumi Hangus: Memancing Amarah dan Gengsi Pribadi Konsul Romawi",
+    "images_used": [
+      "General_Hannibal_overlooking_Etr\u2026_20261004210851.jpg",
+      "Raiders_burning_Etruscan_wheat_g\u2026_20261004210851.jpg",
+      "Roman_Consul_viewing_legionaries\u2026_20261004210851.jpg",
+      "Roman_legionary_ranks_marching_road_20261004210851.jpg",
+      "Hannibal_convening_war_council_20261004210850.jpg",
+      "Hannibal_convening_war_council_20261004210850.jpg"
+    ],
+    "published_at": "2026-10-30 01:16:33",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "Fn5oMW4jL18",
+        "url": "https://youtube.com/shorts/Fn5oMW4jL18"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ae3efe9af562cdada79c01f",
+        "platforms": [
+          {
+            "_id": "6ae3efe9af562cdada79c01d",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=6e112e76&x-expires=1793426400&x-signature=vz6dVcroD0AZhQjlx78DbrGSZN8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my3",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-30T01:16:24.636Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7702263232154290196"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-30T01:16:32.548Z",
+            "platformPostId": "v_pub_url~v2.7702263232154290196",
+            "publishAttempts": 1,
+            "contentHash": "a084f1ac796a67aa49153f6bfd350d8a"
+          },
+          {
+            "_id": "6ae3efe9af562cdada79c01e",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=EQ_ElZo1vyYQ7kNvwFUDFmG&_nc_oc=AdrkDHqcVlln0JRAshHgDY7VbsHMHL0FhRVztHwcvXNzT8pLSgxTwFpPXIyBOQxFQVE&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Chlgi0b5d0MI1FceyIDYQA&_nc_tpa=Q5bMBQIbaCsFhuF_Tf7jyKop2L1p2n_oPW-NWu7U11bxF2loDUTAwRtORizfNrWnOiEt9RVph-J_Ls4NHQ&oh=00_AQRAbtCY_WVsH6MJogLYB4oLXlXjt1wVxza2IRMkwQcCfw&oe=6AE8BF51",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-30T01:16:24.636Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "c69a1f45c23f68a7c7b4501d72c62e39"
+          }
+        ]
+      }
+    }
   }
 ]
