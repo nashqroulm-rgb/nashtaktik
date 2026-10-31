@@ -1679,5 +1679,78 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 5,
+    "short_number": 6,
+    "day": "Sabtu",
+    "title": "Filosofi Hannibal: Taklukkan Pikiran Musuh Sebelum Mengayunkan Pedang",
+    "images_used": [
+      "General_Hannibal_overlooking_Etr\u2026_20261004210851.jpg",
+      "Hannibal_convening_war_council_20261004210850.jpg",
+      "Sun_rising_over_Lake_Trasimene_20261004210845.jpg",
+      "Warriors_advancing_through_Tusca\u2026_20261004210851.jpg",
+      "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg",
+      "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg",
+      "Lake_Trasimene_shoreline_after_b\u2026_20261004210844.jpg"
+    ],
+    "published_at": "2026-10-31 00:58:13",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "4PgNwRjrVew",
+        "url": "https://youtube.com/shorts/4PgNwRjrVew"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ae53d1ebf3909cbd852e081",
+        "platforms": [
+          {
+            "_id": "6ae53d1ebf3909cbd852e07f",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=9a44231f&x-expires=1793512800&x-signature=n4KnfVtSLwa3YWyqhSy%2BAbaR4Iw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-31T00:58:05.340Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7702625853896837121"
+            },
+            "status": "published",
+            "publishedAt": "2026-10-31T00:58:13.093Z",
+            "platformPostId": "v_pub_url~v2.7702625853896837121",
+            "publishAttempts": 1,
+            "contentHash": "1fe3477dd14e4171efb7ca1e6936c5bb"
+          },
+          {
+            "_id": "6ae53d1ebf3909cbd852e080",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pX399dH-ic8Q7kNvwErpmNN&_nc_oc=Adpp3SCOPFhVyfMdAsd-Tfk0_g2gq6OeAub2VZM0ohsF7b2kbRPRLp3cm51s6yr0FnM&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=sex4Z1s2KgmrMwPAiDOtFw&_nc_tpa=Q5bMBQIhZI2L569seX4xixfNBZ3Jb8JDYYnUEwBvufHHMN_NFVlzyzReF4ubLg1wiChTr-dfFxWsIvFBAQ&oh=00_AQTWIthglM8U9cxBfnoT6576GiB5qnkQaMDmVVRxLNanxA&oe=6AEA10D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-10-31T00:58:05.340Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "6778d6d86e5e2356f5269c8aa8a98201"
+          }
+        ]
+      }
+    }
   }
 ]
