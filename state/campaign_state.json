@@ -1,17 +1,17 @@
 {
-  "active_week": 5,
-  "next_short_index": 7,
+  "active_week": 6,
+  "next_short_index": 1,
   "next_short_day": "senin",
   "total_shorts_published": 26,
-  "total_longs_published": 5,
-  "last_updated": "2026-10-31T00:58:13Z",
+  "total_longs_published": 6,
+  "last_updated": "2026-11-01T00:16:34Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
     "week_003": "COMPLETED",
     "week_004": "COMPLETED",
-    "week_005": "ACTIVE_PUBLISHING",
-    "week_006": "READY"
+    "week_005": "COMPLETED",
+    "week_006": "ACTIVE_PUBLISHING"
   },
   "week_002_staging": {
     "battle": "Pertempuran Leuctra (371 SM)",
@@ -93,7 +93,7 @@
   },
   "week_005_staging": {
     "battle": "Pertempuran Danau Trasimene (217 SM)",
-    "status": "ACTIVE_PUBLISHING",
+    "status": "COMPLETED",
     "long_form": {
       "title": "Jebakan Kabut Maut Hannibal: Detik-Detik 30.000 Pasukan Romawi Lenyap di Danau Trasimene (217 SM)",
       "duration_sec": 579.27,
@@ -119,12 +119,12 @@
   },
   "week_006_staging": {
     "battle": "Pertempuran Cannae (216 SM)",
-    "status": "READY",
+    "status": "ACTIVE_PUBLISHING",
     "long_form": {
       "title": "Jebakan Sabit Hannibal: Detik-Detik 86.000 Pasukan Romawi Lenyap di Cannae (216 SM)",
       "duration_sec": 492.85,
       "beats": 48,
-      "status": "STAGED_IN_RELEASE",
+      "status": "PUBLISHED",
       "release_tag": "v-week-006-long",
       "asset_name": "NASH02_Week006_Cannae_Master.mp4"
     },
