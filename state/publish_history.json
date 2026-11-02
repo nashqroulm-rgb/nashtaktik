@@ -1752,5 +1752,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 6,
+    "short_number": 1,
+    "day": "Senin",
+    "title": "Arogansi Dorongan Massa: Formasi Terlalu Dalam Konsul Terentius Varro",
+    "images_used": [
+      "Roman_commanders_viewing_army_camp_20261013210601.jpg",
+      "Roman_army_marching_on_road_20261013210601.jpg",
+      "Roman_legionary_ranks_advancing_20261013210601.jpg",
+      "Roman_legionaries_surging_forward_20261013210601.jpg",
+      "Battle_lines_of_Cannae_20261013210601.jpg",
+      "Commanders_standing_before_advan\u2026_20261013210601.jpg"
+    ],
+    "published_at": "2026-11-02 00:58:59",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "RQryQrMAZuY",
+        "url": "https://youtube.com/shorts/RQryQrMAZuY"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6ae7e04b0e3050d267426ab5",
+        "platforms": [
+          {
+            "_id": "6ae7e04b0e3050d267426ab3",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=fe87b3dc&x-expires=1793685600&x-signature=eq1Zr2jo4ComxRdYgvUM2dpIuik%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-02T00:58:51.017Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7703371573167900693"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-02T00:58:58.585Z",
+            "platformPostId": "v_pub_url~v2.7703371573167900693",
+            "publishAttempts": 1,
+            "contentHash": "5ca4b48bd106a6e9e1926b7fb2f63604"
+          },
+          {
+            "_id": "6ae7e04b0e3050d267426ab4",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=pX399dH-ic8Q7kNvwErpmNN&_nc_oc=Adpp3SCOPFhVyfMdAsd-Tfk0_g2gq6OeAub2VZM0ohsF7b2kbRPRLp3cm51s6yr0FnM&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=5hZ9iwrTR6XV8oxWVJmcHw&_nc_tpa=Q5bMBQJ4JqbvHP5N6VEBtMWRXCOje7e4v3JsXfikMk6fUeKjApMzirkHF-stCQ_NMcjIXzOVcvSq-qWwEQ&oh=00_AQSq9dbYFXgmNJTpNgbPd-NY9nK_LSfUhvh3EssKhPAtGg&oe=6AECB3D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-02T00:58:51.017Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "56781931b119a3103e3f85b78e18e6e5"
+          }
+        ]
+      }
+    }
   }
 ]

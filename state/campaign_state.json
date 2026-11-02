@@ -1,10 +1,10 @@
 {
   "active_week": 6,
-  "next_short_index": 1,
-  "next_short_day": "senin",
-  "total_shorts_published": 26,
+  "next_short_index": 2,
+  "next_short_day": "selasa",
+  "total_shorts_published": 27,
   "total_longs_published": 6,
-  "last_updated": "2026-11-01T00:16:34Z",
+  "last_updated": "2026-11-02T00:58:59Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -210,5 +210,13 @@
     "Warrior_blowing_bronze_war_trumpet_20261004210846.jpg",
     "Warriors_advancing_through_Tusca\u2026_20261004210851.jpg",
     "Warriors_charging_down_grassy_slope_20261004210842.jpg"
+  ],
+  "used_images_week_006": [
+    "Battle_lines_of_Cannae_20261013210601.jpg",
+    "Commanders_standing_before_advan\u2026_20261013210601.jpg",
+    "Roman_army_marching_on_road_20261013210601.jpg",
+    "Roman_commanders_viewing_army_camp_20261013210601.jpg",
+    "Roman_legionaries_surging_forward_20261013210601.jpg",
+    "Roman_legionary_ranks_advancing_20261013210601.jpg"
   ]
 }
