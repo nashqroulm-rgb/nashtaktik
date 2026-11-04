@@ -1896,5 +1896,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 6,
+    "short_number": 3,
+    "day": "Rabu",
+    "title": "Pembantaian 70.000 Prajurit dalam 6 Jam: Detik-Detik Gugurnya Konsul Paullus",
+    "images_used": [
+      "Battle_lines_of_Cannae_20261013210601.jpg",
+      "Roman_soldiers_clashing_with_shi\u2026_20261013210601.jpg",
+      "Infantry_attacking_Roman_flanks_20261013210601.jpg",
+      "Wounded_consul_sitting_on_battle\u2026_20261013211149.jpg",
+      "Roman_citizens_gazing_at_couriers_20261013210601.jpg",
+      "Senators_viewing_Roman_Forum_20261013211210.jpg"
+    ],
+    "published_at": "2026-11-04 01:35:07",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "px0faojXfcE",
+        "url": "https://youtube.com/shorts/px0faojXfcE"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6aea8bc27f933f8e36fbaa0b",
+        "platforms": [
+          {
+            "_id": "6aea8bc27f933f8e36fbaa09",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=0a97ed06&x-expires=1793858400&x-signature=38eBE2%2BcbcnvRZGQHioTYdUxuAw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-04T01:34:58.330Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7704123285097072661"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-04T01:35:06.409Z",
+            "platformPostId": "v_pub_url~v2.7704123285097072661",
+            "publishAttempts": 1,
+            "contentHash": "58a68ece266a45731ba669831ba979b7"
+          },
+          {
+            "_id": "6aea8bc27f933f8e36fbaa0a",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mrs2-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Tyd1FmQBl5sQ7kNvwF-b1HT&_nc_oc=AdpmdLjAdJjH-SAelruiylJDQfJ9VqDPJ3O1WlUs7HrityIXMijMWG5X266Ze2vEXuc&_nc_zt=24&_nc_ht=scontent-mrs2-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=Sh4fU-MaxQFlxA1V3jufhA&_nc_tpa=Q5bMBQKRTwedaNwA7GMIRjbxO-ZXxNnCStBSENUiOX8s_oQv09VizvS5gpxXSUF4RWCoJIi7Uc8bxQblGw&oh=00_AQQOCwr7lBSBt0tPDvsRxYcKOV98SEMjpoEnHSnLwIjqTw&oe=6AEF56D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-04T01:34:58.330Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "17c0d9feaa929f58022028b3b93bcfb6"
+          }
+        ]
+      }
+    }
   }
 ]
