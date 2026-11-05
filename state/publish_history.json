@@ -1968,5 +1968,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 6,
+    "short_number": 4,
+    "day": "Kamis",
+    "title": "Kavaleri Hasdrubal vs Paullus: Kunci Pembuka Kepungan Ganda di Tepi Sungai",
+    "images_used": [
+      "Cavalry_galloping_along_riverbank_20261013210601.jpg",
+      "Cavalry_charging_Roman_army_20261013210601.jpg",
+      "Roman_cavalrymen_lining_river_banks_20261013210601.jpg",
+      "Cavalrymen_galloping_in_circles_20261013210601.jpg",
+      "Battle_lines_of_Cannae_20261013210601.jpg"
+    ],
+    "published_at": "2026-11-05 01:40:44",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "HP1-8laSPRs",
+        "url": "https://youtube.com/shorts/HP1-8laSPRs"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6aebde907626a4243782338e",
+        "platforms": [
+          {
+            "_id": "6aebde907626a4243782338c",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=94d24301&x-expires=1793948400&x-signature=OYrD9Ycf89O%2B0Mo0NhfQbWWISK0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-05T01:40:31.141Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7704496258303412225"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-05T01:40:44.101Z",
+            "platformPostId": "v_pub_url~v2.7704496258303412225",
+            "publishAttempts": 1,
+            "contentHash": "83947bc79607c226b8f97c4db09bb133"
+          },
+          {
+            "_id": "6aebde907626a4243782338d",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=Tyd1FmQBl5sQ7kNvwG1glri&_nc_oc=AdrtDD53aEQnOPq0OABtUfUjFyKZgk6Bc13hCmxlWxp5t-lagZnCSxqGEdQzfFubeNo&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=1w3xC9uKGRkR5uieFxjPLg&_nc_tpa=Q5bMBQL6jHgGkloeNL2h1tj15g37p1vZ2DJRskt67vKI7MMqGq9o_Dmv23vGvD73W4n9Cs-cCd2uzehKzg&oh=00_AQSaVEv9w_jXPCGRX8SRQG64eeBSvY_nPTOAvUsyB_kMZg&oe=6AF0A851",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-05T01:40:31.141Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "7751e08613f253061391f857ff4524f4"
+          }
+        ]
+      }
+    }
   }
 ]
