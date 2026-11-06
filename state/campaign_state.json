@@ -1,10 +1,10 @@
 {
   "active_week": 6,
-  "next_short_index": 5,
-  "next_short_day": "jumat",
-  "total_shorts_published": 30,
+  "next_short_index": 6,
+  "next_short_day": "sabtu",
+  "total_shorts_published": 31,
   "total_longs_published": 6,
-  "last_updated": "2026-11-05T01:40:44Z",
+  "last_updated": "2026-11-06T02:14:52Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -213,6 +213,7 @@
   ],
   "used_images_week_006": [
     "Battle_lines_of_Cannae_20261013210601.jpg",
+    "Carthaginian_sentries_standing_o\u2026_20261013210601.jpg",
     "Cavalry_charging_Roman_army_20261013210601.jpg",
     "Cavalry_galloping_along_riverbank_20261013210601.jpg",
     "Cavalrymen_galloping_in_circles_20261013210601.jpg",
@@ -225,6 +226,7 @@
     "Roman_cavalrymen_lining_river_banks_20261013210601.jpg",
     "Roman_citizens_gazing_at_couriers_20261013210601.jpg",
     "Roman_commanders_viewing_army_camp_20261013210601.jpg",
+    "Roman_legionaries_raising_shield\u2026_20261013210601.jpg",
     "Roman_legionaries_surging_forward_20261013210601.jpg",
     "Roman_legionary_ranks_advancing_20261013210601.jpg",
     "Roman_soldiers_clashing_with_shi\u2026_20261013210601.jpg",

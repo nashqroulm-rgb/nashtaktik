@@ -2039,5 +2039,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 6,
+    "short_number": 5,
+    "day": "Jumat",
+    "title": "Angin Debu Volturnus & Ilusi Kemenangan Semu yang Menghanyutkan Romawi",
+    "images_used": [
+      "Battle_lines_of_Cannae_20261013210601.jpg",
+      "Roman_legionaries_raising_shield\u2026_20261013210601.jpg",
+      "Warriors_executing_backward_figh\u2026_20261013210601.jpg",
+      "Roman_legionaries_surging_forward_20261013210601.jpg",
+      "Carthaginian_sentries_standing_o\u2026_20261013210601.jpg"
+    ],
+    "published_at": "2026-11-06 02:14:52",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "tRtLcDlW_1U",
+        "url": "https://youtube.com/shorts/tRtLcDlW_1U"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6aed381028621902d19a72d5",
+        "platforms": [
+          {
+            "_id": "6aed381028621902d19a72d3",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=39b319cc&x-expires=1794031200&x-signature=o8XdtVl%2Bv%2BhqvqC9y5WXvfnW7hM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-06T02:14:39.398Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7704875854442072072"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-06T02:14:52.201Z",
+            "platformPostId": "v_pub_url~v2.7704875854442072072",
+            "publishAttempts": 1,
+            "contentHash": "48c214076c248dda724b84535c4fb6f3"
+          },
+          {
+            "_id": "6aed381028621902d19a72d4",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=F3K3MZGs-UUQ7kNvwHnqiNG&_nc_oc=Adp6u1gewlJMHOZkkCzySw-HzHYZpMLY2zKLWN7Ew4pptF7PDhcFgFqHdv2bKfrUh1g&_nc_zt=24&_nc_ht=scontent-cdg6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=a_HWT-Ya1EsXRyLkwa8yEQ&_nc_tpa=Q5bMBQKGWVCBhHqYwAJxPGPPScbxnFSIBTFMhs6GEIYtOiO1U8e7Nqv4tDguQodY4Cr1biaJgJMfRoU3Pw&oh=00_AQSIkY2Ckj2SNHtb-UL92Xzi4U3TvndxA5L49s8ta1MziQ&oe=6AF1F9D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-06T02:14:39.398Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "988da00af60fb7d74d1f74aafb6bced2"
+          }
+        ]
+      }
+    }
   }
 ]
