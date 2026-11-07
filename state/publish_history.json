@@ -2110,5 +2110,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 6,
+    "short_number": 6,
+    "day": "Sabtu",
+    "title": "Prinsip Hannibal: Kemenangan Sejati Diraih dengan Mengendalikan Momentum Musuh",
+    "images_used": [
+      "General_Hannibal_overseeing_capt\u2026_20261013210601.jpg",
+      "Battle_lines_of_Cannae_20261013210601.jpg",
+      "Celtic_and_Iberian_infantry_stan\u2026_20261013210601.jpg",
+      "Infantry_attacking_Roman_flanks_20261013210601.jpg",
+      "Commanders_standing_before_advan\u2026_20261013210601.jpg"
+    ],
+    "published_at": "2026-11-07 01:03:37",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "d4RnNmUYwyk",
+        "url": "https://youtube.com/shorts/d4RnNmUYwyk"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6aee78dce7a175e681b7c2cd",
+        "platforms": [
+          {
+            "_id": "6aee78dce7a175e681b7c2cb",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=07c109f4&x-expires=1794121200&x-signature=iZjflsDqQTgHrzPDwcRA9RqIyPU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-07T01:03:23.539Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7705228652505614337"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-07T01:03:36.427Z",
+            "platformPostId": "v_pub_url~v2.7705228652505614337",
+            "publishAttempts": 1,
+            "contentHash": "b894f89aaa25a7344f896e7aa0c257b8"
+          },
+          {
+            "_id": "6aee78dce7a175e681b7c2cc",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-waw2-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=F3K3MZGs-UUQ7kNvwGuqLmK&_nc_oc=Adp-aF7Qf2heROIbPDYAA8WlGim5kuJbLpV6IXdiUjBkk4k2Ij9u7r6lIDsgG7e2giM&_nc_zt=24&_nc_ht=scontent-waw2-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=2rwKrQWnTFm52rJggjWozA&_nc_tpa=Q5bMBQLzag4EZtJzMrPD3GNh7xzqzesCYt6l7gYNFg5iBRzAYcDY3ZIC2Mrrdexy8jXOH2iJvYfdVqkX8Q&oh=00_AQT9IyFDxJ_p2wkQrU_Hv9wZ3OE3DQ_b0muT0ErjjV1Icw&oe=6AF34B51",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-07T01:03:23.539Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "d79bfabf042d1336e430e29201e97e23"
+          }
+        ]
+      }
+    }
   }
 ]
