@@ -1,0 +1,20 @@
+{
+  "short_number": 5,
+  "parent_long_form": "Trik Lorong Terbuka Scipio: Menjinakkan 80 Gajah Perang Hannibal di Zama (202 SM)",
+  "channel": "@nashtaktik",
+  "day": "Jumat",
+  "type": "Psychological Warfare",
+  "title": "Pengkhianatan Kavaleri Numidia: Saat Sekutu Terbaik Hannibal Berbalik Membelot",
+  "target_duration_seconds": 50,
+  "spoken_text": "Kunci kemenangan legendaris Hannibal di Danau Trasimene dan Cannae selalu bertumpu pada kehebatan kavaleri ringan Numidia yang lincah. Namun di Zama, Hannibal harus menelan pil paling pahit: seluruh keunggulan kavaleri tersebut telah berpindah tangan ke pihak musuh. Scipio berhasil menjalin aliansi diplomasi brilian dengan Pangeran Masinissa dari Numidia Timur, memboyong enam ribu penunggang kuda padang pasir terbaik ke panji Roma. Tanpa kavaleri pelindung, kedua sayap Hannibal telanjang menghadapi kepungan maut dari belakang. Kemenangan masa lalu sering kali menjadi ilusi jika kamu gagal menjaga pilar yang membangunnya. Jangan pernah anggap remeh kekuatan aliansi yang menopang tahtamu!",
+  "seamless_loop_target": "Kunci kemenangan legendaris Hannibal di Danau Trasimene dan Cannae selalu bertumpu...",
+  "visual_direction": "Atas: Peta geopolitik Numidia dan pergerakan aliansi Masinissa ke kubu Scipio. Bawah: Visual sinematik kavaleri Numidia bersenjata lembing melintasi bukit pasir Afrika.",
+  "scene_images": [
+    "beat_15_hud.jpg",
+    "beat_16.jpg",
+    "beat_30_map.jpg",
+    "beat_31.jpg",
+    "beat_46.jpg"
+  ],
+  "word_count": 95
+}

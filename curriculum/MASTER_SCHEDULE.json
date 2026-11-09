@@ -290,10 +290,923 @@
     },
     {
       "week": 7,
+      "arc": "Arc 2: Perang Punisia & Duel Masterclass Militer",
       "battle": "Pertempuran Zama (202 SM)",
-      "era": "Scipio Africanus vs Hannibal Barca",
-      "long_form_title": "Pertempuran Zama (202 SM): Detik-Detik Runtuhnya Kartago di Tangan Scipio Africanus",
-      "long_form_status": "PLANNED"
+      "commanders": "Scipio Africanus vs Hannibal Barca",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Taktik Formasi Lorong Terbuka Menetralkan 80 Gajah Perang Kartago",
+      "long_form_title": "Bedah Taktik Pertempuran Zama (202 SM): Taktik Formasi Lorong Terbuka Menetralkan 80 Gajah Perang Ka...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "arc": "Arc 2: Perang Punisia & Duel Masterclass Militer",
+      "battle": "Pertempuran Carrhae (53 SM)",
+      "commanders": "Surena (Parthia) vs Marcus Licinius Crassus (Romawi)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Kavaleri Panah Berkuda Komposit Membantai Legiun Baja Romawi di Gurun Terbuka",
+      "long_form_title": "Bedah Taktik Pertempuran Carrhae (53 SM): Kavaleri Panah Berkuda Komposit Membantai Legiun Baja Romawi...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "arc": "Arc 3: Kecepatan Gurun, Pengepungan, & Perang Salib",
+      "battle": "Pertempuran Yarmouk (636 M)",
+      "commanders": "Khalid bin Walid vs Vahan (Kekaisaran Bizantium)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Manuver Kavaleri Cadangan Menjepit 80.000 Bizantium ke Jurang Wadi Ruqqad",
+      "long_form_title": "Bedah Taktik Pertempuran Yarmouk (636 M): Manuver Kavaleri Cadangan Menjepit 80.000 Bizantium ke Juran...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "arc": "Arc 3: Kecepatan Gurun, Pengepungan, & Perang Salib",
+      "battle": "Pertempuran Al-Qadisiyyah (636 M)",
+      "commanders": "Sa'ad bin Abi Waqqas vs Rostam Farrokhzad (Sasanian)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Taktik Menetralkan Korps Gajah Tempur Persia di Tengah Badai Debu Gurun",
+      "long_form_title": "Bedah Taktik Pertempuran Al-Qadisiyyah (636 M): Taktik Menetralkan Korps Gajah Tempur Persia di Tengah Badai...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "arc": "Arc 3: Kecepatan Gurun, Pengepungan, & Perang Salib",
+      "battle": "Pertempuran Hattin (1187 M)",
+      "commanders": "Shalahuddin Al-Ayyubi vs Guy of Lusignan & Raynald of Chatillon",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Blokade Akses Air Danau Galilea & Taktik Tabir Asap Rumput Kering Membakar Tentara Salib",
+      "long_form_title": "Bedah Taktik Pertempuran Hattin (1187 M): Blokade Akses Air Danau Galilea & Taktik Tabir Asap Rumput K...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "arc": "Arc 3: Kecepatan Gurun, Pengepungan, & Perang Salib",
+      "battle": "Pengepungan Acre (1189-1191 M)",
+      "commanders": "Richard the Lionheart vs Shalahuddin Al-Ayyubi",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Perang Gesekan Paling Melelahkan: Pengepung yang Dikepung Pasukan Bantuan",
+      "long_form_title": "Bedah Taktik Pengepungan Acre (1189-1191 M): Perang Gesekan Paling Melelahkan: Pengepung yang Dikepung Pa...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "arc": "Arc 3: Kecepatan Gurun, Pengepungan, & Perang Salib",
+      "battle": "Pengepungan Yerusalem (1099 M vs 1187 M)",
+      "commanders": "Komparasi Taktis Perang Salib Pertama vs Shalahuddin",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Analisis Taktik Menara Kayu Pengepung vs Diplomasi Penebusan Nyawa Warga",
+      "long_form_title": "Bedah Taktik Pengepungan Yerusalem (1099 M vs 1187 M): Analisis Taktik Menara Kayu Pengepung vs Diplomasi Penebusan...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "arc": "Arc 4: Mesin Perang Stepa & Runtuhnya Benteng Asia",
+      "battle": "Pertempuran Sungai Kalka (1223 M)",
+      "commanders": "Subutai & Jebe vs Pangeran Rus Gabungan",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Taktik Feigned Retreat 9 Hari Menarik Musuh Keluar Formasi Sebelum Dihabisi",
+      "long_form_title": "Bedah Taktik Pertempuran Sungai Kalka (1223 M): Taktik Feigned Retreat 9 Hari Menarik Musuh Keluar Formasi S...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "arc": "Arc 4: Mesin Perang Stepa & Runtuhnya Benteng Asia",
+      "battle": "Pertempuran Mohi (1241 M)",
+      "commanders": "Batu Khan & Subutai vs Raja Bela IV (Hungaria)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Tembakan Ketapel Tabir Asap & Gerakan Memutar Melewati Jembatan Sungai Sajo",
+      "long_form_title": "Bedah Taktik Pertempuran Mohi (1241 M): Tembakan Ketapel Tabir Asap & Gerakan Memutar Melewati Jemba...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "arc": "Arc 4: Mesin Perang Stepa & Runtuhnya Benteng Asia",
+      "battle": "Pertempuran Ain Jalut (1260 M)",
+      "commanders": "Saifuddin Qutuz & Baibars vs Kitbuqa (Mongol)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Jebakan Lembah Mata Air Jalut: Hancurnya Mitos Tentara Mongol Tak Terkalahkan",
+      "long_form_title": "Bedah Taktik Pertempuran Ain Jalut (1260 M): Jebakan Lembah Mata Air Jalut: Hancurnya Mitos Tentara Mongo...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "arc": "Arc 4: Mesin Perang Stepa & Runtuhnya Benteng Asia",
+      "battle": "Pengepungan Baghdad (1258 M)",
+      "commanders": "Hulagu Khan vs Al-Musta'sim (Kekhalifahan Abbasiyah)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Taktik Menjebol Tanggul Sungai Tigris Mengisolasi Pertahanan Ibukota Abbasiyah",
+      "long_form_title": "Bedah Taktik Pengepungan Baghdad (1258 M): Taktik Menjebol Tanggul Sungai Tigris Mengisolasi Pertahanan...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "arc": "Arc 5: Era Bubuk Mesiu, Pengepungan Raksasa, & Samurai",
+      "battle": "Jatuhnya Konstantinopel (1453 M)",
+      "commanders": "Sultan Mehmed II vs Kaisar Konstantinus XI",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Meriam Raksasa Basilica & Manuver Memindahkan 70 Kapal Melewati Daratan Bukit Galata",
+      "long_form_title": "Bedah Taktik Jatuhnya Konstantinopel (1453 M): Meriam Raksasa Basilica & Manuver Memindahkan 70 Kapal Melew...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "arc": "Arc 5: Era Bubuk Mesiu, Pengepungan Raksasa, & Samurai",
+      "battle": "Pertempuran Nagashino (1575 M)",
+      "commanders": "Oda Nobunaga vs Takeda Katsuyori",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Barikade Kayu Berlapis & Rotasi Tembakan Senapan Runduk Tiga Baris Menghancurkan Kavaleri Takeda",
+      "long_form_title": "Bedah Taktik Pertempuran Nagashino (1575 M): Barikade Kayu Berlapis & Rotasi Tembakan Senapan Runduk Tiga...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "arc": "Arc 5: Era Bubuk Mesiu, Pengepungan Raksasa, & Samurai",
+      "battle": "Pertempuran Selat Myeongnyang (1597 M)",
+      "commanders": "Laksamana Yi Sun-sin vs Armada Gabungan Jepang",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "13 Kapal Melawan 133 Armada Musuh: Memanfaatkan Jebakan Arus Selat Sempit yang Berbalik Arah",
+      "long_form_title": "Bedah Taktik Pertempuran Selat Myeongnyang (1597 M): 13 Kapal Melawan 133 Armada Musuh: Memanfaatkan Jebakan Arus...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "arc": "Arc 5: Era Bubuk Mesiu, Pengepungan Raksasa, & Samurai",
+      "battle": "Pertempuran Sekigahara (1600 M)",
+      "commanders": "Tokugawa Ieyasu vs Ishida Mitsunari",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Perang Urat Saraf & Tembakan Meriam Pemicu Pengkhianatan Kobayakawa Hideaki",
+      "long_form_title": "Bedah Taktik Pertempuran Sekigahara (1600 M): Perang Urat Saraf & Tembakan Meriam Pemicu Pengkhianatan Kob...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "arc": "Arc 5: Era Bubuk Mesiu, Pengepungan Raksasa, & Samurai",
+      "battle": "Pertempuran Wina (1683 M)",
+      "commanders": "Jan III Sobieski vs Kara Mustafa Pasha",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Serbuan Kavaleri Terbesar dalam Sejarah: 18.000 Hussar Bersayap Meluncur dari Bukit Kahlenberg",
+      "long_form_title": "Bedah Taktik Pertempuran Wina (1683 M): Serbuan Kavaleri Terbesar dalam Sejarah: 18.000 Hussar Bersa...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "arc": "Arc 6: Manuver Era Modern Awal & Runtuhnya Imperium",
+      "battle": "Pertempuran Austerlitz (1805 M)",
+      "commanders": "Napoleon Bonaparte vs Tsar Alexander I & Kaisar Francis II",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Umpan Menarik Sayap Kanan Demi Merebut Dataran Tinggi Pratzen & Menjebak Musuh di Danau Beku",
+      "long_form_title": "Bedah Taktik Pertempuran Austerlitz (1805 M): Umpan Menarik Sayap Kanan Demi Merebut Dataran Tinggi Pratze...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "arc": "Arc 6: Manuver Era Modern Awal & Runtuhnya Imperium",
+      "battle": "Pertempuran Trafalgar (1805 M)",
+      "commanders": "Lord Horatio Nelson vs Pierre-Charles Villeneuve",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Menembus Tradisi Baris Laut: Taktik Menabrak Tegak Lurus Menjadi Dua Kolom Mematikan",
+      "long_form_title": "Bedah Taktik Pertempuran Trafalgar (1805 M): Menembus Tradisi Baris Laut: Taktik Menabrak Tegak Lurus Men...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "arc": "Arc 6: Manuver Era Modern Awal & Runtuhnya Imperium",
+      "battle": "Pertempuran Tannenberg (1914 M)",
+      "commanders": "Paul von Hindenburg & Erich Ludendorff vs Alexander Samsonov",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Pincer Movement Kereta Api: Eksploitasi Komunikasi Radio Terbuka Tentara Kekaisaran Rusia",
+      "long_form_title": "Bedah Taktik Pertempuran Tannenberg (1914 M): Pincer Movement Kereta Api: Eksploitasi Komunikasi Radio Ter...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "arc": "Arc 6: Manuver Era Modern Awal & Runtuhnya Imperium",
+      "battle": "Pertempuran Stalingrad / Operasi Uranus (1942 M)",
+      "commanders": "Georgy Zhukov vs Friedrich Paulus (Pasukan Ke-6 Jerman)",
+      "forces": {},
+      "location": "",
+      "core_tactical_breakthrough": "Pengepungan Cincin Ganda Mengunci 250.000 Prajurit Musuh di Reruntuhan Musim Dingin",
+      "long_form_title": "Bedah Taktik Pertempuran Stalingrad / Operasi Uranus (1942 M): Pengepungan Cincin Ganda Mengunci 250.000 Prajurit Musuh di ...",
+      "long_form_status": "PLANNED",
+      "target_duration": "10-12 menit (1.300-1.500 kata)",
+      "primary_sources": [],
+      "modern_sources": [],
+      "daily_shorts": [
+        {
+          "day": "Senin",
+          "type": "The Fatal Blunder",
+          "focus": "Kesalahan fatal komandan/intelijen musuh"
+        },
+        {
+          "day": "Selasa",
+          "type": "The Genius Turnaround",
+          "focus": "Manuver kunci penentu kemenangan"
+        },
+        {
+          "day": "Rabu",
+          "type": "The Carnage & Impact",
+          "focus": "Dampak pertempuran terhadap peta geopolitik dunia"
+        },
+        {
+          "day": "Kamis",
+          "type": "Weapon & Shield Secret",
+          "focus": "Teknologi senjata, formasi, atau zirah penentu"
+        },
+        {
+          "day": "Jumat",
+          "type": "Psychological Warfare",
+          "focus": "Perang psikologis, tipu muslihat, atau moral pasukan"
+        },
+        {
+          "day": "Sabtu",
+          "type": "The Commander's Creed",
+          "focus": "Prinsip strategi kepemimpinan yang relevan hari ini"
+        }
+      ]
     }
   ]
 }

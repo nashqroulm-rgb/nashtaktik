@@ -1,0 +1,20 @@
+{
+  "short_number": 1,
+  "parent_long_form": "Trik Lorong Terbuka Scipio: Menjinakkan 80 Gajah Perang Hannibal di Zama (202 SM)",
+  "channel": "@nashtaktik",
+  "day": "Senin",
+  "type": "The Fatal Blunder",
+  "title": "Arogansi 80 Gajah Perang: Mengapa Senjata Teror Bisa Berbalik Menjadi Bencana",
+  "target_duration_seconds": 50,
+  "spoken_text": "Hannibal Barca mengerahkan delapan puluh ekor gajah perang berzirah besi di Zama untuk mengulang teror berdarah yang pernah meremukkan legiun Romawi di masa lalu. Dalam kepongahan strateginya, Hannibal sangat yakin bahwa kawanan monster raksasa ini akan menyapu rata barisan pertahanan Scipio sejak benturan pertama. Yang fatal, ia lupa bahwa senjata liar yang digerakkan oleh rasa panik adalah pedang bermata dua. Saat ratusan terompet perunggu Romawi membahana di udara, gajah-gajah di kedua sayap berbalik liar dan menginjak-injak kavaleri Kartago sendiri. Senjata paling menakutkanmu bisa menjadi kuburanmu sendiri jika kamu tidak mampu mengendalikan arah serangannya. Sebelum mengandalkan kekuatan raksasa, pastikan kamu memegang kendali penuh atas kemudinya!",
+  "seamless_loop_target": "Hannibal Barca mengerahkan delapan puluh ekor gajah perang berzirah besi di Zama...",
+  "visual_direction": "Atas: Animasi vektor rute panik gajah perang berbalik menabrak kavaleri sendiri. Bawah: Visual sinematik gajah perang berzirah berbalik arah di tengah kepulan debu Zama.",
+  "scene_images": [
+    "beat_10.jpg",
+    "beat_22.jpg",
+    "beat_24.jpg",
+    "beat_25_map.jpg",
+    "beat_08.jpg"
+  ],
+  "word_count": 104
+}

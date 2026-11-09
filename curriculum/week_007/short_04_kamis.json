@@ -1,0 +1,20 @@
+{
+  "short_number": 4,
+  "parent_long_form": "Trik Lorong Terbuka Scipio: Menjinakkan 80 Gajah Perang Hannibal di Zama (202 SM)",
+  "channel": "@nashtaktik",
+  "day": "Kamis",
+  "type": "Weapon & Shield Secret",
+  "title": "Cornua & Tubae: Senjata Suara Pemecah Teror Raksasa Afrika",
+  "target_duration_seconds": 50,
+  "spoken_text": "Bukan pedang baja tajam ataupun perisai besi tebal yang pertama kali meruntuhkan serangan gajah perang Hannibal di Zama, melainkan gelombang frekuensi suara. Scipio mengumpulkan ratusan peniup terompet militer Romawi dan melengkapi mereka dengan instrumen perunggu lengkung cornua serta terompet lurus tubae. Saat tanah gurun bergetar hebat oleh derap langkah kaki delapan puluh gajah, ratusan terompet tersebut ditiup serempak dengan nada melengking yang memekakkan telinga. Suara bising berdaya ledak ini langsung mengguncang sistem sensorik gajah, memicu histeria massal seketika hingga binatang purba itu hilang kendali total. Terkadang, senjata paling mematikan bukanlah yang merobek daging, melainkan yang sanggup meruntuhkan ketenangan saraf lawan!",
+  "seamless_loop_target": "Bukan pedang baja tajam ataupun perisai besi tebal yang pertama kali meruntuhkan serangan gajah...",
+  "visual_direction": "Atas: Infografis instrumen akustik militer kuno cornua dan tubae Romawi. Bawah: Visual sinematik barisan peniup terompet mengangkat instrumen perunggu di bawah terik Zama.",
+  "scene_images": [
+    "beat_21.jpg",
+    "beat_23.jpg",
+    "beat_24.jpg",
+    "beat_28.jpg",
+    "beat_08.jpg"
+  ],
+  "word_count": 100
+}
