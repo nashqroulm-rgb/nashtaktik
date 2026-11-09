@@ -1,6 +1,6 @@
 {
   "channel": "@nashtaktik",
-  "total_weeks": 26,
+  "total_weeks": 260,
   "cadence": {
     "long_form": "Minggu (Sunday) - 04:30 WIB (21:30 UTC Sabtu)",
     "shorts": "Senin s/d Sabtu (Monday-Saturday) - 06:50 WIB (23:50 UTC)"
@@ -1208,5 +1208,8 @@
         }
       ]
     }
-  ]
+  ],
+  "curriculum_type": "CHRONOLOGICAL_5_YEARS_GLOBAL",
+  "timeframe": "5 Years (260 Weeks)",
+  "battles_overview_file": "curriculum/MASTER_CURRICULUM_5_YEARS.json"
 }

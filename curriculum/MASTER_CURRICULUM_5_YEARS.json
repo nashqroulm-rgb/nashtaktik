@@ -1,0 +1,2602 @@
+[
+  {
+    "global_week": 1,
+    "year_tier": "Tahun 1",
+    "week_in_year": 1,
+    "historical_year": "1457 SM",
+    "year_num": -1457,
+    "battle": "Pertempuran Megiddo",
+    "factions": "Mesir Kuno (Thutmose III) vs Koalisi Kanaan",
+    "core_tactical_breakthrough": "Trik jalur sempit pegunungan Aruna membuka gerbang Megiddo"
+  },
+  {
+    "global_week": 2,
+    "year_tier": "Tahun 1",
+    "week_in_year": 2,
+    "historical_year": "1000 SM",
+    "year_num": -1000,
+    "battle": "Pertempuran Kurukshetra",
+    "factions": "India Kuno (Pandawa vs Korawa / Analisis Taktik)",
+    "core_tactical_breakthrough": "Formasi Chakravyuha dan doktrin perang militer India kuno"
+  },
+  {
+    "global_week": 3,
+    "year_tier": "Tahun 1",
+    "week_in_year": 3,
+    "historical_year": "701 SM",
+    "year_num": -701,
+    "battle": "Pengepungan Lakhis",
+    "factions": "Kekaisaran Asyur (Sanherib) vs Kerajaan Yehuda",
+    "core_tactical_breakthrough": "Tanjakan pengepungan tanah raksasa dan mesin pendobrak Asyur"
+  },
+  {
+    "global_week": 4,
+    "year_tier": "Tahun 1",
+    "week_in_year": 4,
+    "historical_year": "585 SM",
+    "year_num": -585,
+    "battle": "Pertempuran Halys",
+    "factions": "Kekaisaran Media vs Lydia",
+    "core_tactical_breakthrough": "Pertempuran gerhana matahari yang menghentikan perang 5 tahun"
+  },
+  {
+    "global_week": 5,
+    "year_tier": "Tahun 1",
+    "week_in_year": 5,
+    "historical_year": "547 SM",
+    "year_num": -547,
+    "battle": "Pertempuran Thymbra",
+    "factions": "Kekaisaran Persia Akhemeniyah (Koresh) vs Lydia",
+    "core_tactical_breakthrough": "Trik kavaleri unta pengacau formasi kuda kavaleri Lidia"
+  },
+  {
+    "global_week": 6,
+    "year_tier": "Tahun 1",
+    "week_in_year": 6,
+    "historical_year": "506 SM",
+    "year_num": -506,
+    "battle": "Pertempuran Boju",
+    "factions": "Negara Wu (Sun Tzu) vs Chu",
+    "core_tactical_breakthrough": "Penerapan langsung Seni Perang Sun Tzu menaklukkan ibu kota Chu"
+  },
+  {
+    "global_week": 7,
+    "year_tier": "Tahun 1",
+    "week_in_year": 7,
+    "historical_year": "490 SM",
+    "year_num": -490,
+    "battle": "Pertempuran Marathon",
+    "factions": "Athena (Miltiades) vs Kekaisaran Persia",
+    "core_tactical_breakthrough": "Trik sayap tebal Miltiades dan serbuan lari 1,5 km penembus panah"
+  },
+  {
+    "global_week": 8,
+    "year_tier": "Tahun 1",
+    "week_in_year": 8,
+    "historical_year": "480 SM",
+    "year_num": -480,
+    "battle": "Pertempuran Thermopylae",
+    "factions": "Sparta (Leonidas) vs Kekaisaran Persia (Xerxes)",
+    "core_tactical_breakthrough": "Pertahanan defile sempit gerbang panas menahan gelombang massa"
+  },
+  {
+    "global_week": 9,
+    "year_tier": "Tahun 1",
+    "week_in_year": 9,
+    "historical_year": "479 SM",
+    "year_num": -479,
+    "battle": "Pertempuran Plataea",
+    "factions": "Yunani Gabungan (Pausanias) vs Persia (Mardonius)",
+    "core_tactical_breakthrough": "Tembok perisai hoplite perunggu melumat infanteri anyaman Persia"
+  },
+  {
+    "global_week": 10,
+    "year_tier": "Tahun 1",
+    "week_in_year": 10,
+    "historical_year": "371 SM",
+    "year_num": -371,
+    "battle": "Pertempuran Leuctra",
+    "factions": "Thebes (Epaminondas) vs Sparta (Cleombrotus I)",
+    "core_tactical_breakthrough": "Tatanan Miring (Oblique Order) dan kolom baji 50 baris di sayap kiri"
+  },
+  {
+    "global_week": 11,
+    "year_tier": "Tahun 1",
+    "week_in_year": 11,
+    "historical_year": "342 SM",
+    "year_num": -342,
+    "battle": "Pertempuran Maling",
+    "factions": "Negara Qi (Sun Bin) vs Wei (Pang Juan)",
+    "core_tactical_breakthrough": "Trik mengurangi tungku masak memancing musuh masuk perangkap panah"
+  },
+  {
+    "global_week": 12,
+    "year_tier": "Tahun 1",
+    "week_in_year": 12,
+    "historical_year": "338 SM",
+    "year_num": -338,
+    "battle": "Pertempuran Chaeronea",
+    "factions": "Makedonia (Philip II & Aleksander) vs Athena & Thebes",
+    "core_tactical_breakthrough": "Manuver mundur teratur Philip dan tusukan kavaleri Aleksander muda"
+  },
+  {
+    "global_week": 13,
+    "year_tier": "Tahun 1",
+    "week_in_year": 13,
+    "historical_year": "333 SM",
+    "year_num": -333,
+    "battle": "Pertempuran Issus",
+    "factions": "Makedonia (Aleksander Agung) vs Darius III Persia",
+    "core_tactical_breakthrough": "Tusukan baji kavaleri Companion langsung memburu kereta komando Darius"
+  },
+  {
+    "global_week": 14,
+    "year_tier": "Tahun 1",
+    "week_in_year": 14,
+    "historical_year": "332 SM",
+    "year_num": -332,
+    "battle": "Pengepungan Tyre",
+    "factions": "Makedonia (Aleksander Agung) vs Bangsa Fenisia Tyre",
+    "core_tactical_breakthrough": "Membelah laut dengan tanggul batu raksasa menembus benteng pulau"
+  },
+  {
+    "global_week": 15,
+    "year_tier": "Tahun 1",
+    "week_in_year": 15,
+    "historical_year": "331 SM",
+    "year_num": -331,
+    "battle": "Pertempuran Gaugamela",
+    "factions": "Makedonia (Aleksander Agung) vs Darius III Persia",
+    "core_tactical_breakthrough": "Tusukan baji ke celah barisan Persia meruntuhkan imperium terbesar"
+  },
+  {
+    "global_week": 16,
+    "year_tier": "Tahun 1",
+    "week_in_year": 16,
+    "historical_year": "321 SM",
+    "year_num": -321,
+    "battle": "Pertempuran Caudine Forks",
+    "factions": "Bangsa Samnit vs Republik Romawi",
+    "core_tactical_breakthrough": "Jebakan defile jurang pegunungan memaksa legiun menyerah di bawah kuk"
+  },
+  {
+    "global_week": 17,
+    "year_tier": "Tahun 1",
+    "week_in_year": 17,
+    "historical_year": "301 SM",
+    "year_num": -301,
+    "battle": "Pertempuran Ipsus",
+    "factions": "Antigonus Monophthalmus vs Koalisi Diadochi",
+    "core_tactical_breakthrough": "Perang para penerus Aleksander: 400 gajah perang memutus kavaleri"
+  },
+  {
+    "global_week": 18,
+    "year_tier": "Tahun 1",
+    "week_in_year": 18,
+    "historical_year": "279 SM",
+    "year_num": -279,
+    "battle": "Pertempuran Asculum",
+    "factions": "Epirus (Pyrrhus) vs Republik Romawi",
+    "core_tactical_breakthrough": "Pertarungan atrisi dua hari yang melahirkan istilah Kemenangan Pyrrhis"
+  },
+  {
+    "global_week": 19,
+    "year_tier": "Tahun 1",
+    "week_in_year": 19,
+    "historical_year": "261 SM",
+    "year_num": -261,
+    "battle": "Perang Kalinga",
+    "factions": "Kemaharajaan Maurya (Ashoka) vs Kalinga",
+    "core_tactical_breakthrough": "Pembantaian berdarah yang mengubah Kaisar Ashoka memeluk ajaran damai"
+  },
+  {
+    "global_week": 20,
+    "year_tier": "Tahun 1",
+    "week_in_year": 20,
+    "historical_year": "260 SM",
+    "year_num": -260,
+    "battle": "Pertempuran Mylae",
+    "factions": "Republik Romawi vs Kartago",
+    "core_tactical_breakthrough": "Inovasi jembatan kait Corvus mengubah perang laut jadi pertarungan darat"
+  },
+  {
+    "global_week": 21,
+    "year_tier": "Tahun 1",
+    "week_in_year": 21,
+    "historical_year": "256 SM",
+    "year_num": -256,
+    "battle": "Pertempuran Tanjung Ecnomus",
+    "factions": "Republik Romawi vs Kartago",
+    "core_tactical_breakthrough": "Duel 680 kapal perang: benturan armada laut terbesar zaman kuno"
+  },
+  {
+    "global_week": 22,
+    "year_tier": "Tahun 1",
+    "week_in_year": 22,
+    "historical_year": "222 SM",
+    "year_num": -222,
+    "battle": "Pertempuran Sellasia",
+    "factions": "Makedonia (Antigonus III) vs Sparta (Cleomenes III)",
+    "core_tactical_breakthrough": "Runtuhnya reformasi militer terakhir Sparta di punggung perbukitan"
+  },
+  {
+    "global_week": 23,
+    "year_tier": "Tahun 1",
+    "week_in_year": 23,
+    "historical_year": "217 SM",
+    "year_num": -217,
+    "battle": "Pertempuran Danau Trasimene",
+    "factions": "Kartago (Hannibal) vs Republik Romawi (Flaminius)",
+    "core_tactical_breakthrough": "Jebakan kabut tebal di tepi danau menenggelamkan 30.000 pasukan Romawi"
+  },
+  {
+    "global_week": 24,
+    "year_tier": "Tahun 1",
+    "week_in_year": 24,
+    "historical_year": "216 SM",
+    "year_num": -216,
+    "battle": "Pertempuran Cannae",
+    "factions": "Kartago (Hannibal) vs Republik Romawi (Paullus & Varro)",
+    "core_tactical_breakthrough": "Inversi sabit cembung ke cekung: Double Envelopment mematikan 86.000 Romawi"
+  },
+  {
+    "global_week": 25,
+    "year_tier": "Tahun 1",
+    "week_in_year": 25,
+    "historical_year": "207 SM",
+    "year_num": -207,
+    "battle": "Pertempuran Julu",
+    "factions": "Pemberontak Chu (Xiang Yu) vs Dinasti Qin",
+    "core_tactical_breakthrough": "Menenggelamkan perahu dan menghancurkan kuali: Menang atau mati di Julu"
+  },
+  {
+    "global_week": 26,
+    "year_tier": "Tahun 1",
+    "week_in_year": 26,
+    "historical_year": "207 SM",
+    "year_num": -207,
+    "battle": "Pertempuran Metaurus",
+    "factions": "Republik Romawi vs Kartago (Hasdrubal Barca)",
+    "core_tactical_breakthrough": "Manuver memutar Nero di sayap kanan menggagalkan bala bantuan Hannibal"
+  },
+  {
+    "global_week": 27,
+    "year_tier": "Tahun 1",
+    "week_in_year": 27,
+    "historical_year": "202 SM",
+    "year_num": -202,
+    "battle": "Pertempuran Gaixian",
+    "factions": "Dinasti Han (Liu Bang & Han Xin) vs Chu (Xiang Yu)",
+    "core_tactical_breakthrough": "Pengepungan sepuluh lapis dan nyanyian malam lagu Chu meruntuhkan hegemoni"
+  },
+  {
+    "global_week": 28,
+    "year_tier": "Tahun 1",
+    "week_in_year": 28,
+    "historical_year": "202 SM",
+    "year_num": -202,
+    "battle": "Pertempuran Zama",
+    "factions": "Republik Romawi (Scipio) vs Kartago (Hannibal)",
+    "core_tactical_breakthrough": "Kolom lorong terbuka penjinak 80 gajah perang dan palu kavaleri Masinissa"
+  },
+  {
+    "global_week": 29,
+    "year_tier": "Tahun 1",
+    "week_in_year": 29,
+    "historical_year": "197 SM",
+    "year_num": -197,
+    "battle": "Pertempuran Cynoscephalae",
+    "factions": "Republik Romawi (Flamininus) vs Makedonia (Philip V)",
+    "core_tactical_breakthrough": "Kelenturan barisan maniple menembus medan berbukit membelah phalanx"
+  },
+  {
+    "global_week": 30,
+    "year_tier": "Tahun 1",
+    "week_in_year": 30,
+    "historical_year": "168 SM",
+    "year_num": -168,
+    "battle": "Pertempuran Pydna",
+    "factions": "Republik Romawi (Paullus) vs Makedonia (Perseus)",
+    "core_tactical_breakthrough": "Phalanx Makedonia pecah di tanah bergelombang ditumpas pedang gladius"
+  },
+  {
+    "global_week": 31,
+    "year_tier": "Tahun 1",
+    "week_in_year": 31,
+    "historical_year": "102 SM",
+    "year_num": -102,
+    "battle": "Pertempuran Aquae Sextiae",
+    "factions": "Republik Romawi (Gaius Marius) vs Suku Teuton",
+    "core_tactical_breakthrough": "Doktrin reformasi tentara profesional Marius menahan serbuan gelombang barbar"
+  },
+  {
+    "global_week": 32,
+    "year_tier": "Tahun 1",
+    "week_in_year": 32,
+    "historical_year": "101 SM",
+    "year_num": -101,
+    "battle": "Pertempuran Vercellae",
+    "factions": "Republik Romawi (Marius) vs Suku Cimbri",
+    "core_tactical_breakthrough": "Menyilaukan mata musuh dengan terik matahari dan debu musim panas"
+  },
+  {
+    "global_week": 33,
+    "year_tier": "Tahun 1",
+    "week_in_year": 33,
+    "historical_year": "69 SM",
+    "year_num": -69,
+    "battle": "Pertempuran Tigranocerta",
+    "factions": "Republik Romawi (Lucullus) vs Armenia (Tigranes)",
+    "core_tactical_breakthrough": "Menyerang bukit tak bertuan di belakang barisan kavaleri Cataphract"
+  },
+  {
+    "global_week": 34,
+    "year_tier": "Tahun 1",
+    "week_in_year": 34,
+    "historical_year": "53 SM",
+    "year_num": -53,
+    "battle": "Pertempuran Carrhae",
+    "factions": "Kekaisaran Parthia (Surena) vs Republik Romawi (Crassus)",
+    "core_tactical_breakthrough": "Logistik unta panah tanpa henti menghujani formasi testudo Crassus"
+  },
+  {
+    "global_week": 35,
+    "year_tier": "Tahun 1",
+    "week_in_year": 35,
+    "historical_year": "52 SM",
+    "year_num": -52,
+    "battle": "Pengepungan Alesia",
+    "factions": "Republik Romawi (Julius Caesar) vs Galia (Vercingetorix)",
+    "core_tactical_breakthrough": "Dinding ganda sirkumvalasi Caesar bertahan menghadapi kepungan luar-dalam"
+  },
+  {
+    "global_week": 36,
+    "year_tier": "Tahun 1",
+    "week_in_year": 36,
+    "historical_year": "31 SM",
+    "year_num": -31,
+    "battle": "Pertempuran Actium",
+    "factions": "Octavianus & Agrippa vs Markus Antonius & Cleopatra",
+    "core_tactical_breakthrough": "Kapal Liburnian lincah berpelontar api mengunci kapal raksasa Antonius"
+  },
+  {
+    "global_week": 37,
+    "year_tier": "Tahun 1",
+    "week_in_year": 37,
+    "historical_year": "23 M",
+    "year_num": 23,
+    "battle": "Pertempuran Kunyang",
+    "factions": "Dinasti Han (Liu Xiu) vs Dinasti Xin (Wang Mang)",
+    "core_tactical_breakthrough": "Serbuan kejutan 9.000 prajurit nekat menembus 400.000 pasukan"
+  },
+  {
+    "global_week": 38,
+    "year_tier": "Tahun 1",
+    "week_in_year": 38,
+    "historical_year": "73 M",
+    "year_num": 73,
+    "battle": "Pengepungan Masada",
+    "factions": "Kekaisaran Romawi vs Pemberontak Yahudi Zelot",
+    "core_tactical_breakthrough": "Tanjakan tanah raksasa Romawi menembus benteng tebing batu terisolasi"
+  },
+  {
+    "global_week": 39,
+    "year_tier": "Tahun 1",
+    "week_in_year": 39,
+    "historical_year": "184 M",
+    "year_num": 184,
+    "battle": "Pemberontakan Sorban Kuning",
+    "factions": "Dinasti Han vs Pemberontak Zhang Jue",
+    "core_tactical_breakthrough": "Taktik pembendungan perang gerilya petani menghadapi jenderal veteran Han"
+  },
+  {
+    "global_week": 40,
+    "year_tier": "Tahun 1",
+    "week_in_year": 40,
+    "historical_year": "200 M",
+    "year_num": 200,
+    "battle": "Pertempuran Guandu",
+    "factions": "Cao Cao vs Yuan Shao",
+    "core_tactical_breakthrough": "Serangan malam ke gudang gandum Wuchao membalikkan kekalahan telak"
+  },
+  {
+    "global_week": 41,
+    "year_tier": "Tahun 1",
+    "week_in_year": 41,
+    "historical_year": "222 M",
+    "year_num": 222,
+    "battle": "Pertempuran Yiling",
+    "factions": "Dong Wu (Lu Xun) vs Shu Han (Liu Bei)",
+    "core_tactical_breakthrough": "Membakar 40 barisan kamp hutan Liu Bei sepanjang ratusan li"
+  },
+  {
+    "global_week": 42,
+    "year_tier": "Tahun 1",
+    "week_in_year": 42,
+    "historical_year": "228 M",
+    "year_num": 228,
+    "battle": "Ekspedisi Utara Zhuge Liang",
+    "factions": "Shu Han vs Cao Wei (Sima Yi)",
+    "core_tactical_breakthrough": "Pertahanan pasif Sima Yi menghadapi kereta kayu mekanis Zhuge Liang"
+  },
+  {
+    "global_week": 43,
+    "year_tier": "Tahun 1",
+    "week_in_year": 43,
+    "historical_year": "312 M",
+    "year_num": 312,
+    "battle": "Pertempuran Jembatan Milvius",
+    "factions": "Konstantinus Agung vs Maxentius",
+    "core_tactical_breakthrough": "Dorongan massa kavaleri menenggelamkan musuh di Sungai Tiber"
+  },
+  {
+    "global_week": 44,
+    "year_tier": "Tahun 1",
+    "week_in_year": 44,
+    "historical_year": "378 M",
+    "year_num": 378,
+    "battle": "Pertempuran Adrianopel",
+    "factions": "Suku Goth vs Kekaisaran Romawi Timur (Valens)",
+    "core_tactical_breakthrough": "Kavaleri sayap Goth muncul tiba-tiba melenyapkan kaisar dan dua pertiga legiun"
+  },
+  {
+    "global_week": 45,
+    "year_tier": "Tahun 1",
+    "week_in_year": 45,
+    "historical_year": "383 M",
+    "year_num": 383,
+    "battle": "Pertempuran Sungai Fei",
+    "factions": "Dinasti Jin Timur vs Qin Awal (Fu Jian)",
+    "core_tactical_breakthrough": "Perintah mundur sedikit memicu kepanikan massal 800.000 pasukan utara"
+  },
+  {
+    "global_week": 46,
+    "year_tier": "Tahun 1",
+    "week_in_year": 46,
+    "historical_year": "507 M",
+    "year_num": 507,
+    "battle": "Pertempuran Vouille",
+    "factions": "Bangsa Frank (Clovis I) vs Visigoth (Alaric II)",
+    "core_tactical_breakthrough": "Pertarungan jarak dekat bersenjata kapak Francisca menyatukan Galia"
+  },
+  {
+    "global_week": 47,
+    "year_tier": "Tahun 1",
+    "week_in_year": 47,
+    "historical_year": "530 M",
+    "year_num": 530,
+    "battle": "Pertempuran Dara",
+    "factions": "Kekaisaran Bizantium (Belisarius) vs Sassaniyah",
+    "core_tactical_breakthrough": "Parit bertingkat dan serangan balik kavaleri cadangan menahan Persia"
+  },
+  {
+    "global_week": 48,
+    "year_tier": "Tahun 1",
+    "week_in_year": 48,
+    "historical_year": "552 M",
+    "year_num": 552,
+    "battle": "Pertempuran Taginae",
+    "factions": "Kekaisaran Bizantium (Narses) vs Ostrogoth (Totila)",
+    "core_tactical_breakthrough": "Sayap pemanah cekung membedah serbuan kavaleri tombak Goth"
+  },
+  {
+    "global_week": 49,
+    "year_tier": "Tahun 1",
+    "week_in_year": 49,
+    "historical_year": "621 M",
+    "year_num": 621,
+    "battle": "Pertempuran Hulao",
+    "factions": "Dinasti Tang (Li Shimin) vs Dou Jiande & Wang Shichong",
+    "core_tactical_breakthrough": "Kavaleri elit berbaju hitam memotong bala bantuan menundukkan dua raja"
+  },
+  {
+    "global_week": 50,
+    "year_tier": "Tahun 1",
+    "week_in_year": 50,
+    "historical_year": "624 M",
+    "year_num": 624,
+    "battle": "Pertempuran Badar",
+    "factions": "Muslim Madinah vs Musyrikin Quraisy Makkah",
+    "core_tactical_breakthrough": "Shaff rapat, disiplin komando, dan penguasaan mata air: 313 vs 1.000"
+  },
+  {
+    "global_week": 51,
+    "year_tier": "Tahun 1",
+    "week_in_year": 51,
+    "historical_year": "627 M",
+    "year_num": 627,
+    "battle": "Pertempuran Khandaq (Al-Ahzab)",
+    "factions": "Muslim Madinah vs Koalisi 10.000 Arab & Yahudi",
+    "core_tactical_breakthrough": "Rekayasa parit pertahanan Salman Al-Farisi dan perang psikologis Nu'aim"
+  },
+  {
+    "global_week": 52,
+    "year_tier": "Tahun 1",
+    "week_in_year": 52,
+    "historical_year": "628 M",
+    "year_num": 628,
+    "battle": "Perjanjian Hudaibiyyah",
+    "factions": "Rasulullah SAW vs Delegasi Quraisy",
+    "core_tactical_breakthrough": "Masterclass diplomasi damai asimetris yang membuka kemenangan terbesar"
+  },
+  {
+    "global_week": 53,
+    "year_tier": "Tahun 2",
+    "week_in_year": 1,
+    "historical_year": "629 M",
+    "year_num": 629,
+    "battle": "Pertempuran Mu'tah",
+    "factions": "3.000 Pasukan Muslim vs 100.000 Pasukan Bizantium",
+    "core_tactical_breakthrough": "Trik formasi rotasi harian Khalid bin Walid menyelamatkan pasukan dari kepungan"
+  },
+  {
+    "global_week": 54,
+    "year_tier": "Tahun 2",
+    "week_in_year": 2,
+    "historical_year": "630 M",
+    "year_num": 630,
+    "battle": "Fathu Makkah",
+    "factions": "10.000 Pasukan Muslimin Menuju Makkah",
+    "core_tactical_breakthrough": "Strategi 4 kolom konvergen damai dan pengampunan massal teragung dunia"
+  },
+  {
+    "global_week": 55,
+    "year_tier": "Tahun 2",
+    "week_in_year": 3,
+    "historical_year": "630 M",
+    "year_num": 630,
+    "battle": "Pertempuran Hunain & Authas",
+    "factions": "Pasukan Muslimin vs Suku Hawazin & Tsaqif",
+    "core_tactical_breakthrough": "Jebakan celah sempit panah dan keteguhan komando membalikkan keadaan"
+  },
+  {
+    "global_week": 56,
+    "year_tier": "Tahun 2",
+    "week_in_year": 4,
+    "historical_year": "632 M",
+    "year_num": 632,
+    "battle": "Pertempuran Yamamah",
+    "factions": "Kekhalifahan Rasyidin (Khalid) vs Musailamah",
+    "core_tactical_breakthrough": "Pertarungan di Taman Maut: pengorbanan para sahabat penghafal Al-Qur'an"
+  },
+  {
+    "global_week": 57,
+    "year_tier": "Tahun 2",
+    "week_in_year": 5,
+    "historical_year": "633 M",
+    "year_num": 633,
+    "battle": "Pertempuran Rantai (Kazima)",
+    "factions": "Kekhalifahan Rasyidin (Khalid) vs Persia (Hormozd)",
+    "core_tactical_breakthrough": "Memaksa pasukan berbaju rantai Persia berbaris bolak-balik hingga letih"
+  },
+  {
+    "global_week": 58,
+    "year_tier": "Tahun 2",
+    "week_in_year": 6,
+    "historical_year": "633 M",
+    "year_num": 633,
+    "battle": "Pertempuran Ullais (Sungai Darah)",
+    "factions": "Kekhalifahan Rasyidin (Khalid) vs Sassaniyah & Arab Kristen",
+    "core_tactical_breakthrough": "Benturan ketahanan fisik terkeras menembus pertahanan sungai"
+  },
+  {
+    "global_week": 59,
+    "year_tier": "Tahun 2",
+    "week_in_year": 7,
+    "historical_year": "633 M",
+    "year_num": 633,
+    "battle": "Pertempuran Walaja",
+    "factions": "Kekhalifahan Rasyidin (Khalid) vs Kekaisaran Sassaniyah",
+    "core_tactical_breakthrough": "Pencer Movement sempurna: Double Envelopment ala padang pasir"
+  },
+  {
+    "global_week": 60,
+    "year_tier": "Tahun 2",
+    "week_in_year": 8,
+    "historical_year": "634 M",
+    "year_num": 634,
+    "battle": "Pengepungan Damaskus",
+    "factions": "Kekhalifahan Rasyidin vs Garnisun Bizantium",
+    "core_tactical_breakthrough": "Trik masuk lewat dua pintu: diplomasi Abu Ubaidah dan serbuan dinding Khalid"
+  },
+  {
+    "global_week": 61,
+    "year_tier": "Tahun 2",
+    "week_in_year": 9,
+    "historical_year": "634 M",
+    "year_num": 634,
+    "battle": "Pertempuran Firaz",
+    "factions": "Kekhalifahan Rasyidin (Khalid) vs Bizantium & Sassaniyah",
+    "core_tactical_breakthrough": "Membelah tiga pasukan sekutu gabungan di perbatasan Sungai Efrat"
+  },
+  {
+    "global_week": 62,
+    "year_tier": "Tahun 2",
+    "week_in_year": 10,
+    "historical_year": "635 M",
+    "year_num": 635,
+    "battle": "Pertempuran Fahl (Pella)",
+    "factions": "Kekhalifahan Rasyidin vs Pasukan Bizantium",
+    "core_tactical_breakthrough": "Menghindari jebakan rawa lumpur buatan Bizantium di Lembah Yordan"
+  },
+  {
+    "global_week": 63,
+    "year_tier": "Tahun 2",
+    "week_in_year": 11,
+    "historical_year": "636 M",
+    "year_num": 636,
+    "battle": "Pertempuran Al-Qadisiyyah (Bagian 1)",
+    "factions": "Kekhalifahan Rasyidin (Sa'ad) vs Sassaniyah (Rostam)",
+    "core_tactical_breakthrough": "Mengatasi teror barisan gajah perang Persia dengan tombak dan kamuflase unta"
+  },
+  {
+    "global_week": 64,
+    "year_tier": "Tahun 2",
+    "week_in_year": 12,
+    "historical_year": "636 M",
+    "year_num": 636,
+    "battle": "Pertempuran Al-Qadisiyyah (Bagian 2)",
+    "factions": "Kekhalifahan Rasyidin vs Kekaisaran Sassaniyah",
+    "core_tactical_breakthrough": "Badai pasir membutakan Persia dan tusukan Al-Qa'qa merobohkan tahta Rostam"
+  },
+  {
+    "global_week": 65,
+    "year_tier": "Tahun 2",
+    "week_in_year": 13,
+    "historical_year": "636 M",
+    "year_num": 636,
+    "battle": "Pertempuran Yarmouk (Bagian 1)",
+    "factions": "Kekhalifahan Rasyidin vs Kekaisaran Bizantium",
+    "core_tactical_breakthrough": "Geometri jurang ngarai Sungai Ruqqad mengunci pasukan raksasa Romawi"
+  },
+  {
+    "global_week": 66,
+    "year_tier": "Tahun 2",
+    "week_in_year": 14,
+    "historical_year": "636 M",
+    "year_num": 636,
+    "battle": "Pertempuran Yarmouk (Bagian 2)",
+    "factions": "Kekhalifahan Rasyidin vs Kekaisaran Bizantium",
+    "core_tactical_breakthrough": "Serbuan Pasukan Pengawal Bergerak (Mobile Guard) memotong jembatan mundur"
+  },
+  {
+    "global_week": 67,
+    "year_tier": "Tahun 2",
+    "week_in_year": 15,
+    "historical_year": "637 M",
+    "year_num": 637,
+    "battle": "Penaklukan Al-Mada'in (Ctesiphon)",
+    "factions": "Kekhalifahan Rasyidin (Sa'ad bin Abi Waqqas)",
+    "core_tactical_breakthrough": "Menyeberangi arus deras Sungai Tigris yang meluap tanpa perahu"
+  },
+  {
+    "global_week": 68,
+    "year_tier": "Tahun 2",
+    "week_in_year": 16,
+    "historical_year": "637 M",
+    "year_num": 637,
+    "battle": "Penaklukan Baitul Maqdis (Yerusalem)",
+    "factions": "Khalifah Umar bin Khattab & Sophronius",
+    "core_tactical_breakthrough": "Penyerahan kunci damai kota suci dan jaminan keamanan piagam Umar"
+  },
+  {
+    "global_week": 69,
+    "year_tier": "Tahun 2",
+    "week_in_year": 17,
+    "historical_year": "640 M",
+    "year_num": 640,
+    "battle": "Pengepungan Babilonia Mesir",
+    "factions": "Kekhalifahan Rasyidin (Amr bin Ash) vs Bizantium",
+    "core_tactical_breakthrough": "Zubair bin Awwam memanjat dinding benteng memecah kebuntuan 7 bulan"
+  },
+  {
+    "global_week": 70,
+    "year_tier": "Tahun 2",
+    "week_in_year": 18,
+    "historical_year": "641 M",
+    "year_num": 641,
+    "battle": "Penaklukan Alexandria",
+    "factions": "Kekhalifahan Rasyidin (Amr bin Ash) vs Bizantium",
+    "core_tactical_breakthrough": "Membebaskan lembah Nil dari tirani pajak dan dominasi Romawi Timur"
+  },
+  {
+    "global_week": 71,
+    "year_tier": "Tahun 2",
+    "week_in_year": 19,
+    "historical_year": "642 M",
+    "year_num": 642,
+    "battle": "Pertempuran Nahavand (Fathul Futuh)",
+    "factions": "Kekhalifahan Rasyidin (Nu'man) vs Sassaniyah",
+    "core_tactical_breakthrough": "Berita palsu kematian khalifah memancing 100.000 tentara Persia keluar parit"
+  },
+  {
+    "global_week": 72,
+    "year_tier": "Tahun 2",
+    "week_in_year": 20,
+    "historical_year": "655 M",
+    "year_num": 655,
+    "battle": "Pertempuran Tiang Kapal (Dhatus Sawari)",
+    "factions": "Armada Laut Rasyidin vs Armada Laut Bizantium",
+    "core_tactical_breakthrough": "Pertarungan kapal jarak dekat pertama di Mediterania mengikat layar kapal"
+  },
+  {
+    "global_week": 73,
+    "year_tier": "Tahun 2",
+    "week_in_year": 21,
+    "historical_year": "657 M",
+    "year_num": 657,
+    "battle": "Pertempuran Siffin",
+    "factions": "Ali bin Abi Thalib vs Muawiyah bin Abi Sufyan",
+    "core_tactical_breakthrough": "Tragedi fitnah kubu umat dan pengangkatan mushaf di ujung tombak"
+  },
+  {
+    "global_week": 74,
+    "year_tier": "Tahun 2",
+    "week_in_year": 22,
+    "historical_year": "711 M",
+    "year_num": 711,
+    "battle": "Pertempuran Guadalete",
+    "factions": "Kekhalifahan Umayyah (Tariq bin Ziyad) vs Visigoth",
+    "core_tactical_breakthrough": "Membakar keraguan di pantai selatan Spanyol menghancurkan 100.000 Roderic"
+  },
+  {
+    "global_week": 75,
+    "year_tier": "Tahun 2",
+    "week_in_year": 23,
+    "historical_year": "732 M",
+    "year_num": 732,
+    "battle": "Pertempuran Tours / Poitiers",
+    "factions": "Kerajaan Frank (Charles Martel) vs Umayyah",
+    "core_tactical_breakthrough": "Dinding es infanteri Frank menahan serbuan kavaleri Abdurrahman Al-Ghafiqi"
+  },
+  {
+    "global_week": 76,
+    "year_tier": "Tahun 2",
+    "week_in_year": 24,
+    "historical_year": "751 M",
+    "year_num": 751,
+    "battle": "Pertempuran Sungai Talas",
+    "factions": "Kekhalifahan Abbasiyah vs Dinasti Tang",
+    "core_tactical_breakthrough": "Benturan peradaban Islam dan Tiongkok di Asia Tengah pembuka teknologi kertas"
+  },
+  {
+    "global_week": 77,
+    "year_tier": "Tahun 2",
+    "week_in_year": 25,
+    "historical_year": "757 M",
+    "year_num": 757,
+    "battle": "Pengepungan Suiyang",
+    "factions": "Dinasti Tang vs Pasukan Pemberontak An Lushan",
+    "core_tactical_breakthrough": "Ketahanan ekstrem garnisun menahan serbuan 130.000 tentara pemberontak"
+  },
+  {
+    "global_week": 78,
+    "year_tier": "Tahun 2",
+    "week_in_year": 26,
+    "historical_year": "778 M",
+    "year_num": 778,
+    "battle": "Pertempuran Celah Roncesvalles",
+    "factions": "Suku Basque vs Pasukan Pengawal Belakang Charlemagne",
+    "core_tactical_breakthrough": "Penyergapan tebing Pyrenees yang melahirkan legenda epik Chanson de Roland"
+  },
+  {
+    "global_week": 79,
+    "year_tier": "Tahun 2",
+    "week_in_year": 27,
+    "historical_year": "939 M",
+    "year_num": 939,
+    "battle": "Pertempuran Simancas",
+    "factions": "Kerajaan Leon vs Kekhalifahan Kordoba (Abdurrahman III)",
+    "core_tactical_breakthrough": "Benturan parit pertahanan di dataran Spanyol tengah menahan laju ekspansi"
+  },
+  {
+    "global_week": 80,
+    "year_tier": "Tahun 2",
+    "week_in_year": 28,
+    "historical_year": "955 M",
+    "year_num": 955,
+    "battle": "Pertempuran Lechfeld",
+    "factions": "Kerajaan Jerman (Otto I) vs Bangsa Magyar Hungaria",
+    "core_tactical_breakthrough": "Infanteri berzirah memotong jalur pelarian penunggang kuda nomadik Magyar"
+  },
+  {
+    "global_week": 81,
+    "year_tier": "Tahun 2",
+    "week_in_year": 29,
+    "historical_year": "971 M",
+    "year_num": 971,
+    "battle": "Pertempuran Dorostolon",
+    "factions": "Kekaisaran Bizantium (John Tzimiskes) vs Rus Kiev (Sviatoslav)",
+    "core_tactical_breakthrough": "Kavaleri berat Cataphract Bizantium dan ketapel pelontar api mengunci Rus"
+  },
+  {
+    "global_week": 82,
+    "year_tier": "Tahun 2",
+    "week_in_year": 30,
+    "historical_year": "1014 M",
+    "year_num": 1014,
+    "battle": "Pertempuran Clontarf",
+    "factions": "Raja Tertinggi Irlandia (Brian Boru) vs Aliansi Viking",
+    "core_tactical_breakthrough": "Pertarungan berdarah di pantai Dublin mematahkan dominasi Viking di Irlandia"
+  },
+  {
+    "global_week": 83,
+    "year_tier": "Tahun 2",
+    "week_in_year": 31,
+    "historical_year": "1014 M",
+    "year_num": 1014,
+    "battle": "Pertempuran Kleidion",
+    "factions": "Kekaisaran Bizantium (Basil II) vs Kekaisaran Bulgaria",
+    "core_tactical_breakthrough": "Manuver memutar punggung gunung menawan dan membutakan 15.000 prajurit"
+  },
+  {
+    "global_week": 84,
+    "year_tier": "Tahun 2",
+    "week_in_year": 32,
+    "historical_year": "1066 M",
+    "year_num": 1066,
+    "battle": "Pertempuran Hastings",
+    "factions": "Normandia (William Sang Penakluk) vs Saxon (Harold)",
+    "core_tactical_breakthrough": "Trik pura-pura mundur memancing prajurit Saxon keluar dari tembok perisai"
+  },
+  {
+    "global_week": 85,
+    "year_tier": "Tahun 2",
+    "week_in_year": 33,
+    "historical_year": "1066 M",
+    "year_num": 1066,
+    "battle": "Pertempuran Stamford Bridge",
+    "factions": "Saxon Inggris (Harold Godwinson) vs Viking (Harald Hardrada)",
+    "core_tactical_breakthrough": "Ksatria kapak raksasa di atas jembatan menandai akhir era invasi Viking"
+  },
+  {
+    "global_week": 86,
+    "year_tier": "Tahun 2",
+    "week_in_year": 34,
+    "historical_year": "1071 M",
+    "year_num": 1071,
+    "battle": "Pertempuran Manzikert",
+    "factions": "Kesultanan Seljuk (Alp Arslan) vs Bizantium (Romanos IV)",
+    "core_tactical_breakthrough": "Kavaleri panah berkuda mengurung dan menawan kaisar membuka gerbang Anatolia"
+  },
+  {
+    "global_week": 87,
+    "year_tier": "Tahun 2",
+    "week_in_year": 35,
+    "historical_year": "1086 M",
+    "year_num": 1086,
+    "battle": "Pertempuran Al-Zallaqah (Sagrajas)",
+    "factions": "Murabithun (Yusuf bin Tasyfin) vs Kastilia (Alfonso VI)",
+    "core_tactical_breakthrough": "Gendang perang Afrika dan serangan balik kavaleri cadangan menundukkan Spanyol"
+  },
+  {
+    "global_week": 88,
+    "year_tier": "Tahun 2",
+    "week_in_year": 36,
+    "historical_year": "1097 M",
+    "year_num": 1097,
+    "battle": "Pertempuran Dorylaeum",
+    "factions": "Perang Salib Pertama (Bohemond & Godfrey) vs Seljuk",
+    "core_tactical_breakthrough": "Infanteri salib bertahan rapat sampai kavaleri Raymond menusuk dari belakang"
+  },
+  {
+    "global_week": 89,
+    "year_tier": "Tahun 2",
+    "week_in_year": 37,
+    "historical_year": "1099 M",
+    "year_num": 1099,
+    "battle": "Pengepungan Yerusalem",
+    "factions": "Perang Salib Pertama vs Kekhalifahan Fatimiyah",
+    "core_tactical_breakthrough": "Menara kepung kayu Raymond dan pembantaian berdarah di dalam kota suci"
+  },
+  {
+    "global_week": 90,
+    "year_tier": "Tahun 2",
+    "week_in_year": 38,
+    "historical_year": "1144 M",
+    "year_num": 1144,
+    "battle": "Pengepungan Edessa",
+    "factions": "Imaduddin Zengi vs Kerajaan Salibis Edessa",
+    "core_tactical_breakthrough": "Terowongan bawah tanah peruntuh menara menyulut lahirnya Perang Salib Kedua"
+  },
+  {
+    "global_week": 91,
+    "year_tier": "Tahun 2",
+    "week_in_year": 39,
+    "historical_year": "1176 M",
+    "year_num": 1176,
+    "battle": "Pertempuran Legnano",
+    "factions": "Liga Lombardia Italia vs Kaisar Romawi Suci (Barbarossa)",
+    "core_tactical_breakthrough": "Infanteri rakyat bersenjatakan tombak Carroccio mematahkan kavaleri ksatria"
+  },
+  {
+    "global_week": 92,
+    "year_tier": "Tahun 2",
+    "week_in_year": 40,
+    "historical_year": "1176 M",
+    "year_num": 1176,
+    "battle": "Pertempuran Myriokephalon",
+    "factions": "Kesultanan Seljuk Rum (Kilij Arslan II) vs Bizantium",
+    "core_tactical_breakthrough": "Jebakan jurang sempit pegunungan menghancurkan kereta artileri Manuel I"
+  },
+  {
+    "global_week": 93,
+    "year_tier": "Tahun 2",
+    "week_in_year": 41,
+    "historical_year": "1185 M",
+    "year_num": 1185,
+    "battle": "Pertempuran Dan-no-ura",
+    "factions": "Klan Minamoto vs Klan Taira Jepang",
+    "core_tactical_breakthrough": "Duel panah di atas kapal perang selat mengakhiri era Taira dan melahirkan Shogun"
+  },
+  {
+    "global_week": 94,
+    "year_tier": "Tahun 2",
+    "week_in_year": 42,
+    "historical_year": "1187 M",
+    "year_num": 1187,
+    "battle": "Pertempuran Hattin",
+    "factions": "Kesultanan Ayyubiyah (Shalahuddin) vs Pasukan Salibis",
+    "core_tactical_breakthrough": "Membakar rumput kering mengurung pasukan salibis yang kehausan di Tanduk Hattin"
+  },
+  {
+    "global_week": 95,
+    "year_tier": "Tahun 2",
+    "week_in_year": 43,
+    "historical_year": "1191 M",
+    "year_num": 1191,
+    "battle": "Pengepungan Acre",
+    "factions": "Perang Salib Ketiga (Richard the Lionheart) vs Shalahuddin",
+    "core_tactical_breakthrough": "Perang parit berlapis dua front: kepungan luar-dalam di pesisir Mediterania"
+  },
+  {
+    "global_week": 96,
+    "year_tier": "Tahun 2",
+    "week_in_year": 44,
+    "historical_year": "1191 M",
+    "year_num": 1191,
+    "battle": "Pertempuran Arsuf",
+    "factions": "Perang Salib Ketiga (Richard) vs Ayyubiyah (Shalahuddin)",
+    "core_tactical_breakthrough": "Disiplin ksatria Hospitaller menahan provokasi panah sebelum menghujam balik"
+  },
+  {
+    "global_week": 97,
+    "year_tier": "Tahun 2",
+    "week_in_year": 45,
+    "historical_year": "1192 M",
+    "year_num": 1192,
+    "battle": "Pertempuran Tarain Kedua",
+    "factions": "Ghurid (Muhammad Ghori) vs Rajput (Prithviraj Chauhan)",
+    "core_tactical_breakthrough": "Kavaleri panah berkuda memancing gajah perang India keluar dari koordinasi"
+  },
+  {
+    "global_week": 98,
+    "year_tier": "Tahun 2",
+    "week_in_year": 46,
+    "historical_year": "1195 M",
+    "year_num": 1195,
+    "battle": "Pertempuran Alarcos",
+    "factions": "Kekhalifahan Muwahhidun (Al-Mansur) vs Kastilia",
+    "core_tactical_breakthrough": "Formasi sabit Afrika menghancurkan serbuan kavaleri berat Spanyol"
+  },
+  {
+    "global_week": 99,
+    "year_tier": "Tahun 2",
+    "week_in_year": 47,
+    "historical_year": "1204 M",
+    "year_num": 1204,
+    "battle": "Pengepungan Konstantinopel Keempat",
+    "factions": "Tentara Salib Keempat & Venesia vs Bizantium",
+    "core_tactical_breakthrough": "Menyerang dari atas geladak kapal menara Venesia menjarah ibu kota Kristen Timur"
+  },
+  {
+    "global_week": 100,
+    "year_tier": "Tahun 2",
+    "week_in_year": 48,
+    "historical_year": "1212 M",
+    "year_num": 1212,
+    "battle": "Pertempuran Las Navas de Tolosa",
+    "factions": "Aliansi Kristen Spanyol vs Muwahhidun (Muhammad An-Nasir)",
+    "core_tactical_breakthrough": "Pemandu gembala lokal memotong tebing menembus rantai pengawal khalifah"
+  },
+  {
+    "global_week": 101,
+    "year_tier": "Tahun 2",
+    "week_in_year": 49,
+    "historical_year": "1220 M",
+    "year_num": 1220,
+    "battle": "Pengepungan Samarkand & Bukhara",
+    "factions": "Kekaisaran Mongol (Genghis Khan) vs Khwarazm",
+    "core_tactical_breakthrough": "Manuver menyeberangi Gurun Kyzylkum muncul tiba-tiba di belakang garis lawan"
+  },
+  {
+    "global_week": 102,
+    "year_tier": "Tahun 2",
+    "week_in_year": 50,
+    "historical_year": "1223 M",
+    "year_num": 1223,
+    "battle": "Pertempuran Sungai Kalka",
+    "factions": "Kekaisaran Mongol (Subutai & Jebe) vs Pangeran Rus",
+    "core_tactical_breakthrough": "Pelarian palsu 9 hari terpanjang memancing pasukan Rus terpisah 300 kilometer"
+  },
+  {
+    "global_week": 103,
+    "year_tier": "Tahun 2",
+    "week_in_year": 51,
+    "historical_year": "1241 M",
+    "year_num": 1241,
+    "battle": "Pertempuran Legnica",
+    "factions": "Kekaisaran Mongol (Baidar) vs Ksatria Teutonik & Polandia",
+    "core_tactical_breakthrough": "Asap tebal pembingung ksatria zirah berat Eropa menghadapi pemanah kuda"
+  },
+  {
+    "global_week": 104,
+    "year_tier": "Tahun 2",
+    "week_in_year": 52,
+    "historical_year": "1241 M",
+    "year_num": 1241,
+    "battle": "Pertempuran Mohi (Sungai Sajo)",
+    "factions": "Kekaisaran Mongol (Subutai & Batu Khan) vs Hungaria",
+    "core_tactical_breakthrough": "Ketapel asap jembatan dan penyeberangan rahasia malam melipat pasukan raja"
+  },
+  {
+    "global_week": 105,
+    "year_tier": "Tahun 3",
+    "week_in_year": 1,
+    "historical_year": "1242 M",
+    "year_num": 1242,
+    "battle": "Pertempuran di Atas Es (Danau Peipus)",
+    "factions": "Novgorod (Aleksandr Nevsky) vs Ksatria Livonia",
+    "core_tactical_breakthrough": "Menjebak kavaleri berat lapis baja Teutonik di atas permukaan danau es retak"
+  },
+  {
+    "global_week": 106,
+    "year_tier": "Tahun 3",
+    "week_in_year": 2,
+    "historical_year": "1250 M",
+    "year_num": 1250,
+    "battle": "Pertempuran Mansurah",
+    "factions": "Kesultanan Mamluk (Baibars & Qutuz) vs Perang Salib Ketujuh",
+    "core_tactical_breakthrough": "Jebakan labirin lorong kota menjebak Ksatria Templar dan menawan Raja Louis IX"
+  },
+  {
+    "global_week": 107,
+    "year_tier": "Tahun 3",
+    "week_in_year": 3,
+    "historical_year": "1256 M",
+    "year_num": 1256,
+    "battle": "Pengepungan Benteng Alamut",
+    "factions": "Kekaisaran Mongol (Hulagu Khan) vs Sekte Assassin Nizari",
+    "core_tactical_breakthrough": "Mangonel Tiongkok menembakkan minyak bumi meratakan benteng puncak karang"
+  },
+  {
+    "global_week": 108,
+    "year_tier": "Tahun 3",
+    "week_in_year": 4,
+    "historical_year": "1258 M",
+    "year_num": 1258,
+    "battle": "Pengepungan Baghdad",
+    "factions": "Kekaisaran Mongol (Hulagu Khan) vs Abbasiyah (Al-Musta'sim)",
+    "core_tactical_breakthrough": "Menjebol tanggul Sungai Tigris menenggelamkan pusat keemasan peradaban Islam"
+  },
+  {
+    "global_week": 109,
+    "year_tier": "Tahun 3",
+    "week_in_year": 5,
+    "historical_year": "1260 M",
+    "year_num": 1260,
+    "battle": "Pertempuran Ain Jalut",
+    "factions": "Kesultanan Mamluk (Qutuz & Baibars) vs Mongol (Kitbuqa)",
+    "core_tactical_breakthrough": "Mematahkan mitos tak terkalahkan Mongol di lembah Yordan lewat umpan kavaleri"
+  },
+  {
+    "global_week": 110,
+    "year_tier": "Tahun 3",
+    "week_in_year": 6,
+    "historical_year": "1274 M",
+    "year_num": 1274,
+    "battle": "Invasi Mongol ke Jepang (Bun'ei)",
+    "factions": "Armada Yuan Mongol vs Ksatria Samurai Kamakura",
+    "core_tactical_breakthrough": "Formasi bom bubuk mesiu guncang Mongol menghadapi duel pedang samurai"
+  },
+  {
+    "global_week": 111,
+    "year_tier": "Tahun 3",
+    "week_in_year": 7,
+    "historical_year": "1275 M",
+    "year_num": 1275,
+    "battle": "Ekspedisi Pamalayu Singasari",
+    "factions": "Kerajaan Singasari (Kertanegara) ke Swarnabhumi",
+    "core_tactical_breakthrough": "Diplomasi militer maritim Nusantara membendung ekspansi selatan Kublai Khan"
+  },
+  {
+    "global_week": 112,
+    "year_tier": "Tahun 3",
+    "week_in_year": 8,
+    "historical_year": "1281 M",
+    "year_num": 1281,
+    "battle": "Invasi Mongol Kedua ke Jepang (Koan)",
+    "factions": "Armada Yuan vs Samurai & Topan Kamikaze",
+    "core_tactical_breakthrough": "Tembok pertahanan batu pantai Hakata menahan pendaratan sebelum badai tiba"
+  },
+  {
+    "global_week": 113,
+    "year_tier": "Tahun 3",
+    "week_in_year": 9,
+    "historical_year": "1288 M",
+    "year_num": 1288,
+    "battle": "Pertempuran Sungai Bach Dang",
+    "factions": "Dai Viet (Tran Hung Dao) vs Armada Laut Mongol Yuan",
+    "core_tactical_breakthrough": "Tiang pancang baja tertancap di dasar sungai menjebak kapal saat air surut"
+  },
+  {
+    "global_week": 114,
+    "year_tier": "Tahun 3",
+    "week_in_year": 10,
+    "historical_year": "1293 M",
+    "year_num": 1293,
+    "battle": "Invasi Mongol ke Jawa",
+    "factions": "Raden Wijaya Majapahit vs Pasukan Tartar Kublai Khan",
+    "core_tactical_breakthrough": "Trik memanfaatkan tentara Mongol menumpas Jayakatwang lalu mengusir mereka"
+  },
+  {
+    "global_week": 115,
+    "year_tier": "Tahun 3",
+    "week_in_year": 11,
+    "historical_year": "1298 M",
+    "year_num": 1298,
+    "battle": "Pertempuran Falkirk",
+    "factions": "Kerajaan Inggris (Edward I) vs Skotlandia (William Wallace)",
+    "core_tactical_breakthrough": "Pemanah busur panjang Longbow menghancurkan formasi landak tombak Schiltron"
+  },
+  {
+    "global_week": 116,
+    "year_tier": "Tahun 3",
+    "week_in_year": 12,
+    "historical_year": "1302 M",
+    "year_num": 1302,
+    "battle": "Pertempuran Golden Spurs (Courtrai)",
+    "factions": "Milisi Rakyat Flemish vs Ksatria Berkuda Prancis",
+    "core_tactical_breakthrough": "Infanteri bersenjatakan tombak Goedendag membantai ksatria sombong Prancis"
+  },
+  {
+    "global_week": 117,
+    "year_tier": "Tahun 3",
+    "week_in_year": 13,
+    "historical_year": "1314 M",
+    "year_num": 1314,
+    "battle": "Pertempuran Bannockburn",
+    "factions": "Kerajaan Skotlandia (Robert the Bruce) vs Inggris",
+    "core_tactical_breakthrough": "Lubang perangkap tersembunyi menjungkirbalikkan kavaleri berat Edward II"
+  },
+  {
+    "global_week": 118,
+    "year_tier": "Tahun 3",
+    "week_in_year": 14,
+    "historical_year": "1346 M",
+    "year_num": 1346,
+    "battle": "Pertempuran Crecy",
+    "factions": "Kerajaan Inggris (Edward III) vs Kerajaan Prancis",
+    "core_tactical_breakthrough": "Hujan panah Longbow dari lereng bukit membungkam kavaleri berzirah Prancis"
+  },
+  {
+    "global_week": 119,
+    "year_tier": "Tahun 3",
+    "week_in_year": 15,
+    "historical_year": "1356 M",
+    "year_num": 1356,
+    "battle": "Pertempuran Poitiers",
+    "factions": "Inggris (Edward the Black Prince) vs Prancis (John II)",
+    "core_tactical_breakthrough": "Pagar tanaman berduri dan serangan balik sayap kavaleri menawan raja Prancis"
+  },
+  {
+    "global_week": 120,
+    "year_tier": "Tahun 3",
+    "week_in_year": 16,
+    "historical_year": "1357 M",
+    "year_num": 1357,
+    "battle": "Tragedi Pasunda Bubat",
+    "factions": "Pasukan Pengawal Sunda vs Prajurit Bhayangkara Majapahit",
+    "core_tactical_breakthrough": "Benturan harga diri ksatria Sunda menghadapi kepungan total di lapangan Bubat"
+  },
+  {
+    "global_week": 121,
+    "year_tier": "Tahun 3",
+    "week_in_year": 17,
+    "historical_year": "1363 M",
+    "year_num": 1363,
+    "battle": "Pertempuran Danau Poyang",
+    "factions": "Pemberontak Ming (Zhu Yuanzhang) vs Han (Chen Youliang)",
+    "core_tactical_breakthrough": "Duel 850.000 pasukan kapal menara terapung: fajar Dinasti Ming Tiongkok"
+  },
+  {
+    "global_week": 122,
+    "year_tier": "Tahun 3",
+    "week_in_year": 18,
+    "historical_year": "1389 M",
+    "year_num": 1389,
+    "battle": "Pertempuran Padang Kosovo",
+    "factions": "Kekaisaran Utsmaniyah (Murad I) vs Koalisi Serbia (Lazar)",
+    "core_tactical_breakthrough": "Gugurnya Sultan Murad I dan lahirnya legenda korps elit Janissari"
+  },
+  {
+    "global_week": 123,
+    "year_tier": "Tahun 3",
+    "week_in_year": 19,
+    "historical_year": "1395 M",
+    "year_num": 1395,
+    "battle": "Pertempuran Sungai Terek",
+    "factions": "Kekaisaran Timurid (Timur Lenk) vs Golden Horde (Tokhtamysh)",
+    "core_tactical_breakthrough": "Perang parit dan pembelotan sayap menuntaskan kekuasaan Golden Horde di Rusia"
+  },
+  {
+    "global_week": 124,
+    "year_tier": "Tahun 3",
+    "week_in_year": 20,
+    "historical_year": "1396 M",
+    "year_num": 1396,
+    "battle": "Pertempuran Nikopolis",
+    "factions": "Kekaisaran Utsmaniyah (Bayezid I) vs Ksatria Salib Terakhir",
+    "core_tactical_breakthrough": "Pagar kayu runcing Utsmaniyah menancap menjebak kavaleri sombong Eropa"
+  },
+  {
+    "global_week": 125,
+    "year_tier": "Tahun 3",
+    "week_in_year": 21,
+    "historical_year": "1398 M",
+    "year_num": 1398,
+    "battle": "Pertempuran Delhi",
+    "factions": "Kekaisaran Timurid (Timur Lenk) vs Kesultanan Delhi",
+    "core_tactical_breakthrough": "Unta bermuatan jerami terbakar membalikkan gajah perang menginjak tuannya"
+  },
+  {
+    "global_week": 126,
+    "year_tier": "Tahun 3",
+    "week_in_year": 22,
+    "historical_year": "1402 M",
+    "year_num": 1402,
+    "battle": "Pertempuran Ankara",
+    "factions": "Kekaisaran Timurid (Timur Lenk) vs Utsmaniyah (Bayezid I)",
+    "core_tactical_breakthrough": "Mengeringkan sumber air minum memancing Sultan Bayezid sang Petir ke jurang kekalahan"
+  },
+  {
+    "global_week": 127,
+    "year_tier": "Tahun 3",
+    "week_in_year": 23,
+    "historical_year": "1410 M",
+    "year_num": 1410,
+    "battle": "Pertempuran Grunwald / Tannenberg",
+    "factions": "Polandia-Lithuania vs Ordo Ksatria Teutonik",
+    "core_tactical_breakthrough": "Trik pura-pura mundur Lithuania memancing ksatria Teutonik keluar formasi"
+  },
+  {
+    "global_week": 128,
+    "year_tier": "Tahun 3",
+    "week_in_year": 24,
+    "historical_year": "1415 M",
+    "year_num": 1415,
+    "battle": "Pertempuran Agincourt",
+    "factions": "Kerajaan Inggris (Henry V) vs Kerajaan Prancis",
+    "core_tactical_breakthrough": "Tanah bajakan berlumpur sempit dan panah Longbow membantai 10.000 ksatria"
+  },
+  {
+    "global_week": 129,
+    "year_tier": "Tahun 3",
+    "week_in_year": 25,
+    "historical_year": "1420 M",
+    "year_num": 1420,
+    "battle": "Pertempuran Bukit Vitkov",
+    "factions": "Pemberontak Hussite (Jan Zizka) vs Tentara Salib Katolik",
+    "core_tactical_breakthrough": "Inovasi benteng kereta berjalan (Wagenburg) bersenjata meriam tangan awal"
+  },
+  {
+    "global_week": 130,
+    "year_tier": "Tahun 3",
+    "week_in_year": 26,
+    "historical_year": "1429 M",
+    "year_num": 1429,
+    "battle": "Pengepungan Orleans",
+    "factions": "Kerajaan Prancis (Joan of Arc) vs Pengepung Inggris",
+    "core_tactical_breakthrough": "Semangat tempur Joan of Arc merebut redoubt Tourelles membalikkan perang"
+  },
+  {
+    "global_week": 131,
+    "year_tier": "Tahun 3",
+    "week_in_year": 27,
+    "historical_year": "1444 M",
+    "year_num": 1444,
+    "battle": "Pertempuran Varna",
+    "factions": "Kekaisaran Utsmaniyah (Murad II) vs Tentara Salib Vladislav III",
+    "core_tactical_breakthrough": "Janissari bertahan kokoh di parit memenggal raja Hungaria di depan tenda"
+  },
+  {
+    "global_week": 132,
+    "year_tier": "Tahun 3",
+    "week_in_year": 28,
+    "historical_year": "1453 M",
+    "year_num": 1453,
+    "battle": "Pengepungan Konstantinopel",
+    "factions": "Kekaisaran Utsmaniyah (Mehmed II) vs Bizantium",
+    "core_tactical_breakthrough": "Meriam monster Urban Basilic dan 70 kapal melintasi bukit daratan Galata"
+  },
+  {
+    "global_week": 133,
+    "year_tier": "Tahun 3",
+    "week_in_year": 29,
+    "historical_year": "1453 M",
+    "year_num": 1453,
+    "battle": "Pertempuran Castillon",
+    "factions": "Kerajaan Prancis (Jean Bureau) vs Kerajaan Inggris",
+    "core_tactical_breakthrough": "Artileri meriam lapangan terkoordinasi mengakhiri Perang Seratus Tahun"
+  },
+  {
+    "global_week": 134,
+    "year_tier": "Tahun 3",
+    "week_in_year": 30,
+    "historical_year": "1461 M",
+    "year_num": 1461,
+    "battle": "Pertempuran Towton",
+    "factions": "Wangsa York vs Wangsa Lancaster (Perang Mawar)",
+    "core_tactical_breakthrough": "Badai salju meniup panah York membantai 28.000 prajurit saudara sebangsa"
+  },
+  {
+    "global_week": 135,
+    "year_tier": "Tahun 3",
+    "week_in_year": 31,
+    "historical_year": "1485 M",
+    "year_num": 1485,
+    "battle": "Pertempuran Bosworth Field",
+    "factions": "Henry Tudor vs Raja Richard III Inggris",
+    "core_tactical_breakthrough": "Pembelotan klan Stanley di menit akhir meruntuhkan Dinasti Plantagenet"
+  },
+  {
+    "global_week": 136,
+    "year_tier": "Tahun 3",
+    "week_in_year": 32,
+    "historical_year": "1492 M",
+    "year_num": 1492,
+    "battle": "Pengepungan Granada",
+    "factions": "Kerajaan Spanyol (Ferdinand & Isabella) vs Imarah Granada",
+    "core_tactical_breakthrough": "Runtuhnya benteng Alhambra menandai berakhirnya 781 tahun kekuasaan Islam di Spanyol"
+  },
+  {
+    "global_week": 137,
+    "year_tier": "Tahun 3",
+    "week_in_year": 33,
+    "historical_year": "1503 M",
+    "year_num": 1503,
+    "battle": "Pertempuran Cerignola",
+    "factions": "Spanyol (El Gran Capitan) vs Prancis (Nemours)",
+    "core_tactical_breakthrough": "Kemenangan pertama dalam sejarah yang ditentukan murni oleh senapan api arquebus"
+  },
+  {
+    "global_week": 138,
+    "year_tier": "Tahun 3",
+    "week_in_year": 34,
+    "historical_year": "1511 M",
+    "year_num": 1511,
+    "battle": "Pertempuran Selat Malaka",
+    "factions": "Kesultanan Malaka vs Portugis (Afonso de Albuquerque)",
+    "core_tactical_breakthrough": "Meriam cetbang Melayu menghadapi kapal perang bersenjata meriam berat Portugis"
+  },
+  {
+    "global_week": 139,
+    "year_tier": "Tahun 3",
+    "week_in_year": 35,
+    "historical_year": "1514 M",
+    "year_num": 1514,
+    "battle": "Pertempuran Chaldiran",
+    "factions": "Kekaisaran Utsmaniyah (Selim I) vs Safawiyah (Ismail I)",
+    "core_tactical_breakthrough": "Tabur kereta rantai mesiu menahan serbuan kavaleri berani mati Qizilbash"
+  },
+  {
+    "global_week": 140,
+    "year_tier": "Tahun 3",
+    "week_in_year": 36,
+    "historical_year": "1516 M",
+    "year_num": 1516,
+    "battle": "Pertempuran Marj Dabiq",
+    "factions": "Kekaisaran Utsmaniyah (Selim I) vs Kesultanan Mamluk",
+    "core_tactical_breakthrough": "Artileri bergerak Utsmaniyah membuka gerbang penaklukan Suriah dan Syam"
+  },
+  {
+    "global_week": 141,
+    "year_tier": "Tahun 3",
+    "week_in_year": 37,
+    "historical_year": "1517 M",
+    "year_num": 1517,
+    "battle": "Pertempuran Ridaniya",
+    "factions": "Kekaisaran Utsmaniyah (Selim I) vs Mamluk Mesir (Tuman Bay)",
+    "core_tactical_breakthrough": "Manuver melambung memutari benteng meriam statis Kairo menyatukan 3 tanah suci"
+  },
+  {
+    "global_week": 142,
+    "year_tier": "Tahun 3",
+    "week_in_year": 38,
+    "historical_year": "1520 M",
+    "year_num": 1520,
+    "battle": "Pertempuran Otumba",
+    "factions": "Konkuistador Spanyol (Cortes) vs Kekaisaran Aztec",
+    "core_tactical_breakthrough": "Kavaleri berkuda Spanyol membidik langsung jenderal pembawa panji emas"
+  },
+  {
+    "global_week": 143,
+    "year_tier": "Tahun 3",
+    "week_in_year": 39,
+    "historical_year": "1521 M",
+    "year_num": 1521,
+    "battle": "Pengepungan Tenochtitlan",
+    "factions": "Spanyol (Cortes) & Sekutu Tlaxcala vs Aztec (Cuauhtemoc)",
+    "core_tactical_breakthrough": "Pemotongan jalur air tawar dan 13 kapal brigantine meruntuhkan ibu kota apung"
+  },
+  {
+    "global_week": 144,
+    "year_tier": "Tahun 3",
+    "week_in_year": 40,
+    "historical_year": "1522 M",
+    "year_num": 1522,
+    "battle": "Pengepungan Rhodes",
+    "factions": "Kekaisaran Utsmaniyah (Suleiman) vs Ksatria Hospitaller",
+    "core_tactical_breakthrough": "50 terowongan mesiu bawah tanah menundukkan benteng pertahanan terkuat ksatria"
+  },
+  {
+    "global_week": 145,
+    "year_tier": "Tahun 3",
+    "week_in_year": 41,
+    "historical_year": "1525 M",
+    "year_num": 1525,
+    "battle": "Pertempuran Pavia",
+    "factions": "Spanyol-Kekaisaran Suci vs Kerajaan Prancis (Francis I)",
+    "core_tactical_breakthrough": "Infanteri penembak Arquebus dan tombak Tercios menawan raja Prancis di hutan"
+  },
+  {
+    "global_week": 146,
+    "year_tier": "Tahun 3",
+    "week_in_year": 42,
+    "historical_year": "1526 M",
+    "year_num": 1526,
+    "battle": "Pertempuran Mohacs",
+    "factions": "Kekaisaran Utsmaniyah (Suleiman) vs Kerajaan Hungaria (Louis II)",
+    "core_tactical_breakthrough": "Pertempuran 2 jam yang menenggelamkan monarki Hungaria ke dalam rawa Danube"
+  },
+  {
+    "global_week": 147,
+    "year_tier": "Tahun 3",
+    "week_in_year": 43,
+    "historical_year": "1526 M",
+    "year_num": 1526,
+    "battle": "Pertempuran Panipat Pertama",
+    "factions": "Kekaisaran Mughal (Babur) vs Kesultanan Delhi (Ibrahim Lodi)",
+    "core_tactical_breakthrough": "Taktik kereta berkait Araba dan meriam mengalahkan 100.000 pasukan India"
+  },
+  {
+    "global_week": 148,
+    "year_tier": "Tahun 3",
+    "week_in_year": 44,
+    "historical_year": "1527 M",
+    "year_num": 1527,
+    "battle": "Pertempuran Khanwa",
+    "factions": "Kekaisaran Mughal (Babur) vs Konfederasi Rajput (Rana Sanga)",
+    "core_tactical_breakthrough": "Taktik kepungan sayap Tulghuma mematahkan serbuan ksatria lapis baja Rajput"
+  },
+  {
+    "global_week": 149,
+    "year_tier": "Tahun 3",
+    "week_in_year": 45,
+    "historical_year": "1532 M",
+    "year_num": 1532,
+    "battle": "Pertempuran Cajamarca",
+    "factions": "Konkuistador Spanyol (Pizarro) vs Kekaisaran Inca",
+    "core_tactical_breakthrough": "Serbuan kejutan bersenjata api menawan Kaisar Atahualpa di tengah ribuan pengawal"
+  },
+  {
+    "global_week": 150,
+    "year_tier": "Tahun 3",
+    "week_in_year": 46,
+    "historical_year": "1538 M",
+    "year_num": 1538,
+    "battle": "Pertempuran Laut Preveza",
+    "factions": "Armada Utsmaniyah (Barbarossa) vs Liga Suci (Andrea Doria)",
+    "core_tactical_breakthrough": "Manuver bulan sabit kapal dayung lincah Barbarossa menguasai Mediterania"
+  },
+  {
+    "global_week": 151,
+    "year_tier": "Tahun 3",
+    "week_in_year": 47,
+    "historical_year": "1560 M",
+    "year_num": 1560,
+    "battle": "Pertempuran Okehazama",
+    "factions": "Oda Nobunaga vs Imagawa Yoshimoto Jepang",
+    "core_tactical_breakthrough": "Serangan kilat di tengah badai petir memenggal jenderal terkuat wilayah Tokaido"
+  },
+  {
+    "global_week": 152,
+    "year_tier": "Tahun 3",
+    "week_in_year": 48,
+    "historical_year": "1561 M",
+    "year_num": 1561,
+    "battle": "Pertempuran Kawanakajima Keempat",
+    "factions": "Takeda Shingen vs Uesugi Kenshin",
+    "core_tactical_breakthrough": "Duel formasi sayap burung bangau vs naga membelah kabut Sungai Chikuma"
+  },
+  {
+    "global_week": 153,
+    "year_tier": "Tahun 3",
+    "week_in_year": 49,
+    "historical_year": "1565 M",
+    "year_num": 1565,
+    "battle": "Pengepungan Besar Malta",
+    "factions": "Kekaisaran Utsmaniyah (Mustafa Pasha) vs Ksatria St. John",
+    "core_tactical_breakthrough": "Ketahanan heroik benteng St. Elmo menghadapi ribuan ton peluru meriam"
+  },
+  {
+    "global_week": 154,
+    "year_tier": "Tahun 3",
+    "week_in_year": 50,
+    "historical_year": "1565 M",
+    "year_num": 1565,
+    "battle": "Pertempuran Talikota",
+    "factions": "Kesultanan Dekkan vs Kemaharajaan Vijayanagara India",
+    "core_tactical_breakthrough": "Pembelotan dua komandan meriam muslim membalikkan keunggulan pasukan Hindu"
+  },
+  {
+    "global_week": 155,
+    "year_tier": "Tahun 3",
+    "week_in_year": 51,
+    "historical_year": "1571 M",
+    "year_num": 1571,
+    "battle": "Pertempuran Lepanto",
+    "factions": "Liga Suci Kristen vs Armada Utsmaniyah (Ali Pasha)",
+    "core_tactical_breakthrough": "Benturan 400 kapal galai: benteng terapung Galeas berdaya tembak meriam tinggi"
+  },
+  {
+    "global_week": 156,
+    "year_tier": "Tahun 3",
+    "week_in_year": 52,
+    "historical_year": "1573 M",
+    "year_num": 1573,
+    "battle": "Pertempuran Mikatagahara",
+    "factions": "Takeda Shingen vs Tokugawa Ieyasu",
+    "core_tactical_breakthrough": "Trik formasi sayap ikan Shingen menghancurkan pasukan muda Tokugawa di dataran"
+  },
+  {
+    "global_week": 157,
+    "year_tier": "Tahun 4",
+    "week_in_year": 1,
+    "historical_year": "1575 M",
+    "year_num": 1575,
+    "battle": "Pertempuran Nagashino",
+    "factions": "Oda Nobunaga vs Kavaleri Lapis Baja Takeda Katsuyori",
+    "core_tactical_breakthrough": "Pagar bambu ganda dan 3.000 senapan Matchlock menembak beruntun tanpa jeda"
+  },
+  {
+    "global_week": 158,
+    "year_tier": "Tahun 4",
+    "week_in_year": 2,
+    "historical_year": "1582 M",
+    "year_num": 1582,
+    "battle": "Pengepungan Kastil Takamatsu",
+    "factions": "Toyotomi Hideyoshi vs Klan Mori",
+    "core_tactical_breakthrough": "Membendung aliran sungai membanjiri seluruh dataran kastil musuh dengan air"
+  },
+  {
+    "global_week": 159,
+    "year_tier": "Tahun 4",
+    "week_in_year": 3,
+    "historical_year": "1583 M",
+    "year_num": 1583,
+    "battle": "Pertempuran Shizugatake",
+    "factions": "Toyotomi Hideyoshi vs Shibata Katsuie",
+    "core_tactical_breakthrough": "Perjalanan kilat malam hari Tujuh Tombak Shizugatake merebut supremasi Jepang"
+  },
+  {
+    "global_week": 160,
+    "year_tier": "Tahun 4",
+    "week_in_year": 4,
+    "historical_year": "1590 M",
+    "year_num": 1590,
+    "battle": "Pengepungan Odawara",
+    "factions": "Toyotomi Hideyoshi vs Klan Hojo",
+    "core_tactical_breakthrough": "Pengepungan pasif 100 hari membawa pasar dan teater meruntuhkan moral musuh"
+  },
+  {
+    "global_week": 161,
+    "year_tier": "Tahun 4",
+    "week_in_year": 5,
+    "historical_year": "1592 M",
+    "year_num": 1592,
+    "battle": "Pengepungan Benteng Jinju",
+    "factions": "Joseon Korea (Kim Si-min) vs Penyerbu Samurai Jepang",
+    "core_tactical_breakthrough": "3.800 tentara Korea menahan gempuran 30.000 samurai dengan pelontar mortir"
+  },
+  {
+    "global_week": 162,
+    "year_tier": "Tahun 4",
+    "week_in_year": 6,
+    "historical_year": "1592 M",
+    "year_num": 1592,
+    "battle": "Pertempuran Pulau Hansan",
+    "factions": "Joseon Korea (Yi Sun-sin) vs Armada Samurai Jepang",
+    "core_tactical_breakthrough": "Formasi sayap bangau (Hakikjin) memancing kapal Jepang ke jebakan meriam laut"
+  },
+  {
+    "global_week": 163,
+    "year_tier": "Tahun 4",
+    "week_in_year": 7,
+    "historical_year": "1597 M",
+    "year_num": 1597,
+    "battle": "Pertempuran Selat Myeongnyang",
+    "factions": "Joseon Korea (Yi Sun-sin) vs Armada Jepang",
+    "core_tactical_breakthrough": "13 kapal perang Laksamana Yi menundukkan 133 armada Jepang memanfaatkan arus air"
+  },
+  {
+    "global_week": 164,
+    "year_tier": "Tahun 4",
+    "week_in_year": 8,
+    "historical_year": "1600 M",
+    "year_num": 1600,
+    "battle": "Pertempuran Sekigahara",
+    "factions": "Pasukan Timur (Tokugawa Ieyasu) vs Pasukan Barat",
+    "core_tactical_breakthrough": "Tembakan meriam provokasi memicu pembelotan Kobayakawa di Gunung Matsuo"
+  },
+  {
+    "global_week": 165,
+    "year_tier": "Tahun 4",
+    "week_in_year": 9,
+    "historical_year": "1605 M",
+    "year_num": 1605,
+    "battle": "Pertempuran Kircholm",
+    "factions": "Kavaleri Winged Hussar Polandia vs Swedia",
+    "core_tactical_breakthrough": "2.500 Hussar bersayap menghancurkan 11.000 infanteri senapan Swedia dalam 20 menit"
+  },
+  {
+    "global_week": 166,
+    "year_tier": "Tahun 4",
+    "week_in_year": 10,
+    "historical_year": "1612 M",
+    "year_num": 1612,
+    "battle": "Pertempuran Swally",
+    "factions": "British East India Company vs Armada Kerajaan Portugis",
+    "core_tactical_breakthrough": "Manuver kapal kecil Inggris di perairan dangkal Gujarat menggusur monopoli Portugis"
+  },
+  {
+    "global_week": 167,
+    "year_tier": "Tahun 4",
+    "week_in_year": 11,
+    "historical_year": "1614 M",
+    "year_num": 1614,
+    "battle": "Pengepungan Musim Dingin Osaka",
+    "factions": "Tokugawa Ieyasu vs Toyotomi Hideyori",
+    "core_tactical_breakthrough": "Meriam barat kaliber besar membombardir istana menuntut penimbunan parit"
+  },
+  {
+    "global_week": 168,
+    "year_tier": "Tahun 4",
+    "week_in_year": 12,
+    "historical_year": "1615 M",
+    "year_num": 1615,
+    "battle": "Pengepungan Musim Panas Osaka",
+    "factions": "Tokugawa Ieyasu vs Pasukan Terakhir Samurai",
+    "core_tactical_breakthrough": "Serbuan berani mati Sanada Yukimura mengakhiri era perang saudara samurai"
+  },
+  {
+    "global_week": 169,
+    "year_tier": "Tahun 4",
+    "week_in_year": 13,
+    "historical_year": "1628 M",
+    "year_num": 1628,
+    "battle": "Pengepungan Pertama Batavia",
+    "factions": "Kesultanan Mataram Islam (Sultan Agung) vs VOC",
+    "core_tactical_breakthrough": "Serangan amfibi mengepung kastil Batavia dan membendung pasokan air Ciliwung"
+  },
+  {
+    "global_week": 170,
+    "year_tier": "Tahun 4",
+    "week_in_year": 14,
+    "historical_year": "1629 M",
+    "year_num": 1629,
+    "battle": "Pengepungan Kedua Batavia",
+    "factions": "Kesultanan Mataram (Sultan Agung) vs VOC Belanda",
+    "core_tactical_breakthrough": "Perang logistik: VOC membakar lumbung beras Karawang menggagalkan pengepungan"
+  },
+  {
+    "global_week": 171,
+    "year_tier": "Tahun 4",
+    "week_in_year": 15,
+    "historical_year": "1631 M",
+    "year_num": 1631,
+    "battle": "Pertempuran Breitenfeld",
+    "factions": "Kerajaan Swedia (Gustavus Adolphus) vs Liga Katolik",
+    "core_tactical_breakthrough": "Formasi infanteri lentur dan artileri bergerak Swedia melipat Tercios Tilly"
+  },
+  {
+    "global_week": 172,
+    "year_tier": "Tahun 4",
+    "week_in_year": 16,
+    "historical_year": "1643 M",
+    "year_num": 1643,
+    "battle": "Pertempuran Rocroi",
+    "factions": "Kerajaan Prancis (Duc d'Enghien) vs Tercios Spanyol",
+    "core_tactical_breakthrough": "Hancurnya mitos tak terkalahkan Tercios Spanyol di tangan kavaleri Prancis"
+  },
+  {
+    "global_week": 173,
+    "year_tier": "Tahun 4",
+    "week_in_year": 17,
+    "historical_year": "1644 M",
+    "year_num": 1644,
+    "battle": "Pertempuran Celah Shanhai",
+    "factions": "Kekaisaran Qing (Dorgon) & Wu Sangui vs Li Zicheng",
+    "core_tactical_breakthrough": "Membuka gerbang Tembok Besar menghancurkan pemberontak dan menguasai Beijing"
+  },
+  {
+    "global_week": 174,
+    "year_tier": "Tahun 4",
+    "week_in_year": 18,
+    "historical_year": "1645 M",
+    "year_num": 1645,
+    "battle": "Pertempuran Naseby",
+    "factions": "Pasukan Parlemen New Model Army (Cromwell) vs Loyalis",
+    "core_tactical_breakthrough": "Disiplin kavaleri Ironsides Cromwell membalikkan serangan kavaleri Rupert"
+  },
+  {
+    "global_week": 175,
+    "year_tier": "Tahun 4",
+    "week_in_year": 19,
+    "historical_year": "1661 M",
+    "year_num": 1661,
+    "battle": "Pengepungan Benteng Zeelandia",
+    "factions": "Koxinga (Zheng Chenggong) vs VOC Belanda di Taiwan",
+    "core_tactical_breakthrough": "Pengepungan sembilan bulan mengusir benteng pertahanan VOC dari pulau Taiwan"
+  },
+  {
+    "global_week": 176,
+    "year_tier": "Tahun 4",
+    "week_in_year": 20,
+    "historical_year": "1666 M",
+    "year_num": 1666,
+    "battle": "Pertempuran Empat Hari",
+    "factions": "Armada Belanda (Michiel de Ruyter) vs Armada Inggris",
+    "core_tactical_breakthrough": "Benturan artileri armada layar kayu terpanjang dan terbrutal di Laut Utara"
+  },
+  {
+    "global_week": 177,
+    "year_tier": "Tahun 4",
+    "week_in_year": 21,
+    "historical_year": "1670 M",
+    "year_num": 1670,
+    "battle": "Pertempuran Sinhagad",
+    "factions": "Kekaisaran Maratha (Tanaji Malusare) vs Pasukan Mughal",
+    "core_tactical_breakthrough": "Taktik memanjat tebing karang tegak menggunakan biawak di tengah malam"
+  },
+  {
+    "global_week": 178,
+    "year_tier": "Tahun 4",
+    "week_in_year": 22,
+    "historical_year": "1683 M",
+    "year_num": 1683,
+    "battle": "Pengepungan Kedua Wina",
+    "factions": "Kekaisaran Utsmaniyah vs Koalisi Eropa (Jan Sobieski)",
+    "core_tactical_breakthrough": "Serbuan 18.000 Kavaleri Winged Hussar Polandia memecah kepungan Wina"
+  },
+  {
+    "global_week": 179,
+    "year_tier": "Tahun 4",
+    "week_in_year": 23,
+    "historical_year": "1690 M",
+    "year_num": 1690,
+    "battle": "Pertempuran Dataran Jaranod",
+    "factions": "Dinasti Qing (Kaisar Kangxi) vs Pasukan Mongol Zunghar",
+    "core_tactical_breakthrough": "Meriam unta bergerak Kangxi meremukkan formasi unta bersenjata Galdan"
+  },
+  {
+    "global_week": 180,
+    "year_tier": "Tahun 4",
+    "week_in_year": 24,
+    "historical_year": "1697 M",
+    "year_num": 1697,
+    "battle": "Pertempuran Zenta",
+    "factions": "Monarki Habsburg (Pangeran Eugene) vs Utsmaniyah",
+    "core_tactical_breakthrough": "Menyergap pasukan Utsmaniyah yang sedang menyeberangi jembatan apung Theiss"
+  },
+  {
+    "global_week": 181,
+    "year_tier": "Tahun 4",
+    "week_in_year": 25,
+    "historical_year": "1704 M",
+    "year_num": 1704,
+    "battle": "Pertempuran Blenheim",
+    "factions": "Inggris & Austria (Marlborough) vs Prancis & Bavaria",
+    "core_tactical_breakthrough": "Memusatkan pukulan kavaleri menembus pusat barisan tipis Prancis"
+  },
+  {
+    "global_week": 182,
+    "year_tier": "Tahun 4",
+    "week_in_year": 26,
+    "historical_year": "1709 M",
+    "year_num": 1709,
+    "battle": "Pertempuran Poltava",
+    "factions": "Kekaisaran Rusia (Tsar Peter Agung) vs Raja Charles XII Swedia",
+    "core_tactical_breakthrough": "Sistem parit redoubt tersembunyi Rusia menelan serangan kavaleri Swedia"
+  },
+  {
+    "global_week": 183,
+    "year_tier": "Tahun 4",
+    "week_in_year": 27,
+    "historical_year": "1745 M",
+    "year_num": 1745,
+    "battle": "Pertempuran Fontenoy",
+    "factions": "Kerajaan Prancis (Maurice de Saxe) vs Pasukan Sekutu",
+    "core_tactical_breakthrough": "Artileri cadangan mematahkan kolom infanteri Inggris yang menembus pusat"
+  },
+  {
+    "global_week": 184,
+    "year_tier": "Tahun 4",
+    "week_in_year": 28,
+    "historical_year": "1757 M",
+    "year_num": 1757,
+    "battle": "Pertempuran Leuthen",
+    "factions": "Kerajaan Prusia (Frederick Agung) vs Kekaisaran Austria",
+    "core_tactical_breakthrough": "Tatanan miring di balik bukit mengejutkan sayap kiri Austria di musim dingin"
+  },
+  {
+    "global_week": 185,
+    "year_tier": "Tahun 4",
+    "week_in_year": 29,
+    "historical_year": "1757 M",
+    "year_num": 1757,
+    "battle": "Pertempuran Plassey",
+    "factions": "British East India Company (Clive) vs Nawab Bengal",
+    "core_tactical_breakthrough": "Hujan membasahi bubuk mesiu Bengal sementara terpal Inggris melindungi peluru"
+  },
+  {
+    "global_week": 186,
+    "year_tier": "Tahun 4",
+    "week_in_year": 30,
+    "historical_year": "1759 M",
+    "year_num": 1759,
+    "battle": "Pertempuran Dataran Abraham (Quebec)",
+    "factions": "Inggris (James Wolfe) vs Prancis (Montcalm)",
+    "core_tactical_breakthrough": "Memanjat tebing karang malam hari dan satu tembakan salvo serentak jarak 40 yard"
+  },
+  {
+    "global_week": 187,
+    "year_tier": "Tahun 4",
+    "week_in_year": 31,
+    "historical_year": "1761 M",
+    "year_num": 1761,
+    "battle": "Pertempuran Panipat Ketiga",
+    "factions": "Kekaisaran Durrani Afghan (Ahmad Shah) vs Maratha",
+    "core_tactical_breakthrough": "Meriam unta berputar Zamburak memusnahkan kavaleri Maratha di dataran utara"
+  },
+  {
+    "global_week": 188,
+    "year_tier": "Tahun 4",
+    "week_in_year": 32,
+    "historical_year": "1775 M",
+    "year_num": 1775,
+    "battle": "Pertempuran Bunker Hill",
+    "factions": "Milisi Koloni Amerika vs Angkatan Darat Inggris",
+    "core_tactical_breakthrough": "Menunggu hingga terlihat bagian putih mata lawan menahan serangan frontal"
+  },
+  {
+    "global_week": 189,
+    "year_tier": "Tahun 4",
+    "week_in_year": 33,
+    "historical_year": "1777 M",
+    "year_num": 1777,
+    "battle": "Pertempuran Saratoga",
+    "factions": "Tentara Amerika (Gates & Arnold) vs Jenderal Burgoyne",
+    "core_tactical_breakthrough": "Perang penembak runduk di hutan memaksa jenderal Inggris menyerah total"
+  },
+  {
+    "global_week": 190,
+    "year_tier": "Tahun 4",
+    "week_in_year": 34,
+    "historical_year": "1781 M",
+    "year_num": 1781,
+    "battle": "Pengepungan Yorktown",
+    "factions": "Pasukan Gabungan Amerika-Prancis vs Lord Cornwallis",
+    "core_tactical_breakthrough": "Blokade armada laut de Grasse dan parit paralel artileri mengakhiri perang kemerdekaan"
+  },
+  {
+    "global_week": 191,
+    "year_tier": "Tahun 4",
+    "week_in_year": 35,
+    "historical_year": "1792 M",
+    "year_num": 1792,
+    "battle": "Pertempuran Valmy",
+    "factions": "Pasukan Relawan Republik Prancis vs Pasukan Monarki Prusia",
+    "core_tactical_breakthrough": "Dentuman artileri meriam Gribeauval menghentikan invasi meresmikan republik"
+  },
+  {
+    "global_week": 192,
+    "year_tier": "Tahun 4",
+    "week_in_year": 36,
+    "historical_year": "1793 M",
+    "year_num": 1793,
+    "battle": "Pengepungan Toulon",
+    "factions": "Pasukan Republik Prancis (Kapten Napoleon) vs Royalis & Inggris",
+    "core_tactical_breakthrough": "Napoleon menempatkan baterai artileri di Bukit L'Eguillette mengusir armada laut"
+  },
+  {
+    "global_week": 193,
+    "year_tier": "Tahun 4",
+    "week_in_year": 37,
+    "historical_year": "1796 M",
+    "year_num": 1796,
+    "battle": "Pertempuran Jembatan Lodi",
+    "factions": "Pasukan Prancis (Napoleon) vs Pasukan Kekaisaran Austria",
+    "core_tactical_breakthrough": "Napoleon memimpin langsung serbuan lintas jembatan di bawah semburan peluru"
+  },
+  {
+    "global_week": 194,
+    "year_tier": "Tahun 4",
+    "week_in_year": 38,
+    "historical_year": "1797 M",
+    "year_num": 1797,
+    "battle": "Pertempuran Rivoli",
+    "factions": "Pasukan Prancis (Napoleon) vs Pasukan Austria (Alvinczi)",
+    "core_tactical_breakthrough": "Pergerakan korps cepat di dataran tinggi menumpas 3 kolom terpisah Austria"
+  },
+  {
+    "global_week": 195,
+    "year_tier": "Tahun 4",
+    "week_in_year": 39,
+    "historical_year": "1798 M",
+    "year_num": 1798,
+    "battle": "Pertempuran Piramida",
+    "factions": "Pasukan Ekspedisi Prancis (Napoleon) vs Kavaleri Mamluk",
+    "core_tactical_breakthrough": "Formasi kotak divisi infanteri Napoleon melumat serbuan kavaleri elit Mamluk"
+  },
+  {
+    "global_week": 196,
+    "year_tier": "Tahun 4",
+    "week_in_year": 40,
+    "historical_year": "1800 M",
+    "year_num": 1800,
+    "battle": "Pertempuran Marengo",
+    "factions": "Pasukan Prancis (Napoleon) vs Pasukan Austria (Melas)",
+    "core_tactical_breakthrough": "Kedatangan mendadak divisi Desaix dan serbuan kavaleri Kellermann di menit akhir"
+  },
+  {
+    "global_week": 197,
+    "year_tier": "Tahun 4",
+    "week_in_year": 41,
+    "historical_year": "1805 M",
+    "year_num": 1805,
+    "battle": "Kampanye Ulm",
+    "factions": "Pasukan Agung Prancis (Napoleon) vs Austria (Mack)",
+    "core_tactical_breakthrough": "Manuver korps melingkar mengepung 60.000 pasukan Austria tanpa pertumpahan darah"
+  },
+  {
+    "global_week": 198,
+    "year_tier": "Tahun 4",
+    "week_in_year": 42,
+    "historical_year": "1805 M",
+    "year_num": 1805,
+    "battle": "Pertempuran Austerlitz",
+    "factions": "Napoleon vs Pasukan Gabungan Rusia & Austria",
+    "core_tactical_breakthrough": "Mahakarya Bukit Pratzen: mengosongkan sayap kanan memancing lawan ke danau es"
+  },
+  {
+    "global_week": 199,
+    "year_tier": "Tahun 4",
+    "week_in_year": 43,
+    "historical_year": "1805 M",
+    "year_num": 1805,
+    "battle": "Pertempuran Trafalgar",
+    "factions": "Armada Laut Inggris (Nelson) vs Prancis-Spanyol",
+    "core_tactical_breakthrough": "Memotong formasi garis kapal layar secara tegak lurus melumpuhkan komando lawan"
+  },
+  {
+    "global_week": 200,
+    "year_tier": "Tahun 4",
+    "week_in_year": 44,
+    "historical_year": "1806 M",
+    "year_num": 1806,
+    "battle": "Pertempuran Jena-Auerstedt",
+    "factions": "Napoleon & Marsekal Davout vs Kerajaan Prusia",
+    "core_tactical_breakthrough": "Davout mengalahkan dua kali lipat pasukan utama Prusia dengan satu korps tunggal"
+  },
+  {
+    "global_week": 201,
+    "year_tier": "Tahun 4",
+    "week_in_year": 45,
+    "historical_year": "1807 M",
+    "year_num": 1807,
+    "battle": "Pertempuran Friedland",
+    "factions": "Pasukan Prancis (Napoleon) vs Pasukan Rusia (Bennigsen)",
+    "core_tactical_breakthrough": "Baterai meriam Senarmont menembak jarak dekat mendorong tentara Rusia ke sungai"
+  },
+  {
+    "global_week": 202,
+    "year_tier": "Tahun 4",
+    "week_in_year": 46,
+    "historical_year": "1808 M",
+    "year_num": 1808,
+    "battle": "Pertempuran Bailen",
+    "factions": "Pasukan Gerilya Spanyol vs Divisi Pasukan Napoleon Dupont",
+    "core_tactical_breakthrough": "Kekalahan terbuka pertama tentara kekaisaran Napoleon di Semenanjung Iberia"
+  },
+  {
+    "global_week": 203,
+    "year_tier": "Tahun 4",
+    "week_in_year": 47,
+    "historical_year": "1809 M",
+    "year_num": 1809,
+    "battle": "Pertempuran Aspern-Essling",
+    "factions": "Kekaisaran Austria (Archduke Charles) vs Napoleon",
+    "core_tactical_breakthrough": "Jembatan sungai Danube putus menahan suplai: kekalahan taktis pertama Napoleon"
+  },
+  {
+    "global_week": 204,
+    "year_tier": "Tahun 4",
+    "week_in_year": 48,
+    "historical_year": "1809 M",
+    "year_num": 1809,
+    "battle": "Pertempuran Talavera",
+    "factions": "Inggris-Spanyol (Wellington) vs Prancis (Joseph Bonaparte)",
+    "core_tactical_breakthrough": "Formasi dua baris tipis infanteri Inggris menahan serangan kolom tebal Prancis"
+  },
+  {
+    "global_week": 205,
+    "year_tier": "Tahun 4",
+    "week_in_year": 49,
+    "historical_year": "1812 M",
+    "year_num": 1812,
+    "battle": "Penyeberangan Sungai Berezina",
+    "factions": "Pasukan Prancis yang Mundur vs Pasukan Pengepung Rusia",
+    "core_tactical_breakthrough": "Insinyur ponton bekerja membeku di dalam air es menyelamatkan sisa tentara"
+  },
+  {
+    "global_week": 206,
+    "year_tier": "Tahun 4",
+    "week_in_year": 50,
+    "historical_year": "1812 M",
+    "year_num": 1812,
+    "battle": "Pertempuran Borodino",
+    "factions": "Pasukan Prancis (Napoleon) vs Kekaisaran Rusia (Kutuzov)",
+    "core_tactical_breakthrough": "Benturan atrisi paling mematikan di redoubt Bagration di depan gerbang Moskow"
+  },
+  {
+    "global_week": 207,
+    "year_tier": "Tahun 4",
+    "week_in_year": 51,
+    "historical_year": "1812 M",
+    "year_num": 1812,
+    "battle": "Pertempuran Salamanca",
+    "factions": "Pasukan Sekutu (Wellington) vs Marsekal Marmont Prancis",
+    "core_tactical_breakthrough": "Wellington menghukum sayap Prancis yang terentang terlalu jauh dalam 40 menit"
+  },
+  {
+    "global_week": 208,
+    "year_tier": "Tahun 4",
+    "week_in_year": 52,
+    "historical_year": "1815 M",
+    "year_num": 1815,
+    "battle": "Pertempuran Waterloo",
+    "factions": "Napoleon vs Wellington (Inggris) & Blucher (Prusia)",
+    "core_tactical_breakthrough": "Kotak infanteri Wellington menahan kavaleri Ney sebelum korps Prusia datang"
+  },
+  {
+    "global_week": 209,
+    "year_tier": "Tahun 5",
+    "week_in_year": 1,
+    "historical_year": "1825 M",
+    "year_num": 1825,
+    "battle": "Perang Jawa: Pertempuran Selarong",
+    "factions": "Pangeran Diponegoro vs Pasukan Kolonial KNIL Belanda",
+    "core_tactical_breakthrough": "Taktik perang gerilya rakyat dan mobilitas pos komando gua pegunungan"
+  },
+  {
+    "global_week": 210,
+    "year_tier": "Tahun 5",
+    "week_in_year": 2,
+    "historical_year": "1836 M",
+    "year_num": 1836,
+    "battle": "Pertempuran San Jacinto",
+    "factions": "Milisi Texas (Sam Houston) vs Pasukan Meksiko (Santa Anna)",
+    "core_tactical_breakthrough": "Serangan siang hari 18 menit di waktu siesta menawan presiden Meksiko"
+  },
+  {
+    "global_week": 211,
+    "year_tier": "Tahun 5",
+    "week_in_year": 3,
+    "historical_year": "1853 M",
+    "year_num": 1853,
+    "battle": "Pertempuran Sinop",
+    "factions": "Armada Laut Kekaisaran Rusia vs Armada Laut Utsmaniyah",
+    "core_tactical_breakthrough": "Penggunaan peluru peledak artileri laut pertama membakar seluruh armada kayu"
+  },
+  {
+    "global_week": 212,
+    "year_tier": "Tahun 5",
+    "week_in_year": 4,
+    "historical_year": "1854 M",
+    "year_num": 1854,
+    "battle": "Pengepungan Sevastopol",
+    "factions": "Inggris, Prancis, Utsmaniyah vs Kekaisaran Rusia",
+    "core_tactical_breakthrough": "Perang parit modern awal dan ujian jalur pasokan uap dalam Perang Krimea"
+  },
+  {
+    "global_week": 213,
+    "year_tier": "Tahun 5",
+    "week_in_year": 5,
+    "historical_year": "1859 M",
+    "year_num": 1859,
+    "battle": "Pertempuran Solferino",
+    "factions": "Prancis-Piedmont (Napoleon III) vs Kekaisaran Austria",
+    "core_tactical_breakthrough": "Pertarungan berdarah 40.000 korban yang menginspirasi pendirian Palang Merah"
+  },
+  {
+    "global_week": 214,
+    "year_tier": "Tahun 5",
+    "week_in_year": 6,
+    "historical_year": "1862 M",
+    "year_num": 1862,
+    "battle": "Pertempuran Antietam",
+    "factions": "Pasukan Uni (McClellan) vs Pasukan Konfederasi (Lee)",
+    "core_tactical_breakthrough": "Hari paling berdarah di Amerika: tiga babak pertempuran di ladang jagung Miller"
+  },
+  {
+    "global_week": 215,
+    "year_tier": "Tahun 5",
+    "week_in_year": 7,
+    "historical_year": "1862 M",
+    "year_num": 1862,
+    "battle": "Pertempuran Hampton Roads",
+    "factions": "CSS Virginia vs USS Monitor (Perang Saudara Amerika)",
+    "core_tactical_breakthrough": "Duel pertama dua kapal perang berlapis baja besi (Ironclad) di dunia"
+  },
+  {
+    "global_week": 216,
+    "year_tier": "Tahun 5",
+    "week_in_year": 8,
+    "historical_year": "1862 M",
+    "year_num": 1862,
+    "battle": "Pertempuran Shiloh",
+    "factions": "Pasukan Uni (Grant) vs Pasukan Konfederasi (Johnston)",
+    "core_tactical_breakthrough": "Grant bertahan di Sunken Road dan membalikkan keadaan dengan bala bantuan malam"
+  },
+  {
+    "global_week": 217,
+    "year_tier": "Tahun 5",
+    "week_in_year": 9,
+    "historical_year": "1863 M",
+    "year_num": 1863,
+    "battle": "Pengepungan Vicksburg",
+    "factions": "Pasukan Uni (Ulysses S. Grant) vs Konfederasi (Pemberton)",
+    "core_tactical_breakthrough": "Manuver membelah Mississippi dan perang parit memotong urat nadi selatan"
+  },
+  {
+    "global_week": 218,
+    "year_tier": "Tahun 5",
+    "week_in_year": 10,
+    "historical_year": "1863 M",
+    "year_num": 1863,
+    "battle": "Pertempuran Chancellorsville",
+    "factions": "Konfederasi (Lee & Stonewall Jackson) vs Uni (Hooker)",
+    "core_tactical_breakthrough": "Manuver memutar 12 mil Jackson mengejutkan sayap terbuka tentara Uni"
+  },
+  {
+    "global_week": 219,
+    "year_tier": "Tahun 5",
+    "week_in_year": 11,
+    "historical_year": "1863 M",
+    "year_num": 1863,
+    "battle": "Pertempuran Gettysburg",
+    "factions": "Pasukan Uni (Meade) vs Pasukan Konfederasi (Robert E. Lee)",
+    "core_tactical_breakthrough": "Pertahanan bukit Little Round Top dan kegagalan serbuan frontal Pickett's Charge"
+  },
+  {
+    "global_week": 220,
+    "year_tier": "Tahun 5",
+    "week_in_year": 12,
+    "historical_year": "1866 M",
+    "year_num": 1866,
+    "battle": "Pertempuran Koniggratz (Sadowa)",
+    "factions": "Kerajaan Prusia (Von Moltke) vs Kekaisaran Austria",
+    "core_tactical_breakthrough": "Senapan jarum Dreyse menembak sambil tiarap melumpuhkan formasi bayonet Austria"
+  },
+  {
+    "global_week": 221,
+    "year_tier": "Tahun 5",
+    "week_in_year": 13,
+    "historical_year": "1870 M",
+    "year_num": 1870,
+    "battle": "Pertempuran Sedan",
+    "factions": "Tentara Prusia (Von Moltke) vs Tentara Kekaisaran Prancis",
+    "core_tactical_breakthrough": "Lingkaran meriam baja Krupp mengurung dan menawan Kaisar Napoleon III"
+  },
+  {
+    "global_week": 222,
+    "year_tier": "Tahun 5",
+    "week_in_year": 14,
+    "historical_year": "1873 M",
+    "year_num": 1873,
+    "battle": "Perang Aceh: Ekspedisi Pertama",
+    "factions": "Kesultanan Aceh vs Pasukan Ekspedisi KNIL Belanda",
+    "core_tactical_breakthrough": "Penembak runduk Aceh menewaskan Jenderal Kohler di depan Masjid Raya Baiturrahman"
+  },
+  {
+    "global_week": 223,
+    "year_tier": "Tahun 5",
+    "week_in_year": 15,
+    "historical_year": "1876 M",
+    "year_num": 1876,
+    "battle": "Pertempuran Little Bighorn",
+    "factions": "Aliansi Suku Lakota & Cheyenne vs Batalion Ke-7 Custer",
+    "core_tactical_breakthrough": "Kepungan lembah sungai menghabisi pasukan kavaleri kavaleri George Custer"
+  },
+  {
+    "global_week": 224,
+    "year_tier": "Tahun 5",
+    "week_in_year": 16,
+    "historical_year": "1877 M",
+    "year_num": 1877,
+    "battle": "Pengepungan Plevna",
+    "factions": "Kekaisaran Utsmaniyah (Osman Pasha) vs Pasukan Rusia",
+    "core_tactical_breakthrough": "Sistem parit pertahanan berulang kali menggagalkan serbuan massal infanteri Rusia"
+  },
+  {
+    "global_week": 225,
+    "year_tier": "Tahun 5",
+    "week_in_year": 17,
+    "historical_year": "1879 M",
+    "year_num": 1879,
+    "battle": "Pertempuran Isandlwana",
+    "factions": "Kerajaan Zulu (Cetshwayo) vs Pasukan Kerajaan Inggris",
+    "core_tactical_breakthrough": "Formasi tanduk kerbau suku Zulu mengepung dan memusnahkan resimen senapan Inggris"
+  },
+  {
+    "global_week": 226,
+    "year_tier": "Tahun 5",
+    "week_in_year": 18,
+    "historical_year": "1879 M",
+    "year_num": 1879,
+    "battle": "Pertempuran Rorke's Drift",
+    "factions": "150 Prajurit Garnisun Inggris vs 4.000 Prajurit Zulu",
+    "core_tactical_breakthrough": "Dinding karung biskuit dan kotak amunisi menahan gelombang serangan semalam suntuk"
+  },
+  {
+    "global_week": 227,
+    "year_tier": "Tahun 5",
+    "week_in_year": 19,
+    "historical_year": "1896 M",
+    "year_num": 1896,
+    "battle": "Pertempuran Adwa",
+    "factions": "Kekaisaran Ethiopia (Menelik II) vs Pasukan Penjajah Italia",
+    "core_tactical_breakthrough": "Pasukan Afrika mengalahkan tentara kolonial Eropa mempertahankan kedaulatan"
+  },
+  {
+    "global_week": 228,
+    "year_tier": "Tahun 5",
+    "week_in_year": 20,
+    "historical_year": "1898 M",
+    "year_num": 1898,
+    "battle": "Pertempuran Omdurman",
+    "factions": "Pasukan Gabungan Inggris-Mesir (Kitchener) vs Pasukan Mahdi",
+    "core_tactical_breakthrough": "Senapan mesin otomatis Maxim pertama menghentikan gelombang 50.000 pasukan"
+  },
+  {
+    "global_week": 229,
+    "year_tier": "Tahun 5",
+    "week_in_year": 21,
+    "historical_year": "1905 M",
+    "year_num": 1905,
+    "battle": "Pertempuran Mukden",
+    "factions": "Kekaisaran Jepang vs Kekaisaran Rusia di Manchuria",
+    "core_tactical_breakthrough": "Pertempuran darat skala industri terbesar sebelum PD I melibatkan 600.000 prajurit"
+  },
+  {
+    "global_week": 230,
+    "year_tier": "Tahun 5",
+    "week_in_year": 22,
+    "historical_year": "1905 M",
+    "year_num": 1905,
+    "battle": "Pertempuran Tsushima",
+    "factions": "Armada Laut Jepang (Togo) vs Armada Baltik Kekaisaran Rusia",
+    "core_tactical_breakthrough": "Manuver memotong jalur T mengunci seluruh armada Rusia di perairan selat"
+  },
+  {
+    "global_week": 231,
+    "year_tier": "Tahun 5",
+    "week_in_year": 23,
+    "historical_year": "1914 M",
+    "year_num": 1914,
+    "battle": "Pertempuran Marne Pertama",
+    "factions": "Prancis & Inggris (Joffre) vs Kekaisaran Jerman (Moltke)",
+    "core_tactical_breakthrough": "Armada taksi Paris mengangkut pasukan cadangan menghentikan rencana Schlieffen"
+  },
+  {
+    "global_week": 232,
+    "year_tier": "Tahun 5",
+    "week_in_year": 24,
+    "historical_year": "1914 M",
+    "year_num": 1914,
+    "battle": "Pertempuran Tannenberg",
+    "factions": "Kekaisaran Jerman (Hindenburg) vs Pasukan Rusia (Samsonov)",
+    "core_tactical_breakthrough": "Menyadap komunikasi radio tanpa sandi Rusia menjepit Angkatan Darat Ke-2"
+  },
+  {
+    "global_week": 233,
+    "year_tier": "Tahun 5",
+    "week_in_year": 25,
+    "historical_year": "1915 M",
+    "year_num": 1915,
+    "battle": "Kampanye Gallipoli (Canakkale)",
+    "factions": "Kekaisaran Utsmaniyah (Mustafa Kemal) vs Sekutu Anzac",
+    "core_tactical_breakthrough": "Keteguhan prajurit di tebing karang menahan pendaratan armada laut terbesar"
+  },
+  {
+    "global_week": 234,
+    "year_tier": "Tahun 5",
+    "week_in_year": 26,
+    "historical_year": "1916 M",
+    "year_num": 1916,
+    "battle": "Pertempuran Jutland",
+    "factions": "Armada Laut Inggris (Jellicoe) vs Armada Laut Jerman (Scheer)",
+    "core_tactical_breakthrough": "Duel kapal perang Dreadnought raksasa terbesar di perairan Laut Utara"
+  },
+  {
+    "global_week": 235,
+    "year_tier": "Tahun 5",
+    "week_in_year": 27,
+    "historical_year": "1916 M",
+    "year_num": 1916,
+    "battle": "Pertempuran Somme",
+    "factions": "Angkatan Darat Inggris & Prancis vs Kekaisaran Jerman",
+    "core_tactical_breakthrough": "57.000 korban di hari pertama dan kemunculan tank baja Mark I pertama di dunia"
+  },
+  {
+    "global_week": 236,
+    "year_tier": "Tahun 5",
+    "week_in_year": 28,
+    "historical_year": "1916 M",
+    "year_num": 1916,
+    "battle": "Pertempuran Verdun",
+    "factions": "Tentara Prancis (Petain) vs Tentara Kekaisaran Jerman (Falkenhayn)",
+    "core_tactical_breakthrough": "Perang atrisi menguras darah di atas benteng beton Douaumont selama 300 hari"
+  },
+  {
+    "global_week": 237,
+    "year_tier": "Tahun 5",
+    "week_in_year": 29,
+    "historical_year": "1916 M",
+    "year_num": 1916,
+    "battle": "Serangan Brusilov",
+    "factions": "Kekaisaran Rusia (Aleksei Brusilov) vs Austria-Hungaria",
+    "core_tactical_breakthrough": "Taktik pasukan pelopor kejutan serentak di garis depan sepanjang ratusan mil"
+  },
+  {
+    "global_week": 238,
+    "year_tier": "Tahun 5",
+    "week_in_year": 30,
+    "historical_year": "1917 M",
+    "year_num": 1917,
+    "battle": "Pertempuran Cambrai",
+    "factions": "Angkatan Darat Inggris vs Kekaisaran Jerman",
+    "core_tactical_breakthrough": "Serangan massal terkoordinasi 400 tank baja menembus kawat duri garis Hindenburg"
+  },
+  {
+    "global_week": 239,
+    "year_tier": "Tahun 5",
+    "week_in_year": 31,
+    "historical_year": "1918 M",
+    "year_num": 1918,
+    "battle": "Pertempuran Megiddo Modern",
+    "factions": "Pasukan Inggris & Kavaleri Arab vs Kekaisaran Utsmaniyah",
+    "core_tactical_breakthrough": "Manuver kavaleri kilat dan serangan udara memutus jalur mundur tentara Utsmaniyah"
+  },
+  {
+    "global_week": 240,
+    "year_tier": "Tahun 5",
+    "week_in_year": 32,
+    "historical_year": "1918 M",
+    "year_num": 1918,
+    "battle": "Serangan Musim Semi Jerman (Kaiserschlacht)",
+    "factions": "Jerman (Ludendorff) vs Sekutu",
+    "core_tactical_breakthrough": "Pasukan Stormtrooper menembus parit barat sebelum kehabisan logistik makanan"
+  },
+  {
+    "global_week": 241,
+    "year_tier": "Tahun 5",
+    "week_in_year": 33,
+    "historical_year": "1918 M",
+    "year_num": 1918,
+    "battle": "Serangan Seratus Hari Sekutu",
+    "factions": "Pasukan Sekutu (Foch & Haig) vs Tentara Jerman",
+    "core_tactical_breakthrough": "Operasi gabungan tank, pesawat udara, dan infanteri mengakhiri Perang Dunia I"
+  },
+  {
+    "global_week": 242,
+    "year_tier": "Tahun 5",
+    "week_in_year": 34,
+    "historical_year": "1920 M",
+    "year_num": 1920,
+    "battle": "Pertempuran Warsawa (Keajaiban di Vistula)",
+    "factions": "Polandia (Pilsudski) vs Pasukan Merah Soviet (Tukhachevsky)",
+    "core_tactical_breakthrough": "Serangan balik dari Sungai Wieprz mematahkan serbuan komunis menuju Eropa Barat"
+  },
+  {
+    "global_week": 243,
+    "year_tier": "Tahun 5",
+    "week_in_year": 35,
+    "historical_year": "1921 M",
+    "year_num": 1921,
+    "battle": "Pertempuran Annual",
+    "factions": "Pejuang Suku Rif Maroko (Abdelkrim) vs Tentara Spanyol",
+    "core_tactical_breakthrough": "Perang gerilya pegunungan menghancurkan 20.000 tentara kolonial modern Spanyol"
+  },
+  {
+    "global_week": 244,
+    "year_tier": "Tahun 5",
+    "week_in_year": 36,
+    "historical_year": "1939 M",
+    "year_num": 1939,
+    "battle": "Invasi Polandia: Pertempuran Bzura",
+    "factions": "Jerman (Wehrmacht) vs Angkatan Darat Polandia",
+    "core_tactical_breakthrough": "Kelahiran doktrin perang kilat Blitzkrieg memadukan divisi panzer dan pesawat Stuka"
+  },
+  {
+    "global_week": 245,
+    "year_tier": "Tahun 5",
+    "week_in_year": 37,
+    "historical_year": "1939 M",
+    "year_num": 1939,
+    "battle": "Pertempuran Khalkhin Gol",
+    "factions": "Uni Soviet (Georgy Zhukov) vs Tentara Kwantung Jepang",
+    "core_tactical_breakthrough": "Operasi mekanis gabungan tank dan artileri Zhukov membelokkan ekspansi Jepang"
+  },
+  {
+    "global_week": 246,
+    "year_tier": "Tahun 5",
+    "week_in_year": 38,
+    "historical_year": "1940 M",
+    "year_num": 1940,
+    "battle": "Evakuasi Dunkirk (Operasi Dynamo)",
+    "factions": "Armada Perahu Kecil Sipil Inggris & Sekutu",
+    "core_tactical_breakthrough": "Menyelamatkan 338.000 tentara sekutu dari pantai di bawah hujan bom Luftwaffe"
+  },
+  {
+    "global_week": 247,
+    "year_tier": "Tahun 5",
+    "week_in_year": 39,
+    "historical_year": "1940 M",
+    "year_num": 1940,
+    "battle": "Pertempuran Britania",
+    "factions": "Royal Air Force Inggris vs Luftwaffe Jerman",
+    "core_tactical_breakthrough": "Jaringan radar terintegrasi Dowding dan Spitfire menahan invasi udara Jerman"
+  },
+  {
+    "global_week": 248,
+    "year_tier": "Tahun 5",
+    "week_in_year": 40,
+    "historical_year": "1940 M",
+    "year_num": 1940,
+    "battle": "Pertempuran Prancis: Celah Ardennes",
+    "factions": "Jerman (Guderian & Manstein) vs Sekutu Prancis-Inggris",
+    "core_tactical_breakthrough": "Melewati hutan Ardennes yang dianggap mustahil memotong sekutu ke Selat Inggris"
+  },
+  {
+    "global_week": 249,
+    "year_tier": "Tahun 5",
+    "week_in_year": 41,
+    "historical_year": "1941 M",
+    "year_num": 1941,
+    "battle": "Operasi Barbarossa: Pengepungan Kiev",
+    "factions": "Jerman (Grup Pasukan Selatan) vs Uni Soviet",
+    "core_tactical_breakthrough": "Kepungan ganda terbesar dalam sejarah menawan 665.000 prajurit Soviet"
+  },
+  {
+    "global_week": 250,
+    "year_tier": "Tahun 5",
+    "week_in_year": 42,
+    "historical_year": "1941 M",
+    "year_num": 1941,
+    "battle": "Penyerangan Pearl Harbor",
+    "factions": "Armada Kapal Induk Jepang (Nagumo) vs Pangkalan Pasifik AS",
+    "core_tactical_breakthrough": "Serangan udara mendadak torpedo dangkal melumpuhkan armada kapal tempur Amerika"
+  },
+  {
+    "global_week": 251,
+    "year_tier": "Tahun 5",
+    "week_in_year": 43,
+    "historical_year": "1941 M",
+    "year_num": 1941,
+    "battle": "Pertempuran Moskow",
+    "factions": "Uni Soviet (Zhukov) vs Jerman (Operasi Taifun)",
+    "core_tactical_breakthrough": "Pasukan divisi salju Siberia melancarkan serangan balik di depan gerbang Kremlin"
+  },
+  {
+    "global_week": 252,
+    "year_tier": "Tahun 5",
+    "week_in_year": 44,
+    "historical_year": "1942 M",
+    "year_num": 1942,
+    "battle": "Jatuhnya Singapura",
+    "factions": "Tentara Jepang (Yamashita) vs Garnisun Kerajaan Inggris (Percival)",
+    "core_tactical_breakthrough": "Pasukan bersepeda Yamashita menembus rimba Malaya menyerang Singapura dari belakang"
+  },
+  {
+    "global_week": 253,
+    "year_tier": "Tahun 5",
+    "week_in_year": 45,
+    "historical_year": "1942 M",
+    "year_num": 1942,
+    "battle": "Pertempuran El Alamein Kedua",
+    "factions": "Inggris (Montgomery) vs Korps Afrika Jerman (Rommel)",
+    "core_tactical_breakthrough": "Operasi Lightfoot menembus kebun ranjau membalikkan dominasi Poros di Afrika"
+  },
+  {
+    "global_week": 254,
+    "year_tier": "Tahun 5",
+    "week_in_year": 46,
+    "historical_year": "1942 M",
+    "year_num": 1942,
+    "battle": "Pertempuran Midway",
+    "factions": "Angkatan Laut AS (Nimitz & Spruance) vs Jepang (Yamamoto)",
+    "core_tactical_breakthrough": "Pemecahan kode intelijen radio: 5 menit krusial yang menenggelamkan 4 kapal induk"
+  },
+  {
+    "global_week": 255,
+    "year_tier": "Tahun 5",
+    "week_in_year": 47,
+    "historical_year": "1942 M",
+    "year_num": 1942,
+    "battle": "Pertempuran Stalingrad (Operasi Uranus)",
+    "factions": "Uni Soviet (Zhukov & Rokossovsky) vs Pasukan Ke-6 Jerman",
+    "core_tactical_breakthrough": "Kepungan baja menjepit 300.000 tentara Paulus di reruntuhan kota Sungai Volga"
+  },
+  {
+    "global_week": 256,
+    "year_tier": "Tahun 5",
+    "week_in_year": 48,
+    "historical_year": "1943 M",
+    "year_num": 1943,
+    "battle": "Pertempuran Kursk (Operasi Citadel)",
+    "factions": "Uni Soviet vs Jerman (Pertempuran Prokhorovka)",
+    "core_tactical_breakthrough": "Pertarungan tank terbesar di dunia: parit pertahanan bertingkat menelan panzer"
+  },
+  {
+    "global_week": 257,
+    "year_tier": "Tahun 5",
+    "week_in_year": 49,
+    "historical_year": "1944 M",
+    "year_num": 1944,
+    "battle": "Operasi Bagration",
+    "factions": "Tentara Merah Soviet vs Grup Pasukan Tengah Jerman",
+    "core_tactical_breakthrough": "Tipuan strategis Maskirovka memusnahkan 28 divisi Jerman di Belarussia"
+  },
+  {
+    "global_week": 258,
+    "year_tier": "Tahun 5",
+    "week_in_year": 50,
+    "historical_year": "1944 M",
+    "year_num": 1944,
+    "battle": "Pendaratan Normandia (D-Day)",
+    "factions": "Pasukan Ekspedisi Sekutu (Eisenhower) vs Jerman",
+    "core_tactical_breakthrough": "Pendaratan amfibi terbesar: tipuan Operasi Fortitude dan penaklukan Pantai Omaha"
+  },
+  {
+    "global_week": 259,
+    "year_tier": "Tahun 5",
+    "week_in_year": 51,
+    "historical_year": "1944 M",
+    "year_num": 1944,
+    "battle": "Pertempuran Teluk Leyte",
+    "factions": "Angkatan Laut AS vs Angkatan Laut Kekaisaran Jepang",
+    "core_tactical_breakthrough": "Pertarungan laut terbesar: taktik kapal umpan Ozawa dan keberanian armada Taffy 3"
+  },
+  {
+    "global_week": 260,
+    "year_tier": "Tahun 5",
+    "week_in_year": 52,
+    "historical_year": "1991 M",
+    "year_num": 1991,
+    "battle": "Operasi Badai Gurun (Desert Storm)",
+    "factions": "Koalisi PBB pimpinan AS (Schwarzkopf) vs Irak",
+    "core_tactical_breakthrough": "Kampanye udara presisi 43 hari dan manuver kilat kavaleri melintasi gurun barat"
+  }
+]
