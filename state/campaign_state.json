@@ -1,10 +1,10 @@
 {
-  "active_week": 6,
+  "active_week": 7,
   "next_short_index": 3,
   "next_short_day": "rabu",
   "total_shorts_published": 34,
-  "total_longs_published": 6,
-  "last_updated": "2026-11-10T03:43:42Z",
+  "total_longs_published": 7,
+  "last_updated": "2026-11-10T04:49:51Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -12,7 +12,7 @@
     "week_004": "COMPLETED",
     "week_005": "COMPLETED",
     "week_006": "COMPLETED",
-    "week_007": "PACKAGED_AND_READY"
+    "week_007": "ACTIVE_PUBLISHING"
   },
   "week_002_staging": {
     "battle": "Pertempuran Leuctra (371 SM)",
@@ -120,7 +120,7 @@
   },
   "week_006_staging": {
     "battle": "Pertempuran Cannae (216 SM)",
-    "status": "ACTIVE_PUBLISHING",
+    "status": "COMPLETED",
     "long_form": {
       "title": "Jebakan Sabit Hannibal: Detik-Detik 86.000 Pasukan Romawi Lenyap di Cannae (216 SM)",
       "duration_sec": 492.85,
@@ -237,12 +237,12 @@
   ],
   "week_007_staging": {
     "battle": "Pertempuran Zama (202 SM)",
-    "status": "READY",
+    "status": "ACTIVE_PUBLISHING",
     "long_form": {
       "title": "Trik Lorong Terbuka Scipio: Menjinakkan 80 Gajah Perang Hannibal di Zama (202 SM)",
       "duration_sec": 479.07,
       "beats": 48,
-      "status": "STAGED_IN_RELEASE",
+      "status": "PUBLISHED",
       "release_tag": "v-week-007-long",
       "asset_name": "NASH02_Week007_Zama_Master.mp4"
     },
