@@ -2253,5 +2253,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 6,
+    "short_number": 2,
+    "day": "Selasa",
+    "title": "Inversi Sabit Cembung ke Cekung: Trik Mundur Terkontrol Hannibal",
+    "images_used": [
+      "General_Hannibal_overseeing_capt\u2026_20261013210601.jpg",
+      "Battle_lines_of_Cannae_20261013210601.jpg",
+      "Celtic_and_Iberian_infantry_stan\u2026_20261013210601.jpg",
+      "Warriors_executing_backward_figh\u2026_20261013210601.jpg",
+      "Libyan_heavy_infantry_standing_s\u2026_20261013210601.jpg",
+      "Infantry_attacking_Roman_flanks_20261013210601.jpg"
+    ],
+    "published_at": "2026-11-10 03:43:42",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "urh5lCW0UfY",
+        "url": "https://youtube.com/shorts/urh5lCW0UfY"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6af292e6e62a481336f19969",
+        "platforms": [
+          {
+            "_id": "6af292e6e62a481336f1996b",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=f09e52ac&x-expires=1794376800&x-signature=NTOemLCAbe01%2FpRjuskOAtLN0aE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-10T03:43:34.063Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7706382801641408513"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-10T03:43:41.583Z",
+            "platformPostId": "v_pub_url~v2.7706382801641408513",
+            "publishAttempts": 1,
+            "contentHash": "dd6714e19d6dff02a821cc6d98b4c2f2"
+          },
+          {
+            "_id": "6af292e6e62a481336f1996c",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-mad1-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=W9EhvZbEqwAQ7kNvwHpdxei&_nc_oc=Adp_itvDOeH50_-n5wSnl7H6oyor9Y0xgL1Oh6FwXhz5Yi6V2UkvzEXZ1B_dfm-gS-E&_nc_zt=24&_nc_ht=scontent-mad1-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=uXJoWyybZ3I6aSY1m_jaYA&_nc_tpa=Q5bMBQJG9899gvuNNC09Kmz5sha5efqeNFDpYy3ZF11RtLCr9S993YuDAjhYVLmm8TclzgC617ssWV_kDw&oh=00_AQSaMhTIIZC8g3cYHEbdwYJT2XDrfvjy-eH78BnRiN1T0g&oe=6AF73FD1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-10T03:43:34.063Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "21f773362c14d5290d6bb7f60b21473a"
+          }
+        ]
+      }
+    }
   }
 ]
