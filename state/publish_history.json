@@ -2325,5 +2325,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 7,
+    "short_number": 3,
+    "day": "Rabu",
+    "title": "Pembantaian di Balik Garis: Tragedi Milisi Kartago Menusuk Tentara Bayarannya Sendiri",
+    "images_used": [
+      "beat_12.jpg",
+      "beat_34.jpg",
+      "beat_35.jpg",
+      "beat_01.jpg",
+      "beat_37.jpg",
+      "beat_37.jpg"
+    ],
+    "published_at": "2026-11-11 01:24:24",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "GQYmqd8yxVY",
+        "url": "https://youtube.com/shorts/GQYmqd8yxVY"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6af3c3bbaa64d0227fb0ee3d",
+        "platforms": [
+          {
+            "_id": "6af3c3bbaa64d0227fb0ee41",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=5b2f993e&x-expires=1794463200&x-signature=py5gon02I%2Bo6GPO4kOVD99kZ320%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-11T01:24:11.307Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7706718202318899221"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-11T01:24:23.832Z",
+            "platformPostId": "v_pub_url~v2.7706718202318899221",
+            "publishAttempts": 1,
+            "contentHash": "dddb357dfd006c5f94cf7a41a8c1ee7d"
+          },
+          {
+            "_id": "6af3c3bbaa64d0227fb0ee42",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=W9EhvZbEqwAQ7kNvwHGFh8v&_nc_oc=AdpnjqdaFfX69mg3M6RVwQAd4SROqUsuiBkORL_SoLRWy-Zgn8TrzK-cNHhd2c9qECk&_nc_zt=24&_nc_ht=scontent-lhr11-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=vuUXQbImgL8wKX9iOa-UCA&_nc_tpa=Q5bMBQKKmlBIw-vp1UR1t-EV00zaNrl6c_r-izGA7Ata2qizoNM8j2a-c_7wkGTJbXyBrgp6hXFMO5LqrQ&oh=00_AQRmPexj1OkZ9yeYK83nrBO1gHbpz4czwVIBlZDgY_i_aQ&oe=6AF89151",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-11T01:24:11.307Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "37677d0169be779d4fd3aa0e8ae8db66"
+          }
+        ]
+      }
+    }
   }
 ]

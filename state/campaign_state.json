@@ -1,10 +1,10 @@
 {
   "active_week": 7,
-  "next_short_index": 3,
-  "next_short_day": "rabu",
-  "total_shorts_published": 34,
+  "next_short_index": 4,
+  "next_short_day": "kamis",
+  "total_shorts_published": 35,
   "total_longs_published": 7,
-  "last_updated": "2026-11-10T04:49:51Z",
+  "last_updated": "2026-11-11T01:24:24Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -260,5 +260,12 @@
         "x_twitter"
       ]
     }
-  }
+  },
+  "used_images_week_007": [
+    "beat_01.jpg",
+    "beat_12.jpg",
+    "beat_34.jpg",
+    "beat_35.jpg",
+    "beat_37.jpg"
+  ]
 }
