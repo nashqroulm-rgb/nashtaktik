@@ -2397,5 +2397,76 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 7,
+    "short_number": 4,
+    "day": "Kamis",
+    "title": "Cornua & Tubae: Senjata Suara Pemecah Teror Raksasa Afrika",
+    "images_used": [
+      "beat_21.jpg",
+      "beat_23.jpg",
+      "beat_24.jpg",
+      "beat_28.jpg",
+      "beat_08.jpg"
+    ],
+    "published_at": "2026-11-12 02:25:04",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "Fnl1L26OVSg",
+        "url": "https://youtube.com/shorts/Fnl1L26OVSg"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6af52373ef40f12073ff9965",
+        "platforms": [
+          {
+            "_id": "6af52373ef40f12073ff996e",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=2081b26f&x-expires=1794549600&x-signature=gVCAuGi%2FcoSOhZUaPhV1iHKMOV4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my2",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-12T02:24:51.559Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7707104771997468690"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-12T02:25:04.075Z",
+            "platformPostId": "v_pub_url~v2.7707104771997468690",
+            "publishAttempts": 1,
+            "contentHash": "0e903f8dbed5e85e4642c0c1765a432b"
+          },
+          {
+            "_id": "6af52373ef40f12073ff996f",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg4-2.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZQchHD6Dk5wQ7kNvwHhoFGb&_nc_oc=Adr4QE6ztcQTKbDVZSa5qj_kf2DFUJlRZuTrAIf_rHPzUGFhPEa6FoGCIr39SSaPERU&_nc_zt=24&_nc_ht=scontent-cdg4-2.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=rCQ5jH2V5W_P1cxyLvOUZw&_nc_tpa=Q5bMBQJqVnp6jO2o1ko-sqKpuBfUwA_wNEYdGg8TT3TpkujFFl5bJvaOCuQZl0j_FjeqgnW6ir5t0V78iQ&oh=00_AQR2l0_xerhsfopNaUFJQN1brjDVkRD0o99AZl4AxQg37Q&oe=6AF9E2D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-12T02:24:51.559Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "2c970a2525557b2eef17ffd25c167bbd"
+          }
+        ]
+      }
+    }
   }
 ]
