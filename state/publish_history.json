@@ -2468,5 +2468,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 7,
+    "short_number": 5,
+    "day": "Jumat",
+    "title": "Pengkhianatan Kavaleri Numidia: Saat Sekutu Terbaik Hannibal Berbalik Membelot",
+    "images_used": [
+      "beat_01.jpg",
+      "beat_16.jpg",
+      "beat_01.jpg",
+      "beat_31.jpg",
+      "beat_46.jpg",
+      "beat_46.jpg"
+    ],
+    "published_at": "2026-11-13 02:03:20",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "QKLROgXrT48",
+        "url": "https://youtube.com/shorts/QKLROgXrT48"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6af66fdcf5987ff20d597df9",
+        "platforms": [
+          {
+            "_id": "6af66fdcf5987ff20d597dfa",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=81cb5a00&x-expires=1794639600&x-signature=VqIgtnURO4U3qZLmwnEpTBh2U94%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-13T02:03:08.075Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7707470698989635592"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-13T02:03:20.241Z",
+            "platformPostId": "v_pub_url~v2.7707470698989635592",
+            "publishAttempts": 1,
+            "contentHash": "7203f7162b8b19cf9b5256998cf935c1"
+          },
+          {
+            "_id": "6af66fdcf5987ff20d597dfb",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZQchHD6Dk5wQ7kNvwHd34en&_nc_oc=AdrAq6cHYaV8h8k2od2R29LkN89IqsGvmkDO8uUjEFZbQM5KTEvO0gDuRkdFU6_5kH8&_nc_zt=24&_nc_ht=scontent-cdg6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=tvkn_rN2RNDvqoZvtZ15-Q&_nc_tpa=Q5bMBQJWGIZAv29y_IE82AHvJxRVawsLLcu2xXwGefIfwOcTng9VZRWLbkM_yBsU5KlyLGSYgZcuqrcGWA&oh=00_AQSRciDpYTeQnrTL7sbgzuGPZlYUcncj9-ftp_iJmZDNqA&oe=6AFB3451",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-13T02:03:08.075Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "a5456d895a2c8d60b44ca2ce909ea53b"
+          }
+        ]
+      }
+    }
   }
 ]
