@@ -2540,5 +2540,77 @@
         ]
       }
     }
+  },
+  {
+    "type": "short",
+    "week": 7,
+    "short_number": 6,
+    "day": "Sabtu",
+    "title": "Pelajaran Scipio: Taklukkan Lawan Bukan dengan Menahan Kekuatannya, Tapi Membelokkan Momentumnya",
+    "images_used": [
+      "beat_02.jpg",
+      "beat_18.jpg",
+      "beat_01.jpg",
+      "beat_01.jpg",
+      "beat_05.jpg",
+      "beat_05.jpg"
+    ],
+    "published_at": "2026-11-14 01:36:26",
+    "platforms": {
+      "youtube": {
+        "ok": true,
+        "videoId": "s0SX3qP7ZEs",
+        "url": "https://youtube.com/shorts/s0SX3qP7ZEs"
+      },
+      "zernio": {
+        "ok": true,
+        "postId": "6af7bb0cf534fac46b2d2921",
+        "platforms": [
+          {
+            "_id": "6af7bb0df534fac46b2d2926",
+            "platform": "tiktok",
+            "accountId": {
+              "_id": "6abbb2e6694b468f723ea3a4",
+              "platform": "tiktok",
+              "username": "nashtaktik",
+              "displayName": "nashtaktik",
+              "profilePicture": "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8b2916931b0269cc0f7acb6027c211a9~tplv-tiktokx-cropcenter:168:168.jpeg?dr=14577&refresh_token=57622459&x-expires=1794722400&x-signature=bO%2FzyHc3qFS9Ymj8A52yvpco33A%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=8aecc5ac&idc=my",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-14T01:36:12.611Z",
+            "platformSpecificData": {
+              "tiktokBusinessPublishId": "v_pub_url~v2.7707834757702600722"
+            },
+            "status": "published",
+            "publishedAt": "2026-11-14T01:36:25.179Z",
+            "platformPostId": "v_pub_url~v2.7707834757702600722",
+            "publishAttempts": 1,
+            "contentHash": "0d68d47883e1ae6582b88512e8d3d9dc"
+          },
+          {
+            "_id": "6af7bb0df534fac46b2d2927",
+            "platform": "instagram",
+            "accountId": {
+              "_id": "6abbb38ad9cc457b83f314fc",
+              "platform": "instagram",
+              "username": "nashtaktik",
+              "displayName": "nash taktik dan strategy",
+              "profilePicture": "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-19/825324029_18120061162813913_2401765876669049141_n.jpg?stp=dst-jpg_s240x240_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=GP1xMTHZ_eqAGWBAADVpg-hWyVQhbmNDAQAB2402400j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZQchHD6Dk5wQ7kNvwF7brjO&_nc_oc=Adp8Lp1g41VK5LDWNTIqbdymZfBzxZlF-jRDxy2LhpB8oIUo17Q_3FPzs61rlrjq9Kw&_nc_zt=24&_nc_ht=scontent-cdg6-1.cdninstagram.com&edm=AP4hL3IEAAAA&_nc_gid=qEOyGsoMCyBdTysJFd4OJg&_nc_tpa=Q5bMBQLX_UGg8Kbu1dskKZ0IgW8axqjXOFnqq4eNvJKlw9D_KoXFpy1Y5DKZYT4etEn3Sia73CEDPJrHtg&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQSny7RKtEgwCChTiH4-dnHoxzBs3EzzgT2M2dA_lB8emA&oe=6AFC85D1",
+              "isActive": true,
+              "profileId": "6abbb25c1a54ef2d7fc5cef7"
+            },
+            "profileId": "6abbb25c1a54ef2d7fc5cef7",
+            "customMedia": [],
+            "scheduledFor": "2026-11-14T01:36:12.611Z",
+            "status": "processing",
+            "publishAttempts": 1,
+            "contentHash": "4003b279823d74daf0cf3aa77e117978"
+          }
+        ]
+      }
+    }
   }
 ]

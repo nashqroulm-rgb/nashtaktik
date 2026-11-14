@@ -1,10 +1,10 @@
 {
   "active_week": 7,
-  "next_short_index": 6,
-  "next_short_day": "sabtu",
-  "total_shorts_published": 37,
+  "next_short_index": 7,
+  "next_short_day": "senin",
+  "total_shorts_published": 38,
   "total_longs_published": 7,
-  "last_updated": "2026-11-13T02:03:20Z",
+  "last_updated": "2026-11-14T01:36:26Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -263,9 +263,12 @@
   },
   "used_images_week_007": [
     "beat_01.jpg",
+    "beat_02.jpg",
+    "beat_05.jpg",
     "beat_08.jpg",
     "beat_12.jpg",
     "beat_16.jpg",
+    "beat_18.jpg",
     "beat_21.jpg",
     "beat_23.jpg",
     "beat_24.jpg",
