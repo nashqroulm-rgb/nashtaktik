@@ -290,5 +290,14 @@
       "youtube_url": "https://youtu.be/Os7imxtkDh8",
       "youtube_video_id": "Os7imxtkDh8"
     }
+  },
+  "week_009_staging": {
+    "status": "STAGED_IN_RELEASE",
+    "long_form": {
+      "status": "STAGED_IN_RELEASE",
+      "release_tag": "v-week-009-long",
+      "asset_name": "NASH02_Week009_Alesia_Master.mp4",
+      "size_mb": 95.66
+    }
   }
 }
