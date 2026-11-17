@@ -9,7 +9,7 @@
   "master_asset": "NASH02_Week008_Carrhae_Master.mp4",
   "thumbnail_asset": "thumbnail_carrhae_1080p.jpg",
   "release_tag": "v-week-008-long",
-  "status": "READY_FOR_RELEASE",
+  "status": "PUBLISHED",
   "tags": [
     "Pertempuran Carrhae",
     "Sejarah Romawi",
@@ -20,5 +20,7 @@
     "Nash Taktik",
     "Cataphract",
     "Parthian Shot"
-  ]
+  ],
+  "youtube_video_id": "Os7imxtkDh8",
+  "youtube_url": "https://youtu.be/Os7imxtkDh8"
 }
