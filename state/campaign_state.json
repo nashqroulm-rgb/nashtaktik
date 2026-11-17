@@ -1,5 +1,5 @@
 {
-  "active_week": 7,
+  "active_week": 8,
   "next_short_index": 3,
   "next_short_day": "rabu",
   "total_shorts_published": 40,
@@ -238,7 +238,7 @@
   ],
   "week_007_staging": {
     "battle": "Pertempuran Zama (202 SM)",
-    "status": "ACTIVE_PUBLISHING",
+    "status": "COMPLETED",
     "long_form": {
       "title": "Trik Lorong Terbuka Scipio: Menjinakkan 80 Gajah Perang Hannibal di Zama (202 SM)",
       "duration_sec": 479.07,
@@ -284,29 +284,11 @@
     "beat_46.jpg"
   ],
   "week_008_staging": {
-    "battle": "Pertempuran Carrhae (53 SM)",
-    "status": "READY_FOR_RELEASE",
+    "status": "PUBLISHED",
     "long_form": {
-      "title": "Hujan Panah Parthia: Detik-Detik 40.000 Legiun Romawi Dilenyapkan di Carrhae (53 SM)",
-      "duration_sec": 435.87,
-      "beats": 48,
-      "status": "READY_FOR_RELEASE",
-      "release_tag": "v-week-008-long",
-      "asset_name": "NASH02_Week008_Carrhae_Master.mp4"
-    },
-    "shorts": {
-      "count": 6,
-      "status": "ALL_PACKETS_READY",
-      "runner_verified": true
-    },
-    "distribution_metadata": {
-      "release_metadata_file": "curriculum/week_008/RELEASE_METADATA.md",
-      "platforms": [
-        "youtube",
-        "tiktok",
-        "instagram",
-        "x_twitter"
-      ]
+      "status": "PUBLISHED",
+      "youtube_url": "https://youtu.be/Os7imxtkDh8",
+      "youtube_video_id": "Os7imxtkDh8"
     }
   }
 }
