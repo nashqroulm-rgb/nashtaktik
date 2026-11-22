@@ -1,10 +1,10 @@
 {
-  "active_week": 8,
-  "next_short_index": 3,
-  "next_short_day": "rabu",
+  "active_week": 9,
+  "next_short_index": 1,
+  "next_short_day": "senin",
   "total_shorts_published": 40,
-  "total_longs_published": 7,
-  "last_updated": "2026-11-17T04:06:15Z",
+  "total_longs_published": 8,
+  "last_updated": "2026-11-22T01:27:49Z",
   "pipeline_status": {
     "week_001": "COMPLETED",
     "week_002": "COMPLETED",
@@ -13,7 +13,8 @@
     "week_005": "COMPLETED",
     "week_006": "COMPLETED",
     "week_007": "ACTIVE_PUBLISHING",
-    "week_008": "READY_FOR_RELEASE"
+    "week_008": "COMPLETED",
+    "week_009": "ACTIVE_PUBLISHING"
   },
   "week_002_staging": {
     "battle": "Pertempuran Leuctra (371 SM)",
@@ -284,7 +285,7 @@
     "beat_46.jpg"
   ],
   "week_008_staging": {
-    "status": "PUBLISHED",
+    "status": "COMPLETED",
     "long_form": {
       "status": "PUBLISHED",
       "youtube_url": "https://youtu.be/Os7imxtkDh8",
@@ -292,9 +293,9 @@
     }
   },
   "week_009_staging": {
-    "status": "STAGED_IN_RELEASE",
+    "status": "ACTIVE_PUBLISHING",
     "long_form": {
-      "status": "STAGED_IN_RELEASE",
+      "status": "PUBLISHED",
       "release_tag": "v-week-009-long",
       "asset_name": "NASH02_Week009_Alesia_Master.mp4",
       "size_mb": 95.66
